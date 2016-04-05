@@ -2,6 +2,7 @@
 using PRoCon.Core;
 using System;
 using System.Collections;
+using System.Collections.Generic;
 using System.ComponentModel;
 using System.Diagnostics;
 using System.Drawing;
@@ -155,7 +156,6 @@ namespace BF4_LoadoutChecker
         {
             return ((PictureBox)this.Controls.Find(String.Format("pBox_{0}_{1}{2}", kit, slot, (accessory == -1) ? String.Empty : "_" + accessory), true)[0]);
         }
-
         /// <summary>
         /// Get the corresponding Label in the Form
         /// </summary>
@@ -166,7 +166,6 @@ namespace BF4_LoadoutChecker
         {
             return ((Label)this.Controls.Find(String.Format("lbl_{0}_{1}", kit, (slot == -1) ? "active" : slot.ToString()), true)[0]);
         }
-
         /// <summary>
         /// Get the corresponding class name to a int 0 - 3
         /// </summary>
@@ -232,13 +231,13 @@ namespace BF4_LoadoutChecker
 
             return destImage;
         }
-
         private void pBox_image_resizeOn_LoadCompleted(object sender, AsyncCompletedEventArgs e)
         {
             PictureBox pBox = (PictureBox)sender;
             Bitmap default_image = new Bitmap(pBox.Image);
             pBox.Image = ResizeImage(default_image, 64, 16);
         }
+
         private void pBox_MouseEnter(object sender, EventArgs e)
         {
             PictureBox pBox = (PictureBox)sender;
@@ -249,7 +248,18 @@ namespace BF4_LoadoutChecker
             PictureBox pBox = (PictureBox)sender;
             pBox.BackgroundImage = null;
         }
-
+        private void pBox_customize_MouseEnter(object sender, EventArgs e)
+        {
+            PictureBox pBox = (PictureBox)sender;
+            pBox.BackgroundImage = BF4_LoadoutChecker.Properties.Resources._50_opacity;
+            pBox.Image = BF4_LoadoutChecker.Properties.Resources.loadout_cog_white; 
+        }
+        private void pBox_customize_MouseLeave(object sender, EventArgs e)
+        {
+            PictureBox pBox = (PictureBox)sender;
+            pBox.BackgroundImage = null;
+            //pBox.Image = BF4_LoadoutChecker.Properties.Resources.loadout_cog_black;
+        }
         private void label_MouseEnter(object sender, EventArgs e)
         {
             Label lbl = (Label)sender;
@@ -268,6 +278,141 @@ namespace BF4_LoadoutChecker
         private void bf4_loadoutchecker_FormClosed(object sender, FormClosedEventArgs e)
         {
             this.Dispose();
+        }
+
+        private void customization_Click(object sender, EventArgs e)
+        {
+            var kit = Convert.ToInt32(((PictureBox)sender).Name.Substring(5, 1));
+            var slot = Convert.ToInt32(((PictureBox)sender).Name.Substring(7, 1));
+            primary_indepth_info.Visible = true;
+            visualize_panel.Visible = false;
+
+            // Populate data
+            var kits = ((ArrayList)currentOverview["kits"]);
+            var slots = ((ArrayList)((Hashtable)kits[kit])["slots"]);
+
+            // Basic Information
+            var sid = ((Hashtable)kits[kit])["sid"].ToString();
+            var item = (Hashtable)((Hashtable)slots[slot])["item"];
+            btn_back.Text = String.Format("< {0}", Loadout_Backbone_Helper.getSID(sid).ToUpper());
+
+            // Accessories
+            var _slots = (ArrayList)item["slots"];
+            Boolean AMMO = false;
+            Boolean AUXILIARY = false;
+            for (int k = 0; k < (_slots.Count - 1); k++) // No PAINT yet
+            {
+                var _slot = ((Hashtable)_slots[k]);
+                var slotSid = _slot["slotSid"].ToString();
+                if (slotSid.Equals("WARSAW_ID_P_CAT_AMMO"))
+                    AMMO = true;
+                if (slotSid.Equals("WARSAW_ID_P_CAT_AUXILIARY"))
+                    AUXILIARY = true;
+
+                PictureBox pBox = getPictureBox2(slotSid);
+                Label lbl_1 = getLabel2("name", slotSid);
+                Label lbl_2 = getLabel2("desc", slotSid);
+                getimageConfig((Hashtable)_slot["imageConfig"], pBox, imageConfig.smallns);
+                lbl_1.Text = Loadout_Backbone_Helper.getSID(_slot["name"].ToString());
+                lbl_2.Text = Loadout_Backbone_Helper.getSID(_slot["desc"].ToString());
+
+                pBox.BackgroundImage = BF4_LoadoutChecker.Properties.Resources._50_opacity;
+                lbl_1.BackgroundImage = BF4_LoadoutChecker.Properties.Resources._50_opacity;
+                lbl_2.BackgroundImage = BF4_LoadoutChecker.Properties.Resources._50_opacity;
+            }
+
+            // Hide unnecessary
+            FlowLayoutPanel flp = ((FlowLayoutPanel)this.Controls.Find("WARSAW_ID_P_CAT_AMMO", true)[0]);
+            FlowLayoutPanel flp2 = ((FlowLayoutPanel)this.Controls.Find("WARSAW_ID_P_CAT_UNDERBARREL", true)[0]);
+            FlowLayoutPanel flp3 = ((FlowLayoutPanel)this.Controls.Find("WARSAW_ID_P_CAT_AUXILIARY", true)[0]);
+            flp.Visible = AMMO && !AUXILIARY;
+            flp2.Visible = !AMMO && !AUXILIARY;
+            flp3.Visible = AUXILIARY && !AMMO;
+            if (_slots.Count < 5)
+                flp2.Visible = false;
+
+            // Visual effects
+            lbl_OPTIC.BackgroundImage = BF4_LoadoutChecker.Properties.Resources._99_opacity;
+            lbl_ACCESSORY.BackgroundImage = BF4_LoadoutChecker.Properties.Resources._99_opacity;
+            lbl_BARREL.BackgroundImage = BF4_LoadoutChecker.Properties.Resources._99_opacity;
+            lbl_UNDERBARREL.BackgroundImage = BF4_LoadoutChecker.Properties.Resources._99_opacity;
+            lbl_AUXILIARY.BackgroundImage = BF4_LoadoutChecker.Properties.Resources._99_opacity;
+            lbl_AMMO.BackgroundImage = BF4_LoadoutChecker.Properties.Resources._99_opacity;
+        }
+
+        private void information_Click(object sender, EventArgs e)
+        {
+            String sender_Name = ((Control)sender).Name;
+            sender_Name = sender_Name.Replace("lbl_", String.Empty).Replace("pBox_", String.Empty); // Trim the start
+            
+            // Parse the values
+            List<int> values = new List<int>();
+            for (int i = 0; i < sender_Name.Length; i+=2) {
+                values.Add((int)Char.GetNumericValue(sender_Name[i]));
+            }
+
+            if (values.Count < 2)
+                return;
+
+            // Populate data
+            var kits = ((ArrayList)currentOverview["kits"]);
+            var slots = ((ArrayList)((Hashtable)kits[values[0]])["slots"]);
+
+            // Basic Information
+            var item = (Hashtable)((Hashtable)slots[values[1]])["item"];
+            if (values.Count > 2) // Falls here if it's a attachment
+                item = ((Hashtable)((ArrayList)item["slots"])[values[2]]);
+
+            // Print out the result
+            toolStripStatusLabel1.Text = String.Format("GUID for {0} is {1}", 
+                Loadout_Backbone_Helper.getSID(item["name"].ToString()),
+                item["guid"].ToString()
+                );
+        }
+
+
+        /// <summary>
+        /// Get the corresponding PictureBox in the Form
+        /// </summary>
+        /// <param name="accessory"></param>
+        /// <returns></returns>
+        private PictureBox getPictureBox2(String accessory)
+        {
+            return ((PictureBox)this.Controls.Find(String.Format("pBox_{0}", accessory), true)[0]);
+        }
+        /// <summary>
+        /// Get the corresponding Label in the Form
+        /// </summary>
+        /// <param name="type"></param>
+        /// <param name="accessory"></param>
+        /// <returns></returns>
+        private Label getLabel2(String type, String accessory)
+        {
+            return ((Label)this.Controls.Find(String.Format("{0}_{1}", type, accessory), true)[0]);
+        }
+
+        /// <summary>
+        /// Reduce Flickering
+        /// </summary>
+        protected override CreateParams CreateParams
+        {
+            get
+            {
+                CreateParams cp = base.CreateParams;
+                cp.ExStyle |= 0x02000000;  // Turn on WS_EX_COMPOSITED
+                return cp;
+            }
+        }
+
+        /// <summary>
+        /// Get back to loadout window
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
+        private void btn_back_Click(object sender, EventArgs e)
+        {
+            primary_indepth_info.Visible = false;
+            visualize_panel.Visible = true;
         }
     }
 }
