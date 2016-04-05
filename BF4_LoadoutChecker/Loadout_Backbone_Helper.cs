@@ -388,10 +388,8 @@ namespace BF4_LoadoutChecker
             var structure = get_structure();
             var item = items_get(items, guid);
             var guids = ((ArrayList)((Hashtable)((ArrayList)((Hashtable)((ArrayList)structure[type])[id])["slots"])[slot])["items"]);
-            //var guids = Array.ConvertAll((string[])((ArrayList)((Hashtable)((ArrayList)((Hashtable)((ArrayList)structure[type])[id])["slots"])[slot])["items"]).ToArray(typeof(string)), Int64.Parse);
 
-            if (item == null || !guids.Contains(guid))
-            {
+            if (item == null || !guids.Contains(guid)) {
                 guid = guids[0].ToString();
                 item = items_get(items, guid);
             }
@@ -410,15 +408,13 @@ namespace BF4_LoadoutChecker
             Hashtable structure = get_structure();
             ArrayList accessories = (ArrayList)((Hashtable)loadout["weapons"])[guid];
 
-            if (!((Hashtable)structure["weapons"]).Contains(guid))
-            {
+            if (!((Hashtable)structure["weapons"]).Contains(guid)) {
                 Console.WriteLine("{0} does not exist in structure.weapons", guid);
                 return null;
             }
 
             var slots = (ArrayList)((Hashtable)((Hashtable)structure["weapons"])[guid])["slots"];
-            if (accessories == null)
-            {
+            if (accessories == null) {
                 ((Hashtable)loadout["weapons"])[guid] = new ArrayList();
                 accessories = new ArrayList();
             }
@@ -426,23 +422,17 @@ namespace BF4_LoadoutChecker
             ArrayList fixedAccessories = new ArrayList();
             var i = 0;
             var len = slots.Count;
-            while (i < len)
-            {
+            while (i < len) {
                 Hashtable item = null;
-                if (i < slots.Count)
-                {
-                    if (Convert.ToInt64(accessories[i]) > 0)
-                    {
+                if (i < slots.Count) {
+                    if (Convert.ToInt64(accessories[i]) > 0) {
                         item = items_get(items, accessories[i].ToString());
-                        if (item == null || !((ArrayList)((Hashtable)slots[i])["items"]).Contains(accessories[i].ToString()))
-                        {
+                        if (item == null || !((ArrayList)((Hashtable)slots[i])["items"]).Contains(accessories[i].ToString())) {
                             item = items_get(items, generateSlot("weapons", guid, i));
                             if (!items_get(items, item["guid"].ToString(), true))
                                 item = null;
                         }
-                    }
-                    else
-                    {
+                    } else {
                         item = items_get(items, generateSlot("weapons", guid, i));
                         if (!items_get(items, item["guid"].ToString(), true))
                             item = null;
@@ -451,8 +441,7 @@ namespace BF4_LoadoutChecker
                     item = null;
                 }
 
-                if (item != null)
-                {
+                if (item != null) {
                     if (!item.ContainsKey("slotSid"))
                         item.Add("slotSid", ((Hashtable)slots[i])["sid"].ToString());
                     fixedAccessories.Add(item);
@@ -475,8 +464,7 @@ namespace BF4_LoadoutChecker
             var loadout = (Hashtable)Loadout["currentLoadout"];
             var selectedSlot = ((ArrayList)((Hashtable)((Hashtable)structure[type])[guid.ToString()])["slots"])[slot];
             var item = "0";
-            if (selectedSlot != null)
-            {
+            if (selectedSlot != null) {
                 item = ((ArrayList)((Hashtable)((ArrayList)((Hashtable)((Hashtable)structure[type])[guid])["slots"])[slot])["items"])[0].ToString();
                 ((ArrayList)((Hashtable)loadout[type])[guid])[slot] = item;
                 Loadout["currentLoadout"] = loadout;
@@ -493,10 +481,8 @@ namespace BF4_LoadoutChecker
         }
         private static Hashtable items_get(allItemsCollection_ items, string guid)
         {
-            foreach (Hashtable hTable in items.models)
-            {
-                if (hTable["guid"].Equals(guid.ToString()))
-                {
+            foreach (Hashtable hTable in items.models) {
+                if (hTable["guid"].Equals(guid.ToString())) {
                     return (hTable);
                 }
             }
@@ -600,8 +586,7 @@ namespace BF4_LoadoutChecker
                 try
                 {
                     // If there is no cached version, download
-                    if (!File.Exists("en_US.js"))
-                    {
+                    if (!File.Exists("en_US.js")) {
                         WebClient client = null;
                         if (client == null)
                             client = new WebClient();
@@ -615,8 +600,7 @@ namespace BF4_LoadoutChecker
                     String[] translations = File.ReadAllLines("en_US.js");
                     Translations = new Dictionary<String, String>();
                     foreach (String line in translations)
-                        if (line.StartsWith("t"))
-                        {
+                        if (line.StartsWith("t")) {
                             KeyValuePair<String, String> tmp = processTranslation(line);
                             Translations.Add(tmp.Key, tmp.Value);
                         }
@@ -651,6 +635,9 @@ namespace BF4_LoadoutChecker
             return (new KeyValuePair<String, String>(key, value));
         }
 
+        /// <summary>
+        /// Merges two hashtables
+        /// </summary>
         public sealed class HashtableProcessor
         {
             private HashtableProcessor() { }
@@ -659,13 +646,11 @@ namespace BF4_LoadoutChecker
             {
                 Hashtable table = new Hashtable();
 
-                foreach (DictionaryEntry e in first)
-                {
+                foreach (DictionaryEntry e in first) {
                     table.Add(e.Key, e.Value);
                 }
 
-                foreach (DictionaryEntry e in second)
-                {
+                foreach (DictionaryEntry e in second) {
                     if (!table.ContainsKey(e.Key))
                         table.Add(e.Key, e.Value);
                 }

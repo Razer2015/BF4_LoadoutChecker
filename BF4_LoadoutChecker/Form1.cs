@@ -76,7 +76,6 @@ namespace BF4_LoadoutChecker
         private void getunlockImageConfig(String weapon_key, PictureBox pBox, unlockImageConfig image_type = unlockImageConfig.mediumns)
         {
         }
-
         private void getimageConfig(Hashtable imageConfig, PictureBox pBox, imageConfig image_type = imageConfig.xsmall, bool async = false)
         {
             Hashtable version = (Hashtable)((Hashtable)imageConfig["versions"])[image_type.ToString()];
@@ -107,7 +106,7 @@ namespace BF4_LoadoutChecker
                 for (int j = 0; j < slots.Count; j++)
                 {
                     // Basic Information
-                    PictureBox pBox = getPictureBox("weapons", i, j);
+                    PictureBox pBox = getPictureBox(i, j);
                     Label lbl = getLabel(i, j);
                     var item = (Hashtable)((Hashtable)slots[j])["item"];
                     getimageConfig((Hashtable)item["imageConfig"], pBox, (j == 0) ? imageConfig.mediumns : imageConfig.smallns, (j == 0) ? false : true);
@@ -119,7 +118,7 @@ namespace BF4_LoadoutChecker
                         var _slots = (ArrayList)item["slots"];
                         for (int k = 0; k < 3; k++) // Only OPTIC, ACCESSORY and BARREL
                         {
-                            pBox = getPictureBox("accessory", i, k);
+                            pBox = getPictureBox(i, j, k);
                             getimageConfig((Hashtable)((Hashtable)_slots[k])["imageConfig"], pBox, imageConfig.smallns);
                         }
                     }
@@ -130,11 +129,19 @@ namespace BF4_LoadoutChecker
             int activeKit = Convert.ToInt32(currentOverview["selectedKit"]);
             for (int i = 0; i < 4; i++)
             {
-                Label lbl = getLabel(i, 7);
-                if (i == activeKit)
+                Label lbl = getLabel(i, -1);
+                Panel panel = ((Panel)this.Controls.Find(get_getClassString(i), true)[0]);
+                if (i == activeKit){
                     lbl.Text = "CURRENTLY ACTIVE KIT";
-                else
+                    lbl.BackColor = SystemColors.ControlLightLight;
+                    lbl.ForeColor = SystemColors.ControlText;
+                    panel.BorderStyle = BorderStyle.Fixed3D;
+                } else{
                     lbl.Text = "SET AS ACTIVE KIT";
+                    lbl.BackColor = Color.Transparent;
+                    lbl.ForeColor = SystemColors.ControlLightLight;
+                    panel.BorderStyle = BorderStyle.FixedSingle;
+                }
             }
         }
 
@@ -144,30 +151,9 @@ namespace BF4_LoadoutChecker
         /// <param name="kit"></param>
         /// <param name="slot"></param>
         /// <returns></returns>
-        private PictureBox getPictureBox(String type, int kit, int slot)
+        private PictureBox getPictureBox(int kit, int slot, int accessory = -1)
         {
-            String[] kit_chars = new String[] { "a", "e", "s", "r" };
-            String[] endings = new String[] {
-                "_pwep_lineart",
-                "_swep_lineart",
-                "_gadget1_lineart",
-                "_gadget2_lineart",
-                "_grenade_lineart",
-                "_knife_lineart",
-                "_specialization_lineart"
-            };
-
-            if (type == "accessory")
-                endings = new String[] {
-                "_pwep_a1_lineart",
-                "_pwep_a2_lineart",
-                "_pwep_a3_lineart"
-            };
-
-            if (kit > (kit_chars.Length - 1) || slot > (endings.Length - 1))
-                throw new Exception(String.Format("Error: getPictureBox| kit = {0}, slot = {1}", kit, slot));
-
-            return ((PictureBox)this.Controls.Find("pBox_" + kit_chars[kit] + endings[slot], true)[0]);
+            return ((PictureBox)this.Controls.Find(String.Format("pBox_{0}_{1}{2}", kit, slot, (accessory == -1) ? String.Empty : "_" + accessory), true)[0]);
         }
 
         /// <summary>
@@ -178,22 +164,41 @@ namespace BF4_LoadoutChecker
         /// <returns></returns>
         private Label getLabel(int kit, int slot)
         {
-            String[] kit_chars = new String[] { "a", "e", "s", "r" };
-            String[] endings = new String[] {
-                "_pwep_name",
-                "_swep_name",
-                "_gadget1_name",
-                "_gadget2_name",
-                "_grenade_name",
-                "_knife_name",
-                "_specialization_name",
-                "_activity"
-            };
+            return ((Label)this.Controls.Find(String.Format("lbl_{0}_{1}", kit, (slot == -1) ? "active" : slot.ToString()), true)[0]);
+        }
 
-            if (kit > (kit_chars.Length - 1) || slot > (endings.Length - 1))
-                throw new Exception(String.Format("Error: Label| kit = {0}, slot = {1}", kit, slot));
-
-            return ((Label)this.Controls.Find("lbl_" + kit_chars[kit] + endings[slot], true)[0]);
+        /// <summary>
+        /// Get the corresponding class name to a int 0 - 3
+        /// </summary>
+        /// <param name="kit"></param>
+        /// <returns>{*}</returns>
+        private static String get_getClassString(int kit)
+        {
+            String className = "WARSAW_ID_M_ASSAULT";
+            switch (kit)
+            {
+                // Assault
+                case 0:
+                    className = "WARSAW_ID_M_ASSAULT";
+                    break;
+                // Engineer
+                case 1:
+                    className = "WARSAW_ID_M_ENGINEER";
+                    break;
+                // Support
+                case 2:
+                    className = "WARSAW_ID_M_SUPPORT";
+                    break;
+                // Recon
+                case 3:
+                    className = "WARSAW_ID_M_RECON";
+                    break;
+                // Default goes to Assault
+                default:
+                    className = "WARSAW_ID_M_ASSAULT";
+                    break;
+            }
+            return className;
         }
 
         /// <summary>

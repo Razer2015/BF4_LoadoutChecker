@@ -33,161 +33,161 @@
             this.toolStripStatusLabel1 = new System.Windows.Forms.ToolStripStatusLabel();
             this.tabControl1 = new System.Windows.Forms.TabControl();
             this.Loadout = new System.Windows.Forms.TabPage();
+            this.visualize_panel = new System.Windows.Forms.Panel();
+            this.WARSAW_ID_M_RECON = new System.Windows.Forms.Panel();
+            this.lbl_3_ClassName = new System.Windows.Forms.Label();
+            this.pBox_kit_recon = new System.Windows.Forms.PictureBox();
+            this.pBox_r_swep_customization = new System.Windows.Forms.PictureBox();
+            this.lbl_3_0 = new System.Windows.Forms.Label();
+            this.pBox_r_pwep_customization = new System.Windows.Forms.PictureBox();
+            this.pBox_3_0 = new System.Windows.Forms.PictureBox();
+            this.pBox_3_0_0 = new System.Windows.Forms.PictureBox();
+            this.lbl_3_active = new System.Windows.Forms.Label();
+            this.pBox_3_0_1 = new System.Windows.Forms.PictureBox();
+            this.lbl_3_6 = new System.Windows.Forms.Label();
+            this.pBox_3_0_2 = new System.Windows.Forms.PictureBox();
+            this.pBox_3_6 = new System.Windows.Forms.PictureBox();
+            this.pBox_3_1 = new System.Windows.Forms.PictureBox();
+            this.lbl_3_5 = new System.Windows.Forms.Label();
+            this.lbl_3_1 = new System.Windows.Forms.Label();
+            this.pBox_3_5 = new System.Windows.Forms.PictureBox();
+            this.pBox_3_2 = new System.Windows.Forms.PictureBox();
+            this.lbl_3_4 = new System.Windows.Forms.Label();
+            this.lbl_3_2 = new System.Windows.Forms.Label();
+            this.pBox_3_4 = new System.Windows.Forms.PictureBox();
+            this.pBox_3_3 = new System.Windows.Forms.PictureBox();
+            this.lbl_3_3 = new System.Windows.Forms.Label();
+            this.WARSAW_ID_M_ENGINEER = new System.Windows.Forms.Panel();
+            this.lbl_1_ClassName = new System.Windows.Forms.Label();
+            this.pBox_kit_engineer = new System.Windows.Forms.PictureBox();
+            this.pBox_e_swep_customization = new System.Windows.Forms.PictureBox();
+            this.lbl_1_0 = new System.Windows.Forms.Label();
+            this.pBox_e_pwep_customization = new System.Windows.Forms.PictureBox();
+            this.pBox_1_0 = new System.Windows.Forms.PictureBox();
+            this.pBox_1_0_0 = new System.Windows.Forms.PictureBox();
+            this.lbl_1_active = new System.Windows.Forms.Label();
+            this.pBox_1_0_1 = new System.Windows.Forms.PictureBox();
+            this.lbl_1_6 = new System.Windows.Forms.Label();
+            this.pBox_1_0_2 = new System.Windows.Forms.PictureBox();
+            this.pBox_1_6 = new System.Windows.Forms.PictureBox();
+            this.pBox_1_1 = new System.Windows.Forms.PictureBox();
+            this.lbl_1_5 = new System.Windows.Forms.Label();
+            this.lbl_1_1 = new System.Windows.Forms.Label();
+            this.pBox_1_5 = new System.Windows.Forms.PictureBox();
+            this.pBox_1_2 = new System.Windows.Forms.PictureBox();
+            this.lbl_1_4 = new System.Windows.Forms.Label();
+            this.lbl_1_2 = new System.Windows.Forms.Label();
+            this.pBox_1_4 = new System.Windows.Forms.PictureBox();
+            this.pBox_1_3 = new System.Windows.Forms.PictureBox();
+            this.lbl_1_3 = new System.Windows.Forms.Label();
+            this.WARSAW_ID_M_SUPPORT = new System.Windows.Forms.Panel();
+            this.lbl_2_ClassName = new System.Windows.Forms.Label();
+            this.pBox_kit_support = new System.Windows.Forms.PictureBox();
+            this.pBox_s_swep_customization = new System.Windows.Forms.PictureBox();
+            this.lbl_2_0 = new System.Windows.Forms.Label();
+            this.pBox_s_pwep_customization = new System.Windows.Forms.PictureBox();
+            this.pBox_2_0 = new System.Windows.Forms.PictureBox();
+            this.pBox_2_0_0 = new System.Windows.Forms.PictureBox();
+            this.lbl_2_active = new System.Windows.Forms.Label();
+            this.pBox_2_0_1 = new System.Windows.Forms.PictureBox();
+            this.lbl_2_6 = new System.Windows.Forms.Label();
+            this.pBox_2_0_2 = new System.Windows.Forms.PictureBox();
+            this.pBox_2_6 = new System.Windows.Forms.PictureBox();
+            this.pBox_2_1 = new System.Windows.Forms.PictureBox();
+            this.lbl_2_5 = new System.Windows.Forms.Label();
+            this.lbl_2_1 = new System.Windows.Forms.Label();
+            this.pBox_2_5 = new System.Windows.Forms.PictureBox();
+            this.pBox_2_2 = new System.Windows.Forms.PictureBox();
+            this.lbl_2_4 = new System.Windows.Forms.Label();
+            this.lbl_2_2 = new System.Windows.Forms.Label();
+            this.pBox_2_4 = new System.Windows.Forms.PictureBox();
+            this.pBox_2_3 = new System.Windows.Forms.PictureBox();
+            this.lbl_2_3 = new System.Windows.Forms.Label();
+            this.WARSAW_ID_M_ASSAULT = new System.Windows.Forms.Panel();
+            this.lbl_0_ClassName = new System.Windows.Forms.Label();
+            this.pBox_a_swep_customization = new System.Windows.Forms.PictureBox();
+            this.lbl_0_0 = new System.Windows.Forms.Label();
+            this.pBox_a_pwep_customization = new System.Windows.Forms.PictureBox();
+            this.pBox_0_0 = new System.Windows.Forms.PictureBox();
+            this.pBox_0_0_0 = new System.Windows.Forms.PictureBox();
+            this.lbl_0_active = new System.Windows.Forms.Label();
+            this.pBox_0_0_1 = new System.Windows.Forms.PictureBox();
+            this.lbl_0_6 = new System.Windows.Forms.Label();
+            this.pBox_0_0_2 = new System.Windows.Forms.PictureBox();
+            this.pBox_0_6 = new System.Windows.Forms.PictureBox();
+            this.pBox_0_1 = new System.Windows.Forms.PictureBox();
+            this.lbl_0_5 = new System.Windows.Forms.Label();
+            this.lbl_0_1 = new System.Windows.Forms.Label();
+            this.pBox_0_5 = new System.Windows.Forms.PictureBox();
+            this.pBox_0_2 = new System.Windows.Forms.PictureBox();
+            this.lbl_0_4 = new System.Windows.Forms.Label();
+            this.lbl_0_2 = new System.Windows.Forms.Label();
+            this.pBox_0_4 = new System.Windows.Forms.PictureBox();
+            this.pBox_0_3 = new System.Windows.Forms.PictureBox();
+            this.lbl_0_3 = new System.Windows.Forms.Label();
+            this.pBox_kit_assault = new System.Windows.Forms.PictureBox();
             this.btn_fetch_immediate = new System.Windows.Forms.Button();
             this.tBox_soldierName = new System.Windows.Forms.TextBox();
-            this.visualize_panel = new System.Windows.Forms.Panel();
-            this.pBox_kit_recon = new System.Windows.Forms.PictureBox();
-            this.lbl_r_activity = new System.Windows.Forms.Label();
-            this.lbl_r_specialization_name = new System.Windows.Forms.Label();
-            this.pBox_r_specialization_lineart = new System.Windows.Forms.PictureBox();
-            this.lbl_r_knife_name = new System.Windows.Forms.Label();
-            this.pBox_r_knife_lineart = new System.Windows.Forms.PictureBox();
-            this.lbl_r_grenade_name = new System.Windows.Forms.Label();
-            this.pBox_r_grenade_lineart = new System.Windows.Forms.PictureBox();
-            this.lbl_r_gadget2_name = new System.Windows.Forms.Label();
-            this.pBox_r_gadget2_lineart = new System.Windows.Forms.PictureBox();
-            this.lbl_r_gadget1_name = new System.Windows.Forms.Label();
-            this.pBox_r_gadget1_lineart = new System.Windows.Forms.PictureBox();
-            this.lbl_r_swep_name = new System.Windows.Forms.Label();
-            this.pBox_r_swep_lineart = new System.Windows.Forms.PictureBox();
-            this.pBox_r_pwep_a3_lineart = new System.Windows.Forms.PictureBox();
-            this.pBox_r_pwep_a2_lineart = new System.Windows.Forms.PictureBox();
-            this.pBox_r_pwep_a1_lineart = new System.Windows.Forms.PictureBox();
-            this.pBox_r_pwep_lineart = new System.Windows.Forms.PictureBox();
-            this.lbl_r_pwep_name = new System.Windows.Forms.Label();
-            this.pBox_kit_support = new System.Windows.Forms.PictureBox();
-            this.lbl_s_activity = new System.Windows.Forms.Label();
-            this.lbl_s_specialization_name = new System.Windows.Forms.Label();
-            this.pBox_s_specialization_lineart = new System.Windows.Forms.PictureBox();
-            this.lbl_s_knife_name = new System.Windows.Forms.Label();
-            this.pBox_s_knife_lineart = new System.Windows.Forms.PictureBox();
-            this.lbl_s_grenade_name = new System.Windows.Forms.Label();
-            this.pBox_s_grenade_lineart = new System.Windows.Forms.PictureBox();
-            this.lbl_s_gadget2_name = new System.Windows.Forms.Label();
-            this.pBox_s_gadget2_lineart = new System.Windows.Forms.PictureBox();
-            this.lbl_s_gadget1_name = new System.Windows.Forms.Label();
-            this.pBox_s_gadget1_lineart = new System.Windows.Forms.PictureBox();
-            this.lbl_s_swep_name = new System.Windows.Forms.Label();
-            this.pBox_s_swep_lineart = new System.Windows.Forms.PictureBox();
-            this.pBox_s_pwep_a3_lineart = new System.Windows.Forms.PictureBox();
-            this.pBox_s_pwep_a2_lineart = new System.Windows.Forms.PictureBox();
-            this.pBox_s_pwep_a1_lineart = new System.Windows.Forms.PictureBox();
-            this.pBox_s_pwep_lineart = new System.Windows.Forms.PictureBox();
-            this.lbl_s_pwep_name = new System.Windows.Forms.Label();
-            this.pBox_a_pwep_customization = new System.Windows.Forms.PictureBox();
-            this.pBox_kit_assault = new System.Windows.Forms.PictureBox();
-            this.lbl_a_activity = new System.Windows.Forms.Label();
-            this.lbl_a_specialization_name = new System.Windows.Forms.Label();
-            this.pBox_a_specialization_lineart = new System.Windows.Forms.PictureBox();
-            this.lbl_a_knife_name = new System.Windows.Forms.Label();
-            this.pBox_a_knife_lineart = new System.Windows.Forms.PictureBox();
-            this.lbl_a_grenade_name = new System.Windows.Forms.Label();
-            this.pBox_a_grenade_lineart = new System.Windows.Forms.PictureBox();
-            this.lbl_a_gadget2_name = new System.Windows.Forms.Label();
-            this.pBox_a_gadget2_lineart = new System.Windows.Forms.PictureBox();
-            this.lbl_a_gadget1_name = new System.Windows.Forms.Label();
-            this.pBox_a_gadget1_lineart = new System.Windows.Forms.PictureBox();
-            this.lbl_a_swep_name = new System.Windows.Forms.Label();
-            this.pBox_a_swep_lineart = new System.Windows.Forms.PictureBox();
-            this.pBox_a_pwep_a3_lineart = new System.Windows.Forms.PictureBox();
-            this.pBox_a_pwep_a2_lineart = new System.Windows.Forms.PictureBox();
-            this.pBox_a_pwep_a1_lineart = new System.Windows.Forms.PictureBox();
-            this.pBox_a_pwep_lineart = new System.Windows.Forms.PictureBox();
-            this.lbl_a_pwep_name = new System.Windows.Forms.Label();
-            this.pBox_a_swep_customization = new System.Windows.Forms.PictureBox();
-            this.pBox_s_pwep_customization = new System.Windows.Forms.PictureBox();
-            this.pBox_r_pwep_customization = new System.Windows.Forms.PictureBox();
-            this.pBox_s_swep_customization = new System.Windows.Forms.PictureBox();
-            this.pBox_r_swep_customization = new System.Windows.Forms.PictureBox();
-            this.WARSAW_ID_M_ASSAULT = new System.Windows.Forms.Panel();
-            this.WARSAW_ID_M_SUPPORT = new System.Windows.Forms.Panel();
-            this.lbl_0_ClassName = new System.Windows.Forms.Label();
-            this.WARSAW_ID_M_ENGINEER = new System.Windows.Forms.Panel();
-            this.lbl_e_gadget2_name = new System.Windows.Forms.Label();
-            this.pBox_e_gadget2_lineart = new System.Windows.Forms.PictureBox();
-            this.pBox_e_grenade_lineart = new System.Windows.Forms.PictureBox();
-            this.lbl_e_gadget1_name = new System.Windows.Forms.Label();
-            this.lbl_e_grenade_name = new System.Windows.Forms.Label();
-            this.pBox_e_gadget1_lineart = new System.Windows.Forms.PictureBox();
-            this.pBox_e_knife_lineart = new System.Windows.Forms.PictureBox();
-            this.lbl_e_swep_name = new System.Windows.Forms.Label();
-            this.lbl_e_knife_name = new System.Windows.Forms.Label();
-            this.pBox_e_swep_lineart = new System.Windows.Forms.PictureBox();
-            this.pBox_e_specialization_lineart = new System.Windows.Forms.PictureBox();
-            this.pBox_e_pwep_a3_lineart = new System.Windows.Forms.PictureBox();
-            this.lbl_e_specialization_name = new System.Windows.Forms.Label();
-            this.pBox_e_pwep_a2_lineart = new System.Windows.Forms.PictureBox();
-            this.lbl_e_activity = new System.Windows.Forms.Label();
-            this.pBox_e_pwep_a1_lineart = new System.Windows.Forms.PictureBox();
-            this.pBox_e_pwep_lineart = new System.Windows.Forms.PictureBox();
-            this.pBox_e_pwep_customization = new System.Windows.Forms.PictureBox();
-            this.lbl_e_pwep_name = new System.Windows.Forms.Label();
-            this.pBox_e_swep_customization = new System.Windows.Forms.PictureBox();
-            this.pBox_kit_engineer = new System.Windows.Forms.PictureBox();
-            this.lbl_1_ClassName = new System.Windows.Forms.Label();
-            this.WARSAW_ID_M_RECON = new System.Windows.Forms.Panel();
-            this.lbl_2_ClassName = new System.Windows.Forms.Label();
-            this.lbl_3_ClassName = new System.Windows.Forms.Label();
             this.statusStrip1.SuspendLayout();
             this.tabControl1.SuspendLayout();
             this.Loadout.SuspendLayout();
             this.visualize_panel.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pBox_kit_recon)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pBox_r_specialization_lineart)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pBox_r_knife_lineart)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pBox_r_grenade_lineart)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pBox_r_gadget2_lineart)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pBox_r_gadget1_lineart)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pBox_r_swep_lineart)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pBox_r_pwep_a3_lineart)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pBox_r_pwep_a2_lineart)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pBox_r_pwep_a1_lineart)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pBox_r_pwep_lineart)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pBox_kit_support)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pBox_s_specialization_lineart)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pBox_s_knife_lineart)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pBox_s_grenade_lineart)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pBox_s_gadget2_lineart)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pBox_s_gadget1_lineart)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pBox_s_swep_lineart)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pBox_s_pwep_a3_lineart)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pBox_s_pwep_a2_lineart)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pBox_s_pwep_a1_lineart)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pBox_s_pwep_lineart)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pBox_a_pwep_customization)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pBox_kit_assault)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pBox_a_specialization_lineart)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pBox_a_knife_lineart)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pBox_a_grenade_lineart)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pBox_a_gadget2_lineart)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pBox_a_gadget1_lineart)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pBox_a_swep_lineart)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pBox_a_pwep_a3_lineart)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pBox_a_pwep_a2_lineart)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pBox_a_pwep_a1_lineart)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pBox_a_pwep_lineart)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pBox_a_swep_customization)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pBox_s_pwep_customization)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pBox_r_pwep_customization)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pBox_s_swep_customization)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pBox_r_swep_customization)).BeginInit();
-            this.WARSAW_ID_M_ASSAULT.SuspendLayout();
-            this.WARSAW_ID_M_SUPPORT.SuspendLayout();
-            this.WARSAW_ID_M_ENGINEER.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pBox_e_gadget2_lineart)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pBox_e_grenade_lineart)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pBox_e_gadget1_lineart)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pBox_e_knife_lineart)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pBox_e_swep_lineart)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pBox_e_specialization_lineart)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pBox_e_pwep_a3_lineart)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pBox_e_pwep_a2_lineart)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pBox_e_pwep_a1_lineart)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pBox_e_pwep_lineart)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pBox_e_pwep_customization)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pBox_e_swep_customization)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pBox_kit_engineer)).BeginInit();
             this.WARSAW_ID_M_RECON.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pBox_kit_recon)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pBox_r_swep_customization)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pBox_r_pwep_customization)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pBox_3_0)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pBox_3_0_0)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pBox_3_0_1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pBox_3_0_2)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pBox_3_6)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pBox_3_1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pBox_3_5)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pBox_3_2)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pBox_3_4)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pBox_3_3)).BeginInit();
+            this.WARSAW_ID_M_ENGINEER.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pBox_kit_engineer)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pBox_e_swep_customization)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pBox_e_pwep_customization)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pBox_1_0)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pBox_1_0_0)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pBox_1_0_1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pBox_1_0_2)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pBox_1_6)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pBox_1_1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pBox_1_5)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pBox_1_2)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pBox_1_4)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pBox_1_3)).BeginInit();
+            this.WARSAW_ID_M_SUPPORT.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pBox_kit_support)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pBox_s_swep_customization)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pBox_s_pwep_customization)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pBox_2_0)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pBox_2_0_0)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pBox_2_0_1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pBox_2_0_2)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pBox_2_6)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pBox_2_1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pBox_2_5)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pBox_2_2)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pBox_2_4)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pBox_2_3)).BeginInit();
+            this.WARSAW_ID_M_ASSAULT.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pBox_a_swep_customization)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pBox_a_pwep_customization)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pBox_0_0)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pBox_0_0_0)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pBox_0_0_1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pBox_0_0_2)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pBox_0_6)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pBox_0_1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pBox_0_5)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pBox_0_2)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pBox_0_4)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pBox_0_3)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pBox_kit_assault)).BeginInit();
             this.SuspendLayout();
             // 
             // menuStrip1
@@ -235,6 +235,1280 @@
             this.Loadout.Text = "Loadout";
             this.Loadout.UseVisualStyleBackColor = true;
             // 
+            // visualize_panel
+            // 
+            this.visualize_panel.BackgroundImage = global::BF4_LoadoutChecker.Properties.Resources.bg_video_overlay_battlefield4;
+            this.visualize_panel.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.visualize_panel.Controls.Add(this.WARSAW_ID_M_RECON);
+            this.visualize_panel.Controls.Add(this.WARSAW_ID_M_ENGINEER);
+            this.visualize_panel.Controls.Add(this.WARSAW_ID_M_SUPPORT);
+            this.visualize_panel.Controls.Add(this.WARSAW_ID_M_ASSAULT);
+            this.visualize_panel.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.visualize_panel.Font = new System.Drawing.Font("Arial Rounded MT Bold", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.visualize_panel.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.visualize_panel.Location = new System.Drawing.Point(0, 0);
+            this.visualize_panel.Name = "visualize_panel";
+            this.visualize_panel.Size = new System.Drawing.Size(970, 396);
+            this.visualize_panel.TabIndex = 1;
+            // 
+            // WARSAW_ID_M_RECON
+            // 
+            this.WARSAW_ID_M_RECON.BackgroundImage = global::BF4_LoadoutChecker.Properties.Resources._30_opacity;
+            this.WARSAW_ID_M_RECON.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.WARSAW_ID_M_RECON.Controls.Add(this.lbl_3_ClassName);
+            this.WARSAW_ID_M_RECON.Controls.Add(this.pBox_kit_recon);
+            this.WARSAW_ID_M_RECON.Controls.Add(this.pBox_r_swep_customization);
+            this.WARSAW_ID_M_RECON.Controls.Add(this.lbl_3_0);
+            this.WARSAW_ID_M_RECON.Controls.Add(this.pBox_r_pwep_customization);
+            this.WARSAW_ID_M_RECON.Controls.Add(this.pBox_3_0);
+            this.WARSAW_ID_M_RECON.Controls.Add(this.pBox_3_0_0);
+            this.WARSAW_ID_M_RECON.Controls.Add(this.lbl_3_active);
+            this.WARSAW_ID_M_RECON.Controls.Add(this.pBox_3_0_1);
+            this.WARSAW_ID_M_RECON.Controls.Add(this.lbl_3_6);
+            this.WARSAW_ID_M_RECON.Controls.Add(this.pBox_3_0_2);
+            this.WARSAW_ID_M_RECON.Controls.Add(this.pBox_3_6);
+            this.WARSAW_ID_M_RECON.Controls.Add(this.pBox_3_1);
+            this.WARSAW_ID_M_RECON.Controls.Add(this.lbl_3_5);
+            this.WARSAW_ID_M_RECON.Controls.Add(this.lbl_3_1);
+            this.WARSAW_ID_M_RECON.Controls.Add(this.pBox_3_5);
+            this.WARSAW_ID_M_RECON.Controls.Add(this.pBox_3_2);
+            this.WARSAW_ID_M_RECON.Controls.Add(this.lbl_3_4);
+            this.WARSAW_ID_M_RECON.Controls.Add(this.lbl_3_2);
+            this.WARSAW_ID_M_RECON.Controls.Add(this.pBox_3_4);
+            this.WARSAW_ID_M_RECON.Controls.Add(this.pBox_3_3);
+            this.WARSAW_ID_M_RECON.Controls.Add(this.lbl_3_3);
+            this.WARSAW_ID_M_RECON.Font = new System.Drawing.Font("Arial Rounded MT Bold", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.WARSAW_ID_M_RECON.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.WARSAW_ID_M_RECON.Location = new System.Drawing.Point(729, 5);
+            this.WARSAW_ID_M_RECON.Name = "WARSAW_ID_M_RECON";
+            this.WARSAW_ID_M_RECON.Size = new System.Drawing.Size(236, 386);
+            this.WARSAW_ID_M_RECON.TabIndex = 26;
+            // 
+            // lbl_3_ClassName
+            // 
+            this.lbl_3_ClassName.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.lbl_3_ClassName.Font = new System.Drawing.Font("Arial Rounded MT Bold", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbl_3_ClassName.Location = new System.Drawing.Point(19, -1);
+            this.lbl_3_ClassName.Margin = new System.Windows.Forms.Padding(0);
+            this.lbl_3_ClassName.Name = "lbl_3_ClassName";
+            this.lbl_3_ClassName.Size = new System.Drawing.Size(216, 20);
+            this.lbl_3_ClassName.TabIndex = 26;
+            this.lbl_3_ClassName.Text = "RECON";
+            this.lbl_3_ClassName.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            // 
+            // pBox_kit_recon
+            // 
+            this.pBox_kit_recon.Image = global::BF4_LoadoutChecker.Properties.Resources.kit_recon_xsmall;
+            this.pBox_kit_recon.Location = new System.Drawing.Point(0, -1);
+            this.pBox_kit_recon.Name = "pBox_kit_recon";
+            this.pBox_kit_recon.Size = new System.Drawing.Size(20, 19);
+            this.pBox_kit_recon.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
+            this.pBox_kit_recon.TabIndex = 21;
+            this.pBox_kit_recon.TabStop = false;
+            // 
+            // pBox_r_swep_customization
+            // 
+            this.pBox_r_swep_customization.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.pBox_r_swep_customization.Image = global::BF4_LoadoutChecker.Properties.Resources.loadout_cog_white;
+            this.pBox_r_swep_customization.Location = new System.Drawing.Point(205, 167);
+            this.pBox_r_swep_customization.Margin = new System.Windows.Forms.Padding(0);
+            this.pBox_r_swep_customization.Name = "pBox_r_swep_customization";
+            this.pBox_r_swep_customization.Size = new System.Drawing.Size(31, 31);
+            this.pBox_r_swep_customization.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
+            this.pBox_r_swep_customization.TabIndex = 23;
+            this.pBox_r_swep_customization.TabStop = false;
+            // 
+            // lbl_3_0
+            // 
+            this.lbl_3_0.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.lbl_3_0.Location = new System.Drawing.Point(0, 18);
+            this.lbl_3_0.Margin = new System.Windows.Forms.Padding(0);
+            this.lbl_3_0.Name = "lbl_3_0";
+            this.lbl_3_0.Size = new System.Drawing.Size(205, 31);
+            this.lbl_3_0.TabIndex = 0;
+            this.lbl_3_0.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.lbl_3_0.MouseEnter += new System.EventHandler(this.label_MouseEnter);
+            this.lbl_3_0.MouseLeave += new System.EventHandler(this.label_MouseLeave);
+            // 
+            // pBox_r_pwep_customization
+            // 
+            this.pBox_r_pwep_customization.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.pBox_r_pwep_customization.Image = global::BF4_LoadoutChecker.Properties.Resources.loadout_cog_white;
+            this.pBox_r_pwep_customization.Location = new System.Drawing.Point(205, 18);
+            this.pBox_r_pwep_customization.Margin = new System.Windows.Forms.Padding(0);
+            this.pBox_r_pwep_customization.Name = "pBox_r_pwep_customization";
+            this.pBox_r_pwep_customization.Size = new System.Drawing.Size(31, 31);
+            this.pBox_r_pwep_customization.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
+            this.pBox_r_pwep_customization.TabIndex = 22;
+            this.pBox_r_pwep_customization.TabStop = false;
+            // 
+            // pBox_3_0
+            // 
+            this.pBox_3_0.BackColor = System.Drawing.Color.Transparent;
+            this.pBox_3_0.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.pBox_3_0.ImageLocation = "";
+            this.pBox_3_0.Location = new System.Drawing.Point(0, 49);
+            this.pBox_3_0.Margin = new System.Windows.Forms.Padding(0);
+            this.pBox_3_0.Name = "pBox_3_0";
+            this.pBox_3_0.Size = new System.Drawing.Size(236, 87);
+            this.pBox_3_0.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
+            this.pBox_3_0.TabIndex = 1;
+            this.pBox_3_0.TabStop = false;
+            this.pBox_3_0.MouseEnter += new System.EventHandler(this.pBox_MouseEnter);
+            this.pBox_3_0.MouseLeave += new System.EventHandler(this.pBox_MouseLeave);
+            // 
+            // pBox_3_0_0
+            // 
+            this.pBox_3_0_0.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.pBox_3_0_0.Location = new System.Drawing.Point(0, 136);
+            this.pBox_3_0_0.Margin = new System.Windows.Forms.Padding(0);
+            this.pBox_3_0_0.Name = "pBox_3_0_0";
+            this.pBox_3_0_0.Size = new System.Drawing.Size(79, 31);
+            this.pBox_3_0_0.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
+            this.pBox_3_0_0.TabIndex = 2;
+            this.pBox_3_0_0.TabStop = false;
+            this.pBox_3_0_0.MouseEnter += new System.EventHandler(this.pBox_MouseEnter);
+            this.pBox_3_0_0.MouseLeave += new System.EventHandler(this.pBox_MouseLeave);
+            // 
+            // lbl_3_active
+            // 
+            this.lbl_3_active.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.lbl_3_active.Location = new System.Drawing.Point(0, 353);
+            this.lbl_3_active.Margin = new System.Windows.Forms.Padding(0);
+            this.lbl_3_active.Name = "lbl_3_active";
+            this.lbl_3_active.Size = new System.Drawing.Size(236, 31);
+            this.lbl_3_active.TabIndex = 17;
+            this.lbl_3_active.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.lbl_3_active.MouseEnter += new System.EventHandler(this.label_MouseEnter);
+            this.lbl_3_active.MouseLeave += new System.EventHandler(this.label_MouseLeave);
+            // 
+            // pBox_3_0_1
+            // 
+            this.pBox_3_0_1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.pBox_3_0_1.Location = new System.Drawing.Point(79, 136);
+            this.pBox_3_0_1.Margin = new System.Windows.Forms.Padding(0);
+            this.pBox_3_0_1.Name = "pBox_3_0_1";
+            this.pBox_3_0_1.Size = new System.Drawing.Size(79, 31);
+            this.pBox_3_0_1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
+            this.pBox_3_0_1.TabIndex = 3;
+            this.pBox_3_0_1.TabStop = false;
+            this.pBox_3_0_1.MouseEnter += new System.EventHandler(this.pBox_MouseEnter);
+            this.pBox_3_0_1.MouseLeave += new System.EventHandler(this.pBox_MouseLeave);
+            // 
+            // lbl_3_6
+            // 
+            this.lbl_3_6.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.lbl_3_6.Location = new System.Drawing.Point(69, 322);
+            this.lbl_3_6.Margin = new System.Windows.Forms.Padding(0);
+            this.lbl_3_6.Name = "lbl_3_6";
+            this.lbl_3_6.Size = new System.Drawing.Size(167, 31);
+            this.lbl_3_6.TabIndex = 16;
+            this.lbl_3_6.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.lbl_3_6.MouseEnter += new System.EventHandler(this.label_MouseEnter);
+            this.lbl_3_6.MouseLeave += new System.EventHandler(this.label_MouseLeave);
+            // 
+            // pBox_3_0_2
+            // 
+            this.pBox_3_0_2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.pBox_3_0_2.Location = new System.Drawing.Point(158, 136);
+            this.pBox_3_0_2.Margin = new System.Windows.Forms.Padding(0);
+            this.pBox_3_0_2.Name = "pBox_3_0_2";
+            this.pBox_3_0_2.Size = new System.Drawing.Size(79, 31);
+            this.pBox_3_0_2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
+            this.pBox_3_0_2.TabIndex = 4;
+            this.pBox_3_0_2.TabStop = false;
+            this.pBox_3_0_2.MouseEnter += new System.EventHandler(this.pBox_MouseEnter);
+            this.pBox_3_0_2.MouseLeave += new System.EventHandler(this.pBox_MouseLeave);
+            // 
+            // pBox_3_6
+            // 
+            this.pBox_3_6.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.pBox_3_6.Location = new System.Drawing.Point(0, 322);
+            this.pBox_3_6.Margin = new System.Windows.Forms.Padding(0);
+            this.pBox_3_6.Name = "pBox_3_6";
+            this.pBox_3_6.Size = new System.Drawing.Size(69, 31);
+            this.pBox_3_6.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
+            this.pBox_3_6.TabIndex = 15;
+            this.pBox_3_6.TabStop = false;
+            this.pBox_3_6.LoadCompleted += new System.ComponentModel.AsyncCompletedEventHandler(this.pBox_image_resizeOn_LoadCompleted);
+            this.pBox_3_6.MouseEnter += new System.EventHandler(this.pBox_MouseEnter);
+            this.pBox_3_6.MouseLeave += new System.EventHandler(this.pBox_MouseLeave);
+            // 
+            // pBox_3_1
+            // 
+            this.pBox_3_1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.pBox_3_1.ImageLocation = "";
+            this.pBox_3_1.Location = new System.Drawing.Point(0, 167);
+            this.pBox_3_1.Margin = new System.Windows.Forms.Padding(0);
+            this.pBox_3_1.Name = "pBox_3_1";
+            this.pBox_3_1.Size = new System.Drawing.Size(69, 31);
+            this.pBox_3_1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
+            this.pBox_3_1.TabIndex = 5;
+            this.pBox_3_1.TabStop = false;
+            this.pBox_3_1.LoadCompleted += new System.ComponentModel.AsyncCompletedEventHandler(this.pBox_image_resizeOn_LoadCompleted);
+            this.pBox_3_1.MouseEnter += new System.EventHandler(this.pBox_MouseEnter);
+            this.pBox_3_1.MouseLeave += new System.EventHandler(this.pBox_MouseLeave);
+            // 
+            // lbl_3_5
+            // 
+            this.lbl_3_5.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.lbl_3_5.Location = new System.Drawing.Point(69, 291);
+            this.lbl_3_5.Margin = new System.Windows.Forms.Padding(0);
+            this.lbl_3_5.Name = "lbl_3_5";
+            this.lbl_3_5.Size = new System.Drawing.Size(167, 31);
+            this.lbl_3_5.TabIndex = 14;
+            this.lbl_3_5.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.lbl_3_5.MouseEnter += new System.EventHandler(this.label_MouseEnter);
+            this.lbl_3_5.MouseLeave += new System.EventHandler(this.label_MouseLeave);
+            // 
+            // lbl_3_1
+            // 
+            this.lbl_3_1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.lbl_3_1.Location = new System.Drawing.Point(69, 167);
+            this.lbl_3_1.Margin = new System.Windows.Forms.Padding(0);
+            this.lbl_3_1.Name = "lbl_3_1";
+            this.lbl_3_1.Size = new System.Drawing.Size(136, 31);
+            this.lbl_3_1.TabIndex = 6;
+            this.lbl_3_1.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.lbl_3_1.MouseEnter += new System.EventHandler(this.label_MouseEnter);
+            this.lbl_3_1.MouseLeave += new System.EventHandler(this.label_MouseLeave);
+            // 
+            // pBox_3_5
+            // 
+            this.pBox_3_5.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.pBox_3_5.Location = new System.Drawing.Point(0, 291);
+            this.pBox_3_5.Margin = new System.Windows.Forms.Padding(0);
+            this.pBox_3_5.Name = "pBox_3_5";
+            this.pBox_3_5.Size = new System.Drawing.Size(69, 31);
+            this.pBox_3_5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
+            this.pBox_3_5.TabIndex = 13;
+            this.pBox_3_5.TabStop = false;
+            this.pBox_3_5.LoadCompleted += new System.ComponentModel.AsyncCompletedEventHandler(this.pBox_image_resizeOn_LoadCompleted);
+            this.pBox_3_5.MouseEnter += new System.EventHandler(this.pBox_MouseEnter);
+            this.pBox_3_5.MouseLeave += new System.EventHandler(this.pBox_MouseLeave);
+            // 
+            // pBox_3_2
+            // 
+            this.pBox_3_2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.pBox_3_2.Location = new System.Drawing.Point(0, 198);
+            this.pBox_3_2.Margin = new System.Windows.Forms.Padding(0);
+            this.pBox_3_2.Name = "pBox_3_2";
+            this.pBox_3_2.Size = new System.Drawing.Size(69, 31);
+            this.pBox_3_2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
+            this.pBox_3_2.TabIndex = 7;
+            this.pBox_3_2.TabStop = false;
+            this.pBox_3_2.LoadCompleted += new System.ComponentModel.AsyncCompletedEventHandler(this.pBox_image_resizeOn_LoadCompleted);
+            this.pBox_3_2.MouseEnter += new System.EventHandler(this.pBox_MouseEnter);
+            this.pBox_3_2.MouseLeave += new System.EventHandler(this.pBox_MouseLeave);
+            // 
+            // lbl_3_4
+            // 
+            this.lbl_3_4.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.lbl_3_4.Location = new System.Drawing.Point(69, 260);
+            this.lbl_3_4.Margin = new System.Windows.Forms.Padding(0);
+            this.lbl_3_4.Name = "lbl_3_4";
+            this.lbl_3_4.Size = new System.Drawing.Size(167, 31);
+            this.lbl_3_4.TabIndex = 12;
+            this.lbl_3_4.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.lbl_3_4.MouseEnter += new System.EventHandler(this.label_MouseEnter);
+            this.lbl_3_4.MouseLeave += new System.EventHandler(this.label_MouseLeave);
+            // 
+            // lbl_3_2
+            // 
+            this.lbl_3_2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.lbl_3_2.Location = new System.Drawing.Point(69, 198);
+            this.lbl_3_2.Margin = new System.Windows.Forms.Padding(0);
+            this.lbl_3_2.Name = "lbl_3_2";
+            this.lbl_3_2.Size = new System.Drawing.Size(167, 31);
+            this.lbl_3_2.TabIndex = 8;
+            this.lbl_3_2.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.lbl_3_2.MouseEnter += new System.EventHandler(this.label_MouseEnter);
+            this.lbl_3_2.MouseLeave += new System.EventHandler(this.label_MouseLeave);
+            // 
+            // pBox_3_4
+            // 
+            this.pBox_3_4.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.pBox_3_4.Location = new System.Drawing.Point(0, 260);
+            this.pBox_3_4.Margin = new System.Windows.Forms.Padding(0);
+            this.pBox_3_4.Name = "pBox_3_4";
+            this.pBox_3_4.Size = new System.Drawing.Size(69, 31);
+            this.pBox_3_4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
+            this.pBox_3_4.TabIndex = 11;
+            this.pBox_3_4.TabStop = false;
+            this.pBox_3_4.LoadCompleted += new System.ComponentModel.AsyncCompletedEventHandler(this.pBox_image_resizeOn_LoadCompleted);
+            this.pBox_3_4.MouseEnter += new System.EventHandler(this.pBox_MouseEnter);
+            this.pBox_3_4.MouseLeave += new System.EventHandler(this.pBox_MouseLeave);
+            // 
+            // pBox_3_3
+            // 
+            this.pBox_3_3.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.pBox_3_3.Location = new System.Drawing.Point(0, 229);
+            this.pBox_3_3.Margin = new System.Windows.Forms.Padding(0);
+            this.pBox_3_3.Name = "pBox_3_3";
+            this.pBox_3_3.Size = new System.Drawing.Size(69, 31);
+            this.pBox_3_3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
+            this.pBox_3_3.TabIndex = 9;
+            this.pBox_3_3.TabStop = false;
+            this.pBox_3_3.LoadCompleted += new System.ComponentModel.AsyncCompletedEventHandler(this.pBox_image_resizeOn_LoadCompleted);
+            this.pBox_3_3.MouseEnter += new System.EventHandler(this.pBox_MouseEnter);
+            this.pBox_3_3.MouseLeave += new System.EventHandler(this.pBox_MouseLeave);
+            // 
+            // lbl_3_3
+            // 
+            this.lbl_3_3.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.lbl_3_3.Location = new System.Drawing.Point(69, 229);
+            this.lbl_3_3.Margin = new System.Windows.Forms.Padding(0);
+            this.lbl_3_3.Name = "lbl_3_3";
+            this.lbl_3_3.Size = new System.Drawing.Size(167, 31);
+            this.lbl_3_3.TabIndex = 10;
+            this.lbl_3_3.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.lbl_3_3.MouseEnter += new System.EventHandler(this.label_MouseEnter);
+            this.lbl_3_3.MouseLeave += new System.EventHandler(this.label_MouseLeave);
+            // 
+            // WARSAW_ID_M_ENGINEER
+            // 
+            this.WARSAW_ID_M_ENGINEER.BackgroundImage = global::BF4_LoadoutChecker.Properties.Resources._30_opacity;
+            this.WARSAW_ID_M_ENGINEER.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.WARSAW_ID_M_ENGINEER.Controls.Add(this.lbl_1_ClassName);
+            this.WARSAW_ID_M_ENGINEER.Controls.Add(this.pBox_kit_engineer);
+            this.WARSAW_ID_M_ENGINEER.Controls.Add(this.pBox_e_swep_customization);
+            this.WARSAW_ID_M_ENGINEER.Controls.Add(this.lbl_1_0);
+            this.WARSAW_ID_M_ENGINEER.Controls.Add(this.pBox_e_pwep_customization);
+            this.WARSAW_ID_M_ENGINEER.Controls.Add(this.pBox_1_0);
+            this.WARSAW_ID_M_ENGINEER.Controls.Add(this.pBox_1_0_0);
+            this.WARSAW_ID_M_ENGINEER.Controls.Add(this.lbl_1_active);
+            this.WARSAW_ID_M_ENGINEER.Controls.Add(this.pBox_1_0_1);
+            this.WARSAW_ID_M_ENGINEER.Controls.Add(this.lbl_1_6);
+            this.WARSAW_ID_M_ENGINEER.Controls.Add(this.pBox_1_0_2);
+            this.WARSAW_ID_M_ENGINEER.Controls.Add(this.pBox_1_6);
+            this.WARSAW_ID_M_ENGINEER.Controls.Add(this.pBox_1_1);
+            this.WARSAW_ID_M_ENGINEER.Controls.Add(this.lbl_1_5);
+            this.WARSAW_ID_M_ENGINEER.Controls.Add(this.lbl_1_1);
+            this.WARSAW_ID_M_ENGINEER.Controls.Add(this.pBox_1_5);
+            this.WARSAW_ID_M_ENGINEER.Controls.Add(this.pBox_1_2);
+            this.WARSAW_ID_M_ENGINEER.Controls.Add(this.lbl_1_4);
+            this.WARSAW_ID_M_ENGINEER.Controls.Add(this.lbl_1_2);
+            this.WARSAW_ID_M_ENGINEER.Controls.Add(this.pBox_1_4);
+            this.WARSAW_ID_M_ENGINEER.Controls.Add(this.pBox_1_3);
+            this.WARSAW_ID_M_ENGINEER.Controls.Add(this.lbl_1_3);
+            this.WARSAW_ID_M_ENGINEER.Font = new System.Drawing.Font("Arial Rounded MT Bold", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.WARSAW_ID_M_ENGINEER.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.WARSAW_ID_M_ENGINEER.Location = new System.Drawing.Point(247, 5);
+            this.WARSAW_ID_M_ENGINEER.Name = "WARSAW_ID_M_ENGINEER";
+            this.WARSAW_ID_M_ENGINEER.Size = new System.Drawing.Size(236, 386);
+            this.WARSAW_ID_M_ENGINEER.TabIndex = 24;
+            // 
+            // lbl_1_ClassName
+            // 
+            this.lbl_1_ClassName.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.lbl_1_ClassName.Font = new System.Drawing.Font("Arial Rounded MT Bold", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbl_1_ClassName.Location = new System.Drawing.Point(19, -1);
+            this.lbl_1_ClassName.Margin = new System.Windows.Forms.Padding(0);
+            this.lbl_1_ClassName.Name = "lbl_1_ClassName";
+            this.lbl_1_ClassName.Size = new System.Drawing.Size(216, 20);
+            this.lbl_1_ClassName.TabIndex = 24;
+            this.lbl_1_ClassName.Text = "ENGINEER";
+            this.lbl_1_ClassName.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            // 
+            // pBox_kit_engineer
+            // 
+            this.pBox_kit_engineer.Image = global::BF4_LoadoutChecker.Properties.Resources.kit_engineer_xsmall;
+            this.pBox_kit_engineer.Location = new System.Drawing.Point(0, -1);
+            this.pBox_kit_engineer.Name = "pBox_kit_engineer";
+            this.pBox_kit_engineer.Size = new System.Drawing.Size(20, 19);
+            this.pBox_kit_engineer.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
+            this.pBox_kit_engineer.TabIndex = 19;
+            this.pBox_kit_engineer.TabStop = false;
+            // 
+            // pBox_e_swep_customization
+            // 
+            this.pBox_e_swep_customization.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.pBox_e_swep_customization.Image = global::BF4_LoadoutChecker.Properties.Resources.loadout_cog_white;
+            this.pBox_e_swep_customization.Location = new System.Drawing.Point(205, 167);
+            this.pBox_e_swep_customization.Margin = new System.Windows.Forms.Padding(0);
+            this.pBox_e_swep_customization.Name = "pBox_e_swep_customization";
+            this.pBox_e_swep_customization.Size = new System.Drawing.Size(31, 31);
+            this.pBox_e_swep_customization.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
+            this.pBox_e_swep_customization.TabIndex = 21;
+            this.pBox_e_swep_customization.TabStop = false;
+            // 
+            // lbl_1_0
+            // 
+            this.lbl_1_0.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.lbl_1_0.Location = new System.Drawing.Point(0, 18);
+            this.lbl_1_0.Margin = new System.Windows.Forms.Padding(0);
+            this.lbl_1_0.Name = "lbl_1_0";
+            this.lbl_1_0.Size = new System.Drawing.Size(205, 31);
+            this.lbl_1_0.TabIndex = 0;
+            this.lbl_1_0.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.lbl_1_0.MouseEnter += new System.EventHandler(this.label_MouseEnter);
+            this.lbl_1_0.MouseLeave += new System.EventHandler(this.label_MouseLeave);
+            // 
+            // pBox_e_pwep_customization
+            // 
+            this.pBox_e_pwep_customization.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.pBox_e_pwep_customization.Image = global::BF4_LoadoutChecker.Properties.Resources.loadout_cog_white;
+            this.pBox_e_pwep_customization.Location = new System.Drawing.Point(205, 18);
+            this.pBox_e_pwep_customization.Margin = new System.Windows.Forms.Padding(0);
+            this.pBox_e_pwep_customization.Name = "pBox_e_pwep_customization";
+            this.pBox_e_pwep_customization.Size = new System.Drawing.Size(31, 31);
+            this.pBox_e_pwep_customization.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
+            this.pBox_e_pwep_customization.TabIndex = 20;
+            this.pBox_e_pwep_customization.TabStop = false;
+            // 
+            // pBox_1_0
+            // 
+            this.pBox_1_0.BackColor = System.Drawing.Color.Transparent;
+            this.pBox_1_0.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.pBox_1_0.ImageLocation = "";
+            this.pBox_1_0.Location = new System.Drawing.Point(0, 49);
+            this.pBox_1_0.Margin = new System.Windows.Forms.Padding(0);
+            this.pBox_1_0.Name = "pBox_1_0";
+            this.pBox_1_0.Size = new System.Drawing.Size(236, 87);
+            this.pBox_1_0.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
+            this.pBox_1_0.TabIndex = 1;
+            this.pBox_1_0.TabStop = false;
+            this.pBox_1_0.MouseEnter += new System.EventHandler(this.pBox_MouseEnter);
+            this.pBox_1_0.MouseLeave += new System.EventHandler(this.pBox_MouseLeave);
+            // 
+            // pBox_1_0_0
+            // 
+            this.pBox_1_0_0.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.pBox_1_0_0.Location = new System.Drawing.Point(0, 136);
+            this.pBox_1_0_0.Margin = new System.Windows.Forms.Padding(0);
+            this.pBox_1_0_0.Name = "pBox_1_0_0";
+            this.pBox_1_0_0.Size = new System.Drawing.Size(79, 31);
+            this.pBox_1_0_0.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
+            this.pBox_1_0_0.TabIndex = 2;
+            this.pBox_1_0_0.TabStop = false;
+            this.pBox_1_0_0.MouseEnter += new System.EventHandler(this.pBox_MouseEnter);
+            this.pBox_1_0_0.MouseLeave += new System.EventHandler(this.pBox_MouseLeave);
+            // 
+            // lbl_1_active
+            // 
+            this.lbl_1_active.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.lbl_1_active.Location = new System.Drawing.Point(0, 353);
+            this.lbl_1_active.Margin = new System.Windows.Forms.Padding(0);
+            this.lbl_1_active.Name = "lbl_1_active";
+            this.lbl_1_active.Size = new System.Drawing.Size(236, 31);
+            this.lbl_1_active.TabIndex = 17;
+            this.lbl_1_active.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.lbl_1_active.MouseEnter += new System.EventHandler(this.label_MouseEnter);
+            this.lbl_1_active.MouseLeave += new System.EventHandler(this.label_MouseLeave);
+            // 
+            // pBox_1_0_1
+            // 
+            this.pBox_1_0_1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.pBox_1_0_1.Location = new System.Drawing.Point(79, 136);
+            this.pBox_1_0_1.Margin = new System.Windows.Forms.Padding(0);
+            this.pBox_1_0_1.Name = "pBox_1_0_1";
+            this.pBox_1_0_1.Size = new System.Drawing.Size(79, 31);
+            this.pBox_1_0_1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
+            this.pBox_1_0_1.TabIndex = 3;
+            this.pBox_1_0_1.TabStop = false;
+            this.pBox_1_0_1.MouseEnter += new System.EventHandler(this.pBox_MouseEnter);
+            this.pBox_1_0_1.MouseLeave += new System.EventHandler(this.pBox_MouseLeave);
+            // 
+            // lbl_1_6
+            // 
+            this.lbl_1_6.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.lbl_1_6.Location = new System.Drawing.Point(69, 322);
+            this.lbl_1_6.Margin = new System.Windows.Forms.Padding(0);
+            this.lbl_1_6.Name = "lbl_1_6";
+            this.lbl_1_6.Size = new System.Drawing.Size(167, 31);
+            this.lbl_1_6.TabIndex = 16;
+            this.lbl_1_6.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.lbl_1_6.MouseEnter += new System.EventHandler(this.label_MouseEnter);
+            this.lbl_1_6.MouseLeave += new System.EventHandler(this.label_MouseLeave);
+            // 
+            // pBox_1_0_2
+            // 
+            this.pBox_1_0_2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.pBox_1_0_2.Location = new System.Drawing.Point(158, 136);
+            this.pBox_1_0_2.Margin = new System.Windows.Forms.Padding(0);
+            this.pBox_1_0_2.Name = "pBox_1_0_2";
+            this.pBox_1_0_2.Size = new System.Drawing.Size(79, 31);
+            this.pBox_1_0_2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
+            this.pBox_1_0_2.TabIndex = 4;
+            this.pBox_1_0_2.TabStop = false;
+            this.pBox_1_0_2.MouseEnter += new System.EventHandler(this.pBox_MouseEnter);
+            this.pBox_1_0_2.MouseLeave += new System.EventHandler(this.pBox_MouseLeave);
+            // 
+            // pBox_1_6
+            // 
+            this.pBox_1_6.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.pBox_1_6.Location = new System.Drawing.Point(0, 322);
+            this.pBox_1_6.Margin = new System.Windows.Forms.Padding(0);
+            this.pBox_1_6.Name = "pBox_1_6";
+            this.pBox_1_6.Size = new System.Drawing.Size(69, 31);
+            this.pBox_1_6.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
+            this.pBox_1_6.TabIndex = 15;
+            this.pBox_1_6.TabStop = false;
+            this.pBox_1_6.LoadCompleted += new System.ComponentModel.AsyncCompletedEventHandler(this.pBox_image_resizeOn_LoadCompleted);
+            this.pBox_1_6.MouseEnter += new System.EventHandler(this.pBox_MouseEnter);
+            this.pBox_1_6.MouseLeave += new System.EventHandler(this.pBox_MouseLeave);
+            // 
+            // pBox_1_1
+            // 
+            this.pBox_1_1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.pBox_1_1.ImageLocation = "";
+            this.pBox_1_1.Location = new System.Drawing.Point(0, 167);
+            this.pBox_1_1.Margin = new System.Windows.Forms.Padding(0);
+            this.pBox_1_1.Name = "pBox_1_1";
+            this.pBox_1_1.Size = new System.Drawing.Size(69, 31);
+            this.pBox_1_1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
+            this.pBox_1_1.TabIndex = 5;
+            this.pBox_1_1.TabStop = false;
+            this.pBox_1_1.LoadCompleted += new System.ComponentModel.AsyncCompletedEventHandler(this.pBox_image_resizeOn_LoadCompleted);
+            this.pBox_1_1.MouseEnter += new System.EventHandler(this.pBox_MouseEnter);
+            this.pBox_1_1.MouseLeave += new System.EventHandler(this.pBox_MouseLeave);
+            // 
+            // lbl_1_5
+            // 
+            this.lbl_1_5.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.lbl_1_5.Location = new System.Drawing.Point(69, 291);
+            this.lbl_1_5.Margin = new System.Windows.Forms.Padding(0);
+            this.lbl_1_5.Name = "lbl_1_5";
+            this.lbl_1_5.Size = new System.Drawing.Size(167, 31);
+            this.lbl_1_5.TabIndex = 14;
+            this.lbl_1_5.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.lbl_1_5.MouseEnter += new System.EventHandler(this.label_MouseEnter);
+            this.lbl_1_5.MouseLeave += new System.EventHandler(this.label_MouseLeave);
+            // 
+            // lbl_1_1
+            // 
+            this.lbl_1_1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.lbl_1_1.Location = new System.Drawing.Point(69, 167);
+            this.lbl_1_1.Margin = new System.Windows.Forms.Padding(0);
+            this.lbl_1_1.Name = "lbl_1_1";
+            this.lbl_1_1.Size = new System.Drawing.Size(136, 31);
+            this.lbl_1_1.TabIndex = 6;
+            this.lbl_1_1.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.lbl_1_1.MouseEnter += new System.EventHandler(this.label_MouseEnter);
+            this.lbl_1_1.MouseLeave += new System.EventHandler(this.label_MouseLeave);
+            // 
+            // pBox_1_5
+            // 
+            this.pBox_1_5.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.pBox_1_5.Location = new System.Drawing.Point(0, 291);
+            this.pBox_1_5.Margin = new System.Windows.Forms.Padding(0);
+            this.pBox_1_5.Name = "pBox_1_5";
+            this.pBox_1_5.Size = new System.Drawing.Size(69, 31);
+            this.pBox_1_5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
+            this.pBox_1_5.TabIndex = 13;
+            this.pBox_1_5.TabStop = false;
+            this.pBox_1_5.LoadCompleted += new System.ComponentModel.AsyncCompletedEventHandler(this.pBox_image_resizeOn_LoadCompleted);
+            this.pBox_1_5.MouseEnter += new System.EventHandler(this.pBox_MouseEnter);
+            this.pBox_1_5.MouseLeave += new System.EventHandler(this.pBox_MouseLeave);
+            // 
+            // pBox_1_2
+            // 
+            this.pBox_1_2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.pBox_1_2.Location = new System.Drawing.Point(0, 198);
+            this.pBox_1_2.Margin = new System.Windows.Forms.Padding(0);
+            this.pBox_1_2.Name = "pBox_1_2";
+            this.pBox_1_2.Size = new System.Drawing.Size(69, 31);
+            this.pBox_1_2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
+            this.pBox_1_2.TabIndex = 7;
+            this.pBox_1_2.TabStop = false;
+            this.pBox_1_2.LoadCompleted += new System.ComponentModel.AsyncCompletedEventHandler(this.pBox_image_resizeOn_LoadCompleted);
+            this.pBox_1_2.MouseEnter += new System.EventHandler(this.pBox_MouseEnter);
+            this.pBox_1_2.MouseLeave += new System.EventHandler(this.pBox_MouseLeave);
+            // 
+            // lbl_1_4
+            // 
+            this.lbl_1_4.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.lbl_1_4.Location = new System.Drawing.Point(69, 260);
+            this.lbl_1_4.Margin = new System.Windows.Forms.Padding(0);
+            this.lbl_1_4.Name = "lbl_1_4";
+            this.lbl_1_4.Size = new System.Drawing.Size(167, 31);
+            this.lbl_1_4.TabIndex = 12;
+            this.lbl_1_4.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.lbl_1_4.MouseEnter += new System.EventHandler(this.label_MouseEnter);
+            this.lbl_1_4.MouseLeave += new System.EventHandler(this.label_MouseLeave);
+            // 
+            // lbl_1_2
+            // 
+            this.lbl_1_2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.lbl_1_2.Location = new System.Drawing.Point(69, 198);
+            this.lbl_1_2.Margin = new System.Windows.Forms.Padding(0);
+            this.lbl_1_2.Name = "lbl_1_2";
+            this.lbl_1_2.Size = new System.Drawing.Size(167, 31);
+            this.lbl_1_2.TabIndex = 8;
+            this.lbl_1_2.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.lbl_1_2.MouseEnter += new System.EventHandler(this.label_MouseEnter);
+            this.lbl_1_2.MouseLeave += new System.EventHandler(this.label_MouseLeave);
+            // 
+            // pBox_1_4
+            // 
+            this.pBox_1_4.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.pBox_1_4.Location = new System.Drawing.Point(0, 260);
+            this.pBox_1_4.Margin = new System.Windows.Forms.Padding(0);
+            this.pBox_1_4.Name = "pBox_1_4";
+            this.pBox_1_4.Size = new System.Drawing.Size(69, 31);
+            this.pBox_1_4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
+            this.pBox_1_4.TabIndex = 11;
+            this.pBox_1_4.TabStop = false;
+            this.pBox_1_4.LoadCompleted += new System.ComponentModel.AsyncCompletedEventHandler(this.pBox_image_resizeOn_LoadCompleted);
+            this.pBox_1_4.MouseEnter += new System.EventHandler(this.pBox_MouseEnter);
+            this.pBox_1_4.MouseLeave += new System.EventHandler(this.pBox_MouseLeave);
+            // 
+            // pBox_1_3
+            // 
+            this.pBox_1_3.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.pBox_1_3.Location = new System.Drawing.Point(0, 229);
+            this.pBox_1_3.Margin = new System.Windows.Forms.Padding(0);
+            this.pBox_1_3.Name = "pBox_1_3";
+            this.pBox_1_3.Size = new System.Drawing.Size(69, 31);
+            this.pBox_1_3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
+            this.pBox_1_3.TabIndex = 9;
+            this.pBox_1_3.TabStop = false;
+            this.pBox_1_3.LoadCompleted += new System.ComponentModel.AsyncCompletedEventHandler(this.pBox_image_resizeOn_LoadCompleted);
+            this.pBox_1_3.MouseEnter += new System.EventHandler(this.pBox_MouseEnter);
+            this.pBox_1_3.MouseLeave += new System.EventHandler(this.pBox_MouseLeave);
+            // 
+            // lbl_1_3
+            // 
+            this.lbl_1_3.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.lbl_1_3.Location = new System.Drawing.Point(69, 229);
+            this.lbl_1_3.Margin = new System.Windows.Forms.Padding(0);
+            this.lbl_1_3.Name = "lbl_1_3";
+            this.lbl_1_3.Size = new System.Drawing.Size(167, 31);
+            this.lbl_1_3.TabIndex = 10;
+            this.lbl_1_3.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.lbl_1_3.MouseEnter += new System.EventHandler(this.label_MouseEnter);
+            this.lbl_1_3.MouseLeave += new System.EventHandler(this.label_MouseLeave);
+            // 
+            // WARSAW_ID_M_SUPPORT
+            // 
+            this.WARSAW_ID_M_SUPPORT.BackgroundImage = global::BF4_LoadoutChecker.Properties.Resources._30_opacity;
+            this.WARSAW_ID_M_SUPPORT.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.WARSAW_ID_M_SUPPORT.Controls.Add(this.lbl_2_ClassName);
+            this.WARSAW_ID_M_SUPPORT.Controls.Add(this.pBox_kit_support);
+            this.WARSAW_ID_M_SUPPORT.Controls.Add(this.pBox_s_swep_customization);
+            this.WARSAW_ID_M_SUPPORT.Controls.Add(this.lbl_2_0);
+            this.WARSAW_ID_M_SUPPORT.Controls.Add(this.pBox_s_pwep_customization);
+            this.WARSAW_ID_M_SUPPORT.Controls.Add(this.pBox_2_0);
+            this.WARSAW_ID_M_SUPPORT.Controls.Add(this.pBox_2_0_0);
+            this.WARSAW_ID_M_SUPPORT.Controls.Add(this.lbl_2_active);
+            this.WARSAW_ID_M_SUPPORT.Controls.Add(this.pBox_2_0_1);
+            this.WARSAW_ID_M_SUPPORT.Controls.Add(this.lbl_2_6);
+            this.WARSAW_ID_M_SUPPORT.Controls.Add(this.pBox_2_0_2);
+            this.WARSAW_ID_M_SUPPORT.Controls.Add(this.pBox_2_6);
+            this.WARSAW_ID_M_SUPPORT.Controls.Add(this.pBox_2_1);
+            this.WARSAW_ID_M_SUPPORT.Controls.Add(this.lbl_2_5);
+            this.WARSAW_ID_M_SUPPORT.Controls.Add(this.lbl_2_1);
+            this.WARSAW_ID_M_SUPPORT.Controls.Add(this.pBox_2_5);
+            this.WARSAW_ID_M_SUPPORT.Controls.Add(this.pBox_2_2);
+            this.WARSAW_ID_M_SUPPORT.Controls.Add(this.lbl_2_4);
+            this.WARSAW_ID_M_SUPPORT.Controls.Add(this.lbl_2_2);
+            this.WARSAW_ID_M_SUPPORT.Controls.Add(this.pBox_2_4);
+            this.WARSAW_ID_M_SUPPORT.Controls.Add(this.pBox_2_3);
+            this.WARSAW_ID_M_SUPPORT.Controls.Add(this.lbl_2_3);
+            this.WARSAW_ID_M_SUPPORT.Font = new System.Drawing.Font("Arial Rounded MT Bold", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.WARSAW_ID_M_SUPPORT.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.WARSAW_ID_M_SUPPORT.Location = new System.Drawing.Point(488, 5);
+            this.WARSAW_ID_M_SUPPORT.Name = "WARSAW_ID_M_SUPPORT";
+            this.WARSAW_ID_M_SUPPORT.Size = new System.Drawing.Size(236, 386);
+            this.WARSAW_ID_M_SUPPORT.TabIndex = 25;
+            // 
+            // lbl_2_ClassName
+            // 
+            this.lbl_2_ClassName.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.lbl_2_ClassName.Font = new System.Drawing.Font("Arial Rounded MT Bold", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbl_2_ClassName.Location = new System.Drawing.Point(19, -1);
+            this.lbl_2_ClassName.Margin = new System.Windows.Forms.Padding(0);
+            this.lbl_2_ClassName.Name = "lbl_2_ClassName";
+            this.lbl_2_ClassName.Size = new System.Drawing.Size(216, 20);
+            this.lbl_2_ClassName.TabIndex = 25;
+            this.lbl_2_ClassName.Text = "SUPPORT";
+            this.lbl_2_ClassName.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            // 
+            // pBox_kit_support
+            // 
+            this.pBox_kit_support.Image = global::BF4_LoadoutChecker.Properties.Resources.kit_support_xsmall;
+            this.pBox_kit_support.Location = new System.Drawing.Point(0, -1);
+            this.pBox_kit_support.Name = "pBox_kit_support";
+            this.pBox_kit_support.Size = new System.Drawing.Size(20, 19);
+            this.pBox_kit_support.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
+            this.pBox_kit_support.TabIndex = 20;
+            this.pBox_kit_support.TabStop = false;
+            // 
+            // pBox_s_swep_customization
+            // 
+            this.pBox_s_swep_customization.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.pBox_s_swep_customization.Image = global::BF4_LoadoutChecker.Properties.Resources.loadout_cog_white;
+            this.pBox_s_swep_customization.Location = new System.Drawing.Point(206, 167);
+            this.pBox_s_swep_customization.Margin = new System.Windows.Forms.Padding(0);
+            this.pBox_s_swep_customization.Name = "pBox_s_swep_customization";
+            this.pBox_s_swep_customization.Size = new System.Drawing.Size(31, 31);
+            this.pBox_s_swep_customization.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
+            this.pBox_s_swep_customization.TabIndex = 22;
+            this.pBox_s_swep_customization.TabStop = false;
+            // 
+            // lbl_2_0
+            // 
+            this.lbl_2_0.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.lbl_2_0.Location = new System.Drawing.Point(0, 18);
+            this.lbl_2_0.Margin = new System.Windows.Forms.Padding(0);
+            this.lbl_2_0.Name = "lbl_2_0";
+            this.lbl_2_0.Size = new System.Drawing.Size(205, 31);
+            this.lbl_2_0.TabIndex = 0;
+            this.lbl_2_0.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.lbl_2_0.MouseEnter += new System.EventHandler(this.label_MouseEnter);
+            this.lbl_2_0.MouseLeave += new System.EventHandler(this.label_MouseLeave);
+            // 
+            // pBox_s_pwep_customization
+            // 
+            this.pBox_s_pwep_customization.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.pBox_s_pwep_customization.Image = global::BF4_LoadoutChecker.Properties.Resources.loadout_cog_white;
+            this.pBox_s_pwep_customization.Location = new System.Drawing.Point(205, 18);
+            this.pBox_s_pwep_customization.Margin = new System.Windows.Forms.Padding(0);
+            this.pBox_s_pwep_customization.Name = "pBox_s_pwep_customization";
+            this.pBox_s_pwep_customization.Size = new System.Drawing.Size(31, 31);
+            this.pBox_s_pwep_customization.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
+            this.pBox_s_pwep_customization.TabIndex = 21;
+            this.pBox_s_pwep_customization.TabStop = false;
+            // 
+            // pBox_2_0
+            // 
+            this.pBox_2_0.BackColor = System.Drawing.Color.Transparent;
+            this.pBox_2_0.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.pBox_2_0.ImageLocation = "";
+            this.pBox_2_0.Location = new System.Drawing.Point(0, 49);
+            this.pBox_2_0.Margin = new System.Windows.Forms.Padding(0);
+            this.pBox_2_0.Name = "pBox_2_0";
+            this.pBox_2_0.Size = new System.Drawing.Size(236, 87);
+            this.pBox_2_0.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
+            this.pBox_2_0.TabIndex = 1;
+            this.pBox_2_0.TabStop = false;
+            this.pBox_2_0.MouseEnter += new System.EventHandler(this.pBox_MouseEnter);
+            this.pBox_2_0.MouseLeave += new System.EventHandler(this.pBox_MouseLeave);
+            // 
+            // pBox_2_0_0
+            // 
+            this.pBox_2_0_0.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.pBox_2_0_0.Location = new System.Drawing.Point(1, 136);
+            this.pBox_2_0_0.Margin = new System.Windows.Forms.Padding(0);
+            this.pBox_2_0_0.Name = "pBox_2_0_0";
+            this.pBox_2_0_0.Size = new System.Drawing.Size(79, 31);
+            this.pBox_2_0_0.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
+            this.pBox_2_0_0.TabIndex = 2;
+            this.pBox_2_0_0.TabStop = false;
+            this.pBox_2_0_0.MouseEnter += new System.EventHandler(this.pBox_MouseEnter);
+            this.pBox_2_0_0.MouseLeave += new System.EventHandler(this.pBox_MouseLeave);
+            // 
+            // lbl_2_active
+            // 
+            this.lbl_2_active.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.lbl_2_active.Location = new System.Drawing.Point(1, 353);
+            this.lbl_2_active.Margin = new System.Windows.Forms.Padding(0);
+            this.lbl_2_active.Name = "lbl_2_active";
+            this.lbl_2_active.Size = new System.Drawing.Size(236, 31);
+            this.lbl_2_active.TabIndex = 17;
+            this.lbl_2_active.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.lbl_2_active.MouseEnter += new System.EventHandler(this.label_MouseEnter);
+            this.lbl_2_active.MouseLeave += new System.EventHandler(this.label_MouseLeave);
+            // 
+            // pBox_2_0_1
+            // 
+            this.pBox_2_0_1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.pBox_2_0_1.Location = new System.Drawing.Point(80, 136);
+            this.pBox_2_0_1.Margin = new System.Windows.Forms.Padding(0);
+            this.pBox_2_0_1.Name = "pBox_2_0_1";
+            this.pBox_2_0_1.Size = new System.Drawing.Size(79, 31);
+            this.pBox_2_0_1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
+            this.pBox_2_0_1.TabIndex = 3;
+            this.pBox_2_0_1.TabStop = false;
+            this.pBox_2_0_1.MouseEnter += new System.EventHandler(this.pBox_MouseEnter);
+            this.pBox_2_0_1.MouseLeave += new System.EventHandler(this.pBox_MouseLeave);
+            // 
+            // lbl_2_6
+            // 
+            this.lbl_2_6.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.lbl_2_6.Location = new System.Drawing.Point(69, 322);
+            this.lbl_2_6.Margin = new System.Windows.Forms.Padding(0);
+            this.lbl_2_6.Name = "lbl_2_6";
+            this.lbl_2_6.Size = new System.Drawing.Size(167, 31);
+            this.lbl_2_6.TabIndex = 16;
+            this.lbl_2_6.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.lbl_2_6.MouseEnter += new System.EventHandler(this.label_MouseEnter);
+            this.lbl_2_6.MouseLeave += new System.EventHandler(this.label_MouseLeave);
+            // 
+            // pBox_2_0_2
+            // 
+            this.pBox_2_0_2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.pBox_2_0_2.Location = new System.Drawing.Point(159, 136);
+            this.pBox_2_0_2.Margin = new System.Windows.Forms.Padding(0);
+            this.pBox_2_0_2.Name = "pBox_2_0_2";
+            this.pBox_2_0_2.Size = new System.Drawing.Size(79, 31);
+            this.pBox_2_0_2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
+            this.pBox_2_0_2.TabIndex = 4;
+            this.pBox_2_0_2.TabStop = false;
+            this.pBox_2_0_2.MouseEnter += new System.EventHandler(this.pBox_MouseEnter);
+            this.pBox_2_0_2.MouseLeave += new System.EventHandler(this.pBox_MouseLeave);
+            // 
+            // pBox_2_6
+            // 
+            this.pBox_2_6.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.pBox_2_6.Location = new System.Drawing.Point(1, 322);
+            this.pBox_2_6.Margin = new System.Windows.Forms.Padding(0);
+            this.pBox_2_6.Name = "pBox_2_6";
+            this.pBox_2_6.Size = new System.Drawing.Size(69, 31);
+            this.pBox_2_6.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
+            this.pBox_2_6.TabIndex = 15;
+            this.pBox_2_6.TabStop = false;
+            this.pBox_2_6.LoadCompleted += new System.ComponentModel.AsyncCompletedEventHandler(this.pBox_image_resizeOn_LoadCompleted);
+            this.pBox_2_6.MouseEnter += new System.EventHandler(this.pBox_MouseEnter);
+            this.pBox_2_6.MouseLeave += new System.EventHandler(this.pBox_MouseLeave);
+            // 
+            // pBox_2_1
+            // 
+            this.pBox_2_1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.pBox_2_1.ImageLocation = "";
+            this.pBox_2_1.Location = new System.Drawing.Point(1, 167);
+            this.pBox_2_1.Margin = new System.Windows.Forms.Padding(0);
+            this.pBox_2_1.Name = "pBox_2_1";
+            this.pBox_2_1.Size = new System.Drawing.Size(69, 31);
+            this.pBox_2_1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
+            this.pBox_2_1.TabIndex = 5;
+            this.pBox_2_1.TabStop = false;
+            this.pBox_2_1.LoadCompleted += new System.ComponentModel.AsyncCompletedEventHandler(this.pBox_image_resizeOn_LoadCompleted);
+            this.pBox_2_1.MouseEnter += new System.EventHandler(this.pBox_MouseEnter);
+            this.pBox_2_1.MouseLeave += new System.EventHandler(this.pBox_MouseLeave);
+            // 
+            // lbl_2_5
+            // 
+            this.lbl_2_5.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.lbl_2_5.Location = new System.Drawing.Point(69, 291);
+            this.lbl_2_5.Margin = new System.Windows.Forms.Padding(0);
+            this.lbl_2_5.Name = "lbl_2_5";
+            this.lbl_2_5.Size = new System.Drawing.Size(167, 31);
+            this.lbl_2_5.TabIndex = 14;
+            this.lbl_2_5.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.lbl_2_5.MouseEnter += new System.EventHandler(this.label_MouseEnter);
+            this.lbl_2_5.MouseLeave += new System.EventHandler(this.label_MouseLeave);
+            // 
+            // lbl_2_1
+            // 
+            this.lbl_2_1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.lbl_2_1.Location = new System.Drawing.Point(70, 167);
+            this.lbl_2_1.Margin = new System.Windows.Forms.Padding(0);
+            this.lbl_2_1.Name = "lbl_2_1";
+            this.lbl_2_1.Size = new System.Drawing.Size(136, 31);
+            this.lbl_2_1.TabIndex = 6;
+            this.lbl_2_1.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.lbl_2_1.MouseEnter += new System.EventHandler(this.label_MouseEnter);
+            this.lbl_2_1.MouseLeave += new System.EventHandler(this.label_MouseLeave);
+            // 
+            // pBox_2_5
+            // 
+            this.pBox_2_5.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.pBox_2_5.Location = new System.Drawing.Point(1, 291);
+            this.pBox_2_5.Margin = new System.Windows.Forms.Padding(0);
+            this.pBox_2_5.Name = "pBox_2_5";
+            this.pBox_2_5.Size = new System.Drawing.Size(69, 31);
+            this.pBox_2_5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
+            this.pBox_2_5.TabIndex = 13;
+            this.pBox_2_5.TabStop = false;
+            this.pBox_2_5.LoadCompleted += new System.ComponentModel.AsyncCompletedEventHandler(this.pBox_image_resizeOn_LoadCompleted);
+            this.pBox_2_5.MouseEnter += new System.EventHandler(this.pBox_MouseEnter);
+            this.pBox_2_5.MouseLeave += new System.EventHandler(this.pBox_MouseLeave);
+            // 
+            // pBox_2_2
+            // 
+            this.pBox_2_2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.pBox_2_2.Location = new System.Drawing.Point(1, 198);
+            this.pBox_2_2.Margin = new System.Windows.Forms.Padding(0);
+            this.pBox_2_2.Name = "pBox_2_2";
+            this.pBox_2_2.Size = new System.Drawing.Size(69, 31);
+            this.pBox_2_2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
+            this.pBox_2_2.TabIndex = 7;
+            this.pBox_2_2.TabStop = false;
+            this.pBox_2_2.LoadCompleted += new System.ComponentModel.AsyncCompletedEventHandler(this.pBox_image_resizeOn_LoadCompleted);
+            this.pBox_2_2.MouseEnter += new System.EventHandler(this.pBox_MouseEnter);
+            this.pBox_2_2.MouseLeave += new System.EventHandler(this.pBox_MouseLeave);
+            // 
+            // lbl_2_4
+            // 
+            this.lbl_2_4.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.lbl_2_4.Location = new System.Drawing.Point(69, 260);
+            this.lbl_2_4.Margin = new System.Windows.Forms.Padding(0);
+            this.lbl_2_4.Name = "lbl_2_4";
+            this.lbl_2_4.Size = new System.Drawing.Size(167, 31);
+            this.lbl_2_4.TabIndex = 12;
+            this.lbl_2_4.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.lbl_2_4.MouseEnter += new System.EventHandler(this.label_MouseEnter);
+            this.lbl_2_4.MouseLeave += new System.EventHandler(this.label_MouseLeave);
+            // 
+            // lbl_2_2
+            // 
+            this.lbl_2_2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.lbl_2_2.Location = new System.Drawing.Point(69, 198);
+            this.lbl_2_2.Margin = new System.Windows.Forms.Padding(0);
+            this.lbl_2_2.Name = "lbl_2_2";
+            this.lbl_2_2.Size = new System.Drawing.Size(167, 31);
+            this.lbl_2_2.TabIndex = 8;
+            this.lbl_2_2.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.lbl_2_2.MouseEnter += new System.EventHandler(this.label_MouseEnter);
+            this.lbl_2_2.MouseLeave += new System.EventHandler(this.label_MouseLeave);
+            // 
+            // pBox_2_4
+            // 
+            this.pBox_2_4.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.pBox_2_4.Location = new System.Drawing.Point(1, 260);
+            this.pBox_2_4.Margin = new System.Windows.Forms.Padding(0);
+            this.pBox_2_4.Name = "pBox_2_4";
+            this.pBox_2_4.Size = new System.Drawing.Size(69, 31);
+            this.pBox_2_4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
+            this.pBox_2_4.TabIndex = 11;
+            this.pBox_2_4.TabStop = false;
+            this.pBox_2_4.LoadCompleted += new System.ComponentModel.AsyncCompletedEventHandler(this.pBox_image_resizeOn_LoadCompleted);
+            this.pBox_2_4.MouseEnter += new System.EventHandler(this.pBox_MouseEnter);
+            this.pBox_2_4.MouseLeave += new System.EventHandler(this.pBox_MouseLeave);
+            // 
+            // pBox_2_3
+            // 
+            this.pBox_2_3.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.pBox_2_3.Location = new System.Drawing.Point(1, 229);
+            this.pBox_2_3.Margin = new System.Windows.Forms.Padding(0);
+            this.pBox_2_3.Name = "pBox_2_3";
+            this.pBox_2_3.Size = new System.Drawing.Size(69, 31);
+            this.pBox_2_3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
+            this.pBox_2_3.TabIndex = 9;
+            this.pBox_2_3.TabStop = false;
+            this.pBox_2_3.LoadCompleted += new System.ComponentModel.AsyncCompletedEventHandler(this.pBox_image_resizeOn_LoadCompleted);
+            this.pBox_2_3.MouseEnter += new System.EventHandler(this.pBox_MouseEnter);
+            this.pBox_2_3.MouseLeave += new System.EventHandler(this.pBox_MouseLeave);
+            // 
+            // lbl_2_3
+            // 
+            this.lbl_2_3.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.lbl_2_3.Location = new System.Drawing.Point(69, 229);
+            this.lbl_2_3.Margin = new System.Windows.Forms.Padding(0);
+            this.lbl_2_3.Name = "lbl_2_3";
+            this.lbl_2_3.Size = new System.Drawing.Size(167, 31);
+            this.lbl_2_3.TabIndex = 10;
+            this.lbl_2_3.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.lbl_2_3.MouseEnter += new System.EventHandler(this.label_MouseEnter);
+            this.lbl_2_3.MouseLeave += new System.EventHandler(this.label_MouseLeave);
+            // 
+            // WARSAW_ID_M_ASSAULT
+            // 
+            this.WARSAW_ID_M_ASSAULT.BackColor = System.Drawing.Color.Transparent;
+            this.WARSAW_ID_M_ASSAULT.BackgroundImage = global::BF4_LoadoutChecker.Properties.Resources._30_opacity;
+            this.WARSAW_ID_M_ASSAULT.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.WARSAW_ID_M_ASSAULT.Controls.Add(this.lbl_0_ClassName);
+            this.WARSAW_ID_M_ASSAULT.Controls.Add(this.pBox_a_swep_customization);
+            this.WARSAW_ID_M_ASSAULT.Controls.Add(this.lbl_0_0);
+            this.WARSAW_ID_M_ASSAULT.Controls.Add(this.pBox_a_pwep_customization);
+            this.WARSAW_ID_M_ASSAULT.Controls.Add(this.pBox_0_0);
+            this.WARSAW_ID_M_ASSAULT.Controls.Add(this.pBox_0_0_0);
+            this.WARSAW_ID_M_ASSAULT.Controls.Add(this.lbl_0_active);
+            this.WARSAW_ID_M_ASSAULT.Controls.Add(this.pBox_0_0_1);
+            this.WARSAW_ID_M_ASSAULT.Controls.Add(this.lbl_0_6);
+            this.WARSAW_ID_M_ASSAULT.Controls.Add(this.pBox_0_0_2);
+            this.WARSAW_ID_M_ASSAULT.Controls.Add(this.pBox_0_6);
+            this.WARSAW_ID_M_ASSAULT.Controls.Add(this.pBox_0_1);
+            this.WARSAW_ID_M_ASSAULT.Controls.Add(this.lbl_0_5);
+            this.WARSAW_ID_M_ASSAULT.Controls.Add(this.lbl_0_1);
+            this.WARSAW_ID_M_ASSAULT.Controls.Add(this.pBox_0_5);
+            this.WARSAW_ID_M_ASSAULT.Controls.Add(this.pBox_0_2);
+            this.WARSAW_ID_M_ASSAULT.Controls.Add(this.lbl_0_4);
+            this.WARSAW_ID_M_ASSAULT.Controls.Add(this.lbl_0_2);
+            this.WARSAW_ID_M_ASSAULT.Controls.Add(this.pBox_0_4);
+            this.WARSAW_ID_M_ASSAULT.Controls.Add(this.pBox_0_3);
+            this.WARSAW_ID_M_ASSAULT.Controls.Add(this.lbl_0_3);
+            this.WARSAW_ID_M_ASSAULT.Controls.Add(this.pBox_kit_assault);
+            this.WARSAW_ID_M_ASSAULT.Font = new System.Drawing.Font("Arial Rounded MT Bold", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.WARSAW_ID_M_ASSAULT.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.WARSAW_ID_M_ASSAULT.Location = new System.Drawing.Point(6, 5);
+            this.WARSAW_ID_M_ASSAULT.Name = "WARSAW_ID_M_ASSAULT";
+            this.WARSAW_ID_M_ASSAULT.Size = new System.Drawing.Size(236, 386);
+            this.WARSAW_ID_M_ASSAULT.TabIndex = 23;
+            // 
+            // lbl_0_ClassName
+            // 
+            this.lbl_0_ClassName.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.lbl_0_ClassName.Font = new System.Drawing.Font("Arial Rounded MT Bold", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbl_0_ClassName.Location = new System.Drawing.Point(19, -1);
+            this.lbl_0_ClassName.Margin = new System.Windows.Forms.Padding(0);
+            this.lbl_0_ClassName.Name = "lbl_0_ClassName";
+            this.lbl_0_ClassName.Size = new System.Drawing.Size(216, 20);
+            this.lbl_0_ClassName.TabIndex = 23;
+            this.lbl_0_ClassName.Text = "ASSAULT";
+            this.lbl_0_ClassName.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            // 
+            // pBox_a_swep_customization
+            // 
+            this.pBox_a_swep_customization.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.pBox_a_swep_customization.Image = global::BF4_LoadoutChecker.Properties.Resources.loadout_cog_white;
+            this.pBox_a_swep_customization.Location = new System.Drawing.Point(204, 167);
+            this.pBox_a_swep_customization.Margin = new System.Windows.Forms.Padding(0);
+            this.pBox_a_swep_customization.Name = "pBox_a_swep_customization";
+            this.pBox_a_swep_customization.Size = new System.Drawing.Size(31, 31);
+            this.pBox_a_swep_customization.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
+            this.pBox_a_swep_customization.TabIndex = 20;
+            this.pBox_a_swep_customization.TabStop = false;
+            // 
+            // lbl_0_0
+            // 
+            this.lbl_0_0.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.lbl_0_0.Location = new System.Drawing.Point(-1, 18);
+            this.lbl_0_0.Margin = new System.Windows.Forms.Padding(0);
+            this.lbl_0_0.Name = "lbl_0_0";
+            this.lbl_0_0.Size = new System.Drawing.Size(205, 31);
+            this.lbl_0_0.TabIndex = 0;
+            this.lbl_0_0.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.lbl_0_0.MouseEnter += new System.EventHandler(this.label_MouseEnter);
+            this.lbl_0_0.MouseLeave += new System.EventHandler(this.label_MouseLeave);
+            // 
+            // pBox_a_pwep_customization
+            // 
+            this.pBox_a_pwep_customization.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.pBox_a_pwep_customization.Image = global::BF4_LoadoutChecker.Properties.Resources.loadout_cog_white;
+            this.pBox_a_pwep_customization.Location = new System.Drawing.Point(204, 18);
+            this.pBox_a_pwep_customization.Margin = new System.Windows.Forms.Padding(0);
+            this.pBox_a_pwep_customization.Name = "pBox_a_pwep_customization";
+            this.pBox_a_pwep_customization.Size = new System.Drawing.Size(31, 31);
+            this.pBox_a_pwep_customization.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
+            this.pBox_a_pwep_customization.TabIndex = 19;
+            this.pBox_a_pwep_customization.TabStop = false;
+            // 
+            // pBox_0_0
+            // 
+            this.pBox_0_0.BackColor = System.Drawing.Color.Transparent;
+            this.pBox_0_0.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.pBox_0_0.ImageLocation = "";
+            this.pBox_0_0.Location = new System.Drawing.Point(-1, 49);
+            this.pBox_0_0.Margin = new System.Windows.Forms.Padding(0);
+            this.pBox_0_0.Name = "pBox_0_0";
+            this.pBox_0_0.Size = new System.Drawing.Size(236, 87);
+            this.pBox_0_0.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
+            this.pBox_0_0.TabIndex = 1;
+            this.pBox_0_0.TabStop = false;
+            this.pBox_0_0.MouseEnter += new System.EventHandler(this.pBox_MouseEnter);
+            this.pBox_0_0.MouseLeave += new System.EventHandler(this.pBox_MouseLeave);
+            // 
+            // pBox_0_0_0
+            // 
+            this.pBox_0_0_0.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.pBox_0_0_0.Location = new System.Drawing.Point(-1, 136);
+            this.pBox_0_0_0.Margin = new System.Windows.Forms.Padding(0);
+            this.pBox_0_0_0.Name = "pBox_0_0_0";
+            this.pBox_0_0_0.Size = new System.Drawing.Size(79, 31);
+            this.pBox_0_0_0.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
+            this.pBox_0_0_0.TabIndex = 2;
+            this.pBox_0_0_0.TabStop = false;
+            this.pBox_0_0_0.MouseEnter += new System.EventHandler(this.pBox_MouseEnter);
+            this.pBox_0_0_0.MouseLeave += new System.EventHandler(this.pBox_MouseLeave);
+            // 
+            // lbl_0_active
+            // 
+            this.lbl_0_active.BackColor = System.Drawing.Color.Transparent;
+            this.lbl_0_active.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.lbl_0_active.Location = new System.Drawing.Point(-1, 353);
+            this.lbl_0_active.Margin = new System.Windows.Forms.Padding(0);
+            this.lbl_0_active.Name = "lbl_0_active";
+            this.lbl_0_active.Size = new System.Drawing.Size(236, 31);
+            this.lbl_0_active.TabIndex = 17;
+            this.lbl_0_active.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.lbl_0_active.MouseEnter += new System.EventHandler(this.label_MouseEnter);
+            this.lbl_0_active.MouseLeave += new System.EventHandler(this.label_MouseLeave);
+            // 
+            // pBox_0_0_1
+            // 
+            this.pBox_0_0_1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.pBox_0_0_1.Location = new System.Drawing.Point(78, 136);
+            this.pBox_0_0_1.Margin = new System.Windows.Forms.Padding(0);
+            this.pBox_0_0_1.Name = "pBox_0_0_1";
+            this.pBox_0_0_1.Size = new System.Drawing.Size(79, 31);
+            this.pBox_0_0_1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
+            this.pBox_0_0_1.TabIndex = 3;
+            this.pBox_0_0_1.TabStop = false;
+            this.pBox_0_0_1.MouseEnter += new System.EventHandler(this.pBox_MouseEnter);
+            this.pBox_0_0_1.MouseLeave += new System.EventHandler(this.pBox_MouseLeave);
+            // 
+            // lbl_0_6
+            // 
+            this.lbl_0_6.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.lbl_0_6.Location = new System.Drawing.Point(68, 322);
+            this.lbl_0_6.Margin = new System.Windows.Forms.Padding(0);
+            this.lbl_0_6.Name = "lbl_0_6";
+            this.lbl_0_6.Size = new System.Drawing.Size(167, 31);
+            this.lbl_0_6.TabIndex = 16;
+            this.lbl_0_6.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.lbl_0_6.MouseEnter += new System.EventHandler(this.label_MouseEnter);
+            this.lbl_0_6.MouseLeave += new System.EventHandler(this.label_MouseLeave);
+            // 
+            // pBox_0_0_2
+            // 
+            this.pBox_0_0_2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.pBox_0_0_2.Location = new System.Drawing.Point(157, 136);
+            this.pBox_0_0_2.Margin = new System.Windows.Forms.Padding(0);
+            this.pBox_0_0_2.Name = "pBox_0_0_2";
+            this.pBox_0_0_2.Size = new System.Drawing.Size(79, 31);
+            this.pBox_0_0_2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
+            this.pBox_0_0_2.TabIndex = 4;
+            this.pBox_0_0_2.TabStop = false;
+            this.pBox_0_0_2.MouseEnter += new System.EventHandler(this.pBox_MouseEnter);
+            this.pBox_0_0_2.MouseLeave += new System.EventHandler(this.pBox_MouseLeave);
+            // 
+            // pBox_0_6
+            // 
+            this.pBox_0_6.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.pBox_0_6.Location = new System.Drawing.Point(-1, 322);
+            this.pBox_0_6.Margin = new System.Windows.Forms.Padding(0);
+            this.pBox_0_6.Name = "pBox_0_6";
+            this.pBox_0_6.Size = new System.Drawing.Size(69, 31);
+            this.pBox_0_6.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
+            this.pBox_0_6.TabIndex = 15;
+            this.pBox_0_6.TabStop = false;
+            this.pBox_0_6.LoadCompleted += new System.ComponentModel.AsyncCompletedEventHandler(this.pBox_image_resizeOn_LoadCompleted);
+            this.pBox_0_6.MouseEnter += new System.EventHandler(this.pBox_MouseEnter);
+            this.pBox_0_6.MouseLeave += new System.EventHandler(this.pBox_MouseLeave);
+            // 
+            // pBox_0_1
+            // 
+            this.pBox_0_1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.pBox_0_1.ImageLocation = "";
+            this.pBox_0_1.Location = new System.Drawing.Point(-1, 167);
+            this.pBox_0_1.Margin = new System.Windows.Forms.Padding(0);
+            this.pBox_0_1.Name = "pBox_0_1";
+            this.pBox_0_1.Size = new System.Drawing.Size(69, 31);
+            this.pBox_0_1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
+            this.pBox_0_1.TabIndex = 5;
+            this.pBox_0_1.TabStop = false;
+            this.pBox_0_1.LoadCompleted += new System.ComponentModel.AsyncCompletedEventHandler(this.pBox_image_resizeOn_LoadCompleted);
+            this.pBox_0_1.MouseEnter += new System.EventHandler(this.pBox_MouseEnter);
+            this.pBox_0_1.MouseLeave += new System.EventHandler(this.pBox_MouseLeave);
+            // 
+            // lbl_0_5
+            // 
+            this.lbl_0_5.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.lbl_0_5.Location = new System.Drawing.Point(68, 291);
+            this.lbl_0_5.Margin = new System.Windows.Forms.Padding(0);
+            this.lbl_0_5.Name = "lbl_0_5";
+            this.lbl_0_5.Size = new System.Drawing.Size(167, 31);
+            this.lbl_0_5.TabIndex = 14;
+            this.lbl_0_5.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.lbl_0_5.MouseEnter += new System.EventHandler(this.label_MouseEnter);
+            this.lbl_0_5.MouseLeave += new System.EventHandler(this.label_MouseLeave);
+            // 
+            // lbl_0_1
+            // 
+            this.lbl_0_1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.lbl_0_1.Location = new System.Drawing.Point(68, 167);
+            this.lbl_0_1.Margin = new System.Windows.Forms.Padding(0);
+            this.lbl_0_1.Name = "lbl_0_1";
+            this.lbl_0_1.Size = new System.Drawing.Size(136, 31);
+            this.lbl_0_1.TabIndex = 6;
+            this.lbl_0_1.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.lbl_0_1.MouseEnter += new System.EventHandler(this.label_MouseEnter);
+            this.lbl_0_1.MouseLeave += new System.EventHandler(this.label_MouseLeave);
+            // 
+            // pBox_0_5
+            // 
+            this.pBox_0_5.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.pBox_0_5.Location = new System.Drawing.Point(-1, 291);
+            this.pBox_0_5.Margin = new System.Windows.Forms.Padding(0);
+            this.pBox_0_5.Name = "pBox_0_5";
+            this.pBox_0_5.Size = new System.Drawing.Size(69, 31);
+            this.pBox_0_5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
+            this.pBox_0_5.TabIndex = 13;
+            this.pBox_0_5.TabStop = false;
+            this.pBox_0_5.LoadCompleted += new System.ComponentModel.AsyncCompletedEventHandler(this.pBox_image_resizeOn_LoadCompleted);
+            this.pBox_0_5.MouseEnter += new System.EventHandler(this.pBox_MouseEnter);
+            this.pBox_0_5.MouseLeave += new System.EventHandler(this.pBox_MouseLeave);
+            // 
+            // pBox_0_2
+            // 
+            this.pBox_0_2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.pBox_0_2.Location = new System.Drawing.Point(-1, 198);
+            this.pBox_0_2.Margin = new System.Windows.Forms.Padding(0);
+            this.pBox_0_2.Name = "pBox_0_2";
+            this.pBox_0_2.Size = new System.Drawing.Size(69, 31);
+            this.pBox_0_2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
+            this.pBox_0_2.TabIndex = 7;
+            this.pBox_0_2.TabStop = false;
+            this.pBox_0_2.LoadCompleted += new System.ComponentModel.AsyncCompletedEventHandler(this.pBox_image_resizeOn_LoadCompleted);
+            this.pBox_0_2.MouseEnter += new System.EventHandler(this.pBox_MouseEnter);
+            this.pBox_0_2.MouseLeave += new System.EventHandler(this.pBox_MouseLeave);
+            // 
+            // lbl_0_4
+            // 
+            this.lbl_0_4.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.lbl_0_4.Location = new System.Drawing.Point(68, 260);
+            this.lbl_0_4.Margin = new System.Windows.Forms.Padding(0);
+            this.lbl_0_4.Name = "lbl_0_4";
+            this.lbl_0_4.Size = new System.Drawing.Size(167, 31);
+            this.lbl_0_4.TabIndex = 12;
+            this.lbl_0_4.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.lbl_0_4.MouseEnter += new System.EventHandler(this.label_MouseEnter);
+            this.lbl_0_4.MouseLeave += new System.EventHandler(this.label_MouseLeave);
+            // 
+            // lbl_0_2
+            // 
+            this.lbl_0_2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.lbl_0_2.Location = new System.Drawing.Point(68, 198);
+            this.lbl_0_2.Margin = new System.Windows.Forms.Padding(0);
+            this.lbl_0_2.Name = "lbl_0_2";
+            this.lbl_0_2.Size = new System.Drawing.Size(167, 31);
+            this.lbl_0_2.TabIndex = 8;
+            this.lbl_0_2.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.lbl_0_2.MouseEnter += new System.EventHandler(this.label_MouseEnter);
+            this.lbl_0_2.MouseLeave += new System.EventHandler(this.label_MouseLeave);
+            // 
+            // pBox_0_4
+            // 
+            this.pBox_0_4.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.pBox_0_4.Location = new System.Drawing.Point(-1, 260);
+            this.pBox_0_4.Margin = new System.Windows.Forms.Padding(0);
+            this.pBox_0_4.Name = "pBox_0_4";
+            this.pBox_0_4.Size = new System.Drawing.Size(69, 31);
+            this.pBox_0_4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
+            this.pBox_0_4.TabIndex = 11;
+            this.pBox_0_4.TabStop = false;
+            this.pBox_0_4.LoadCompleted += new System.ComponentModel.AsyncCompletedEventHandler(this.pBox_image_resizeOn_LoadCompleted);
+            this.pBox_0_4.MouseEnter += new System.EventHandler(this.pBox_MouseEnter);
+            this.pBox_0_4.MouseLeave += new System.EventHandler(this.pBox_MouseLeave);
+            // 
+            // pBox_0_3
+            // 
+            this.pBox_0_3.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.pBox_0_3.Location = new System.Drawing.Point(-1, 229);
+            this.pBox_0_3.Margin = new System.Windows.Forms.Padding(0);
+            this.pBox_0_3.Name = "pBox_0_3";
+            this.pBox_0_3.Size = new System.Drawing.Size(69, 31);
+            this.pBox_0_3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
+            this.pBox_0_3.TabIndex = 9;
+            this.pBox_0_3.TabStop = false;
+            this.pBox_0_3.LoadCompleted += new System.ComponentModel.AsyncCompletedEventHandler(this.pBox_image_resizeOn_LoadCompleted);
+            this.pBox_0_3.MouseEnter += new System.EventHandler(this.pBox_MouseEnter);
+            this.pBox_0_3.MouseLeave += new System.EventHandler(this.pBox_MouseLeave);
+            // 
+            // lbl_0_3
+            // 
+            this.lbl_0_3.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.lbl_0_3.Location = new System.Drawing.Point(68, 229);
+            this.lbl_0_3.Margin = new System.Windows.Forms.Padding(0);
+            this.lbl_0_3.Name = "lbl_0_3";
+            this.lbl_0_3.Size = new System.Drawing.Size(167, 31);
+            this.lbl_0_3.TabIndex = 10;
+            this.lbl_0_3.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.lbl_0_3.MouseEnter += new System.EventHandler(this.label_MouseEnter);
+            this.lbl_0_3.MouseLeave += new System.EventHandler(this.label_MouseLeave);
+            // 
+            // pBox_kit_assault
+            // 
+            this.pBox_kit_assault.Image = global::BF4_LoadoutChecker.Properties.Resources.kit_assault_xsmall;
+            this.pBox_kit_assault.Location = new System.Drawing.Point(0, -1);
+            this.pBox_kit_assault.Name = "pBox_kit_assault";
+            this.pBox_kit_assault.Size = new System.Drawing.Size(20, 20);
+            this.pBox_kit_assault.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
+            this.pBox_kit_assault.TabIndex = 18;
+            this.pBox_kit_assault.TabStop = false;
+            // 
             // btn_fetch_immediate
             // 
             this.btn_fetch_immediate.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
@@ -254,1278 +1528,6 @@
             this.tBox_soldierName.TabIndex = 36;
             this.tBox_soldierName.Text = "xfileFIN";
             this.tBox_soldierName.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            // 
-            // visualize_panel
-            // 
-            this.visualize_panel.BackgroundImage = global::BF4_LoadoutChecker.Properties.Resources.bg_video_overlay_battlefield4;
-            this.visualize_panel.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.visualize_panel.Controls.Add(this.WARSAW_ID_M_RECON);
-            this.visualize_panel.Controls.Add(this.WARSAW_ID_M_ENGINEER);
-            this.visualize_panel.Controls.Add(this.WARSAW_ID_M_SUPPORT);
-            this.visualize_panel.Controls.Add(this.WARSAW_ID_M_ASSAULT);
-            this.visualize_panel.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.visualize_panel.Font = new System.Drawing.Font("Arial Rounded MT Bold", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.visualize_panel.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.visualize_panel.Location = new System.Drawing.Point(0, 0);
-            this.visualize_panel.Name = "visualize_panel";
-            this.visualize_panel.Size = new System.Drawing.Size(970, 396);
-            this.visualize_panel.TabIndex = 1;
-            // 
-            // pBox_kit_recon
-            // 
-            this.pBox_kit_recon.Image = global::BF4_LoadoutChecker.Properties.Resources.kit_recon_xsmall;
-            this.pBox_kit_recon.Location = new System.Drawing.Point(0, -1);
-            this.pBox_kit_recon.Name = "pBox_kit_recon";
-            this.pBox_kit_recon.Size = new System.Drawing.Size(20, 19);
-            this.pBox_kit_recon.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
-            this.pBox_kit_recon.TabIndex = 21;
-            this.pBox_kit_recon.TabStop = false;
-            // 
-            // lbl_r_activity
-            // 
-            this.lbl_r_activity.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.lbl_r_activity.Location = new System.Drawing.Point(0, 353);
-            this.lbl_r_activity.Margin = new System.Windows.Forms.Padding(0);
-            this.lbl_r_activity.Name = "lbl_r_activity";
-            this.lbl_r_activity.Size = new System.Drawing.Size(236, 31);
-            this.lbl_r_activity.TabIndex = 17;
-            this.lbl_r_activity.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            this.lbl_r_activity.MouseEnter += new System.EventHandler(this.label_MouseEnter);
-            this.lbl_r_activity.MouseLeave += new System.EventHandler(this.label_MouseLeave);
-            // 
-            // lbl_r_specialization_name
-            // 
-            this.lbl_r_specialization_name.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.lbl_r_specialization_name.Location = new System.Drawing.Point(69, 322);
-            this.lbl_r_specialization_name.Margin = new System.Windows.Forms.Padding(0);
-            this.lbl_r_specialization_name.Name = "lbl_r_specialization_name";
-            this.lbl_r_specialization_name.Size = new System.Drawing.Size(167, 31);
-            this.lbl_r_specialization_name.TabIndex = 16;
-            this.lbl_r_specialization_name.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.lbl_r_specialization_name.MouseEnter += new System.EventHandler(this.label_MouseEnter);
-            this.lbl_r_specialization_name.MouseLeave += new System.EventHandler(this.label_MouseLeave);
-            // 
-            // pBox_r_specialization_lineart
-            // 
-            this.pBox_r_specialization_lineart.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.pBox_r_specialization_lineart.Location = new System.Drawing.Point(0, 322);
-            this.pBox_r_specialization_lineart.Margin = new System.Windows.Forms.Padding(0);
-            this.pBox_r_specialization_lineart.Name = "pBox_r_specialization_lineart";
-            this.pBox_r_specialization_lineart.Size = new System.Drawing.Size(69, 31);
-            this.pBox_r_specialization_lineart.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
-            this.pBox_r_specialization_lineart.TabIndex = 15;
-            this.pBox_r_specialization_lineart.TabStop = false;
-            this.pBox_r_specialization_lineart.LoadCompleted += new System.ComponentModel.AsyncCompletedEventHandler(this.pBox_image_resizeOn_LoadCompleted);
-            this.pBox_r_specialization_lineart.MouseEnter += new System.EventHandler(this.pBox_MouseEnter);
-            this.pBox_r_specialization_lineart.MouseLeave += new System.EventHandler(this.pBox_MouseLeave);
-            // 
-            // lbl_r_knife_name
-            // 
-            this.lbl_r_knife_name.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.lbl_r_knife_name.Location = new System.Drawing.Point(69, 291);
-            this.lbl_r_knife_name.Margin = new System.Windows.Forms.Padding(0);
-            this.lbl_r_knife_name.Name = "lbl_r_knife_name";
-            this.lbl_r_knife_name.Size = new System.Drawing.Size(167, 31);
-            this.lbl_r_knife_name.TabIndex = 14;
-            this.lbl_r_knife_name.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.lbl_r_knife_name.MouseEnter += new System.EventHandler(this.label_MouseEnter);
-            this.lbl_r_knife_name.MouseLeave += new System.EventHandler(this.label_MouseLeave);
-            // 
-            // pBox_r_knife_lineart
-            // 
-            this.pBox_r_knife_lineart.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.pBox_r_knife_lineart.Location = new System.Drawing.Point(0, 291);
-            this.pBox_r_knife_lineart.Margin = new System.Windows.Forms.Padding(0);
-            this.pBox_r_knife_lineart.Name = "pBox_r_knife_lineart";
-            this.pBox_r_knife_lineart.Size = new System.Drawing.Size(69, 31);
-            this.pBox_r_knife_lineart.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
-            this.pBox_r_knife_lineart.TabIndex = 13;
-            this.pBox_r_knife_lineart.TabStop = false;
-            this.pBox_r_knife_lineart.LoadCompleted += new System.ComponentModel.AsyncCompletedEventHandler(this.pBox_image_resizeOn_LoadCompleted);
-            this.pBox_r_knife_lineart.MouseEnter += new System.EventHandler(this.pBox_MouseEnter);
-            this.pBox_r_knife_lineart.MouseLeave += new System.EventHandler(this.pBox_MouseLeave);
-            // 
-            // lbl_r_grenade_name
-            // 
-            this.lbl_r_grenade_name.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.lbl_r_grenade_name.Location = new System.Drawing.Point(69, 260);
-            this.lbl_r_grenade_name.Margin = new System.Windows.Forms.Padding(0);
-            this.lbl_r_grenade_name.Name = "lbl_r_grenade_name";
-            this.lbl_r_grenade_name.Size = new System.Drawing.Size(167, 31);
-            this.lbl_r_grenade_name.TabIndex = 12;
-            this.lbl_r_grenade_name.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.lbl_r_grenade_name.MouseEnter += new System.EventHandler(this.label_MouseEnter);
-            this.lbl_r_grenade_name.MouseLeave += new System.EventHandler(this.label_MouseLeave);
-            // 
-            // pBox_r_grenade_lineart
-            // 
-            this.pBox_r_grenade_lineart.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.pBox_r_grenade_lineart.Location = new System.Drawing.Point(0, 260);
-            this.pBox_r_grenade_lineart.Margin = new System.Windows.Forms.Padding(0);
-            this.pBox_r_grenade_lineart.Name = "pBox_r_grenade_lineart";
-            this.pBox_r_grenade_lineart.Size = new System.Drawing.Size(69, 31);
-            this.pBox_r_grenade_lineart.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
-            this.pBox_r_grenade_lineart.TabIndex = 11;
-            this.pBox_r_grenade_lineart.TabStop = false;
-            this.pBox_r_grenade_lineart.LoadCompleted += new System.ComponentModel.AsyncCompletedEventHandler(this.pBox_image_resizeOn_LoadCompleted);
-            this.pBox_r_grenade_lineart.MouseEnter += new System.EventHandler(this.pBox_MouseEnter);
-            this.pBox_r_grenade_lineart.MouseLeave += new System.EventHandler(this.pBox_MouseLeave);
-            // 
-            // lbl_r_gadget2_name
-            // 
-            this.lbl_r_gadget2_name.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.lbl_r_gadget2_name.Location = new System.Drawing.Point(69, 229);
-            this.lbl_r_gadget2_name.Margin = new System.Windows.Forms.Padding(0);
-            this.lbl_r_gadget2_name.Name = "lbl_r_gadget2_name";
-            this.lbl_r_gadget2_name.Size = new System.Drawing.Size(167, 31);
-            this.lbl_r_gadget2_name.TabIndex = 10;
-            this.lbl_r_gadget2_name.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.lbl_r_gadget2_name.MouseEnter += new System.EventHandler(this.label_MouseEnter);
-            this.lbl_r_gadget2_name.MouseLeave += new System.EventHandler(this.label_MouseLeave);
-            // 
-            // pBox_r_gadget2_lineart
-            // 
-            this.pBox_r_gadget2_lineart.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.pBox_r_gadget2_lineart.Location = new System.Drawing.Point(0, 229);
-            this.pBox_r_gadget2_lineart.Margin = new System.Windows.Forms.Padding(0);
-            this.pBox_r_gadget2_lineart.Name = "pBox_r_gadget2_lineart";
-            this.pBox_r_gadget2_lineart.Size = new System.Drawing.Size(69, 31);
-            this.pBox_r_gadget2_lineart.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
-            this.pBox_r_gadget2_lineart.TabIndex = 9;
-            this.pBox_r_gadget2_lineart.TabStop = false;
-            this.pBox_r_gadget2_lineart.LoadCompleted += new System.ComponentModel.AsyncCompletedEventHandler(this.pBox_image_resizeOn_LoadCompleted);
-            this.pBox_r_gadget2_lineart.MouseEnter += new System.EventHandler(this.pBox_MouseEnter);
-            this.pBox_r_gadget2_lineart.MouseLeave += new System.EventHandler(this.pBox_MouseLeave);
-            // 
-            // lbl_r_gadget1_name
-            // 
-            this.lbl_r_gadget1_name.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.lbl_r_gadget1_name.Location = new System.Drawing.Point(69, 198);
-            this.lbl_r_gadget1_name.Margin = new System.Windows.Forms.Padding(0);
-            this.lbl_r_gadget1_name.Name = "lbl_r_gadget1_name";
-            this.lbl_r_gadget1_name.Size = new System.Drawing.Size(167, 31);
-            this.lbl_r_gadget1_name.TabIndex = 8;
-            this.lbl_r_gadget1_name.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.lbl_r_gadget1_name.MouseEnter += new System.EventHandler(this.label_MouseEnter);
-            this.lbl_r_gadget1_name.MouseLeave += new System.EventHandler(this.label_MouseLeave);
-            // 
-            // pBox_r_gadget1_lineart
-            // 
-            this.pBox_r_gadget1_lineart.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.pBox_r_gadget1_lineart.Location = new System.Drawing.Point(0, 198);
-            this.pBox_r_gadget1_lineart.Margin = new System.Windows.Forms.Padding(0);
-            this.pBox_r_gadget1_lineart.Name = "pBox_r_gadget1_lineart";
-            this.pBox_r_gadget1_lineart.Size = new System.Drawing.Size(69, 31);
-            this.pBox_r_gadget1_lineart.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
-            this.pBox_r_gadget1_lineart.TabIndex = 7;
-            this.pBox_r_gadget1_lineart.TabStop = false;
-            this.pBox_r_gadget1_lineart.LoadCompleted += new System.ComponentModel.AsyncCompletedEventHandler(this.pBox_image_resizeOn_LoadCompleted);
-            this.pBox_r_gadget1_lineart.MouseEnter += new System.EventHandler(this.pBox_MouseEnter);
-            this.pBox_r_gadget1_lineart.MouseLeave += new System.EventHandler(this.pBox_MouseLeave);
-            // 
-            // lbl_r_swep_name
-            // 
-            this.lbl_r_swep_name.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.lbl_r_swep_name.Location = new System.Drawing.Point(69, 167);
-            this.lbl_r_swep_name.Margin = new System.Windows.Forms.Padding(0);
-            this.lbl_r_swep_name.Name = "lbl_r_swep_name";
-            this.lbl_r_swep_name.Size = new System.Drawing.Size(136, 31);
-            this.lbl_r_swep_name.TabIndex = 6;
-            this.lbl_r_swep_name.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.lbl_r_swep_name.MouseEnter += new System.EventHandler(this.label_MouseEnter);
-            this.lbl_r_swep_name.MouseLeave += new System.EventHandler(this.label_MouseLeave);
-            // 
-            // pBox_r_swep_lineart
-            // 
-            this.pBox_r_swep_lineart.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.pBox_r_swep_lineart.ImageLocation = "";
-            this.pBox_r_swep_lineart.Location = new System.Drawing.Point(0, 167);
-            this.pBox_r_swep_lineart.Margin = new System.Windows.Forms.Padding(0);
-            this.pBox_r_swep_lineart.Name = "pBox_r_swep_lineart";
-            this.pBox_r_swep_lineart.Size = new System.Drawing.Size(69, 31);
-            this.pBox_r_swep_lineart.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
-            this.pBox_r_swep_lineart.TabIndex = 5;
-            this.pBox_r_swep_lineart.TabStop = false;
-            this.pBox_r_swep_lineart.LoadCompleted += new System.ComponentModel.AsyncCompletedEventHandler(this.pBox_image_resizeOn_LoadCompleted);
-            this.pBox_r_swep_lineart.MouseEnter += new System.EventHandler(this.pBox_MouseEnter);
-            this.pBox_r_swep_lineart.MouseLeave += new System.EventHandler(this.pBox_MouseLeave);
-            // 
-            // pBox_r_pwep_a3_lineart
-            // 
-            this.pBox_r_pwep_a3_lineart.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.pBox_r_pwep_a3_lineart.Location = new System.Drawing.Point(158, 136);
-            this.pBox_r_pwep_a3_lineart.Margin = new System.Windows.Forms.Padding(0);
-            this.pBox_r_pwep_a3_lineart.Name = "pBox_r_pwep_a3_lineart";
-            this.pBox_r_pwep_a3_lineart.Size = new System.Drawing.Size(79, 31);
-            this.pBox_r_pwep_a3_lineart.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
-            this.pBox_r_pwep_a3_lineart.TabIndex = 4;
-            this.pBox_r_pwep_a3_lineart.TabStop = false;
-            this.pBox_r_pwep_a3_lineart.MouseEnter += new System.EventHandler(this.pBox_MouseEnter);
-            this.pBox_r_pwep_a3_lineart.MouseLeave += new System.EventHandler(this.pBox_MouseLeave);
-            // 
-            // pBox_r_pwep_a2_lineart
-            // 
-            this.pBox_r_pwep_a2_lineart.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.pBox_r_pwep_a2_lineart.Location = new System.Drawing.Point(79, 136);
-            this.pBox_r_pwep_a2_lineart.Margin = new System.Windows.Forms.Padding(0);
-            this.pBox_r_pwep_a2_lineart.Name = "pBox_r_pwep_a2_lineart";
-            this.pBox_r_pwep_a2_lineart.Size = new System.Drawing.Size(79, 31);
-            this.pBox_r_pwep_a2_lineart.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
-            this.pBox_r_pwep_a2_lineart.TabIndex = 3;
-            this.pBox_r_pwep_a2_lineart.TabStop = false;
-            this.pBox_r_pwep_a2_lineart.MouseEnter += new System.EventHandler(this.pBox_MouseEnter);
-            this.pBox_r_pwep_a2_lineart.MouseLeave += new System.EventHandler(this.pBox_MouseLeave);
-            // 
-            // pBox_r_pwep_a1_lineart
-            // 
-            this.pBox_r_pwep_a1_lineart.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.pBox_r_pwep_a1_lineart.Location = new System.Drawing.Point(0, 136);
-            this.pBox_r_pwep_a1_lineart.Margin = new System.Windows.Forms.Padding(0);
-            this.pBox_r_pwep_a1_lineart.Name = "pBox_r_pwep_a1_lineart";
-            this.pBox_r_pwep_a1_lineart.Size = new System.Drawing.Size(79, 31);
-            this.pBox_r_pwep_a1_lineart.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
-            this.pBox_r_pwep_a1_lineart.TabIndex = 2;
-            this.pBox_r_pwep_a1_lineart.TabStop = false;
-            this.pBox_r_pwep_a1_lineart.MouseEnter += new System.EventHandler(this.pBox_MouseEnter);
-            this.pBox_r_pwep_a1_lineart.MouseLeave += new System.EventHandler(this.pBox_MouseLeave);
-            // 
-            // pBox_r_pwep_lineart
-            // 
-            this.pBox_r_pwep_lineart.BackColor = System.Drawing.Color.Transparent;
-            this.pBox_r_pwep_lineart.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.pBox_r_pwep_lineart.ImageLocation = "";
-            this.pBox_r_pwep_lineart.Location = new System.Drawing.Point(0, 49);
-            this.pBox_r_pwep_lineart.Margin = new System.Windows.Forms.Padding(0);
-            this.pBox_r_pwep_lineart.Name = "pBox_r_pwep_lineart";
-            this.pBox_r_pwep_lineart.Size = new System.Drawing.Size(236, 87);
-            this.pBox_r_pwep_lineart.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
-            this.pBox_r_pwep_lineart.TabIndex = 1;
-            this.pBox_r_pwep_lineart.TabStop = false;
-            this.pBox_r_pwep_lineart.MouseEnter += new System.EventHandler(this.pBox_MouseEnter);
-            this.pBox_r_pwep_lineart.MouseLeave += new System.EventHandler(this.pBox_MouseLeave);
-            // 
-            // lbl_r_pwep_name
-            // 
-            this.lbl_r_pwep_name.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.lbl_r_pwep_name.Location = new System.Drawing.Point(0, 18);
-            this.lbl_r_pwep_name.Margin = new System.Windows.Forms.Padding(0);
-            this.lbl_r_pwep_name.Name = "lbl_r_pwep_name";
-            this.lbl_r_pwep_name.Size = new System.Drawing.Size(205, 31);
-            this.lbl_r_pwep_name.TabIndex = 0;
-            this.lbl_r_pwep_name.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            this.lbl_r_pwep_name.MouseEnter += new System.EventHandler(this.label_MouseEnter);
-            this.lbl_r_pwep_name.MouseLeave += new System.EventHandler(this.label_MouseLeave);
-            // 
-            // pBox_kit_support
-            // 
-            this.pBox_kit_support.Image = global::BF4_LoadoutChecker.Properties.Resources.kit_support_xsmall;
-            this.pBox_kit_support.Location = new System.Drawing.Point(0, -1);
-            this.pBox_kit_support.Name = "pBox_kit_support";
-            this.pBox_kit_support.Size = new System.Drawing.Size(20, 19);
-            this.pBox_kit_support.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
-            this.pBox_kit_support.TabIndex = 20;
-            this.pBox_kit_support.TabStop = false;
-            // 
-            // lbl_s_activity
-            // 
-            this.lbl_s_activity.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.lbl_s_activity.Location = new System.Drawing.Point(1, 353);
-            this.lbl_s_activity.Margin = new System.Windows.Forms.Padding(0);
-            this.lbl_s_activity.Name = "lbl_s_activity";
-            this.lbl_s_activity.Size = new System.Drawing.Size(236, 31);
-            this.lbl_s_activity.TabIndex = 17;
-            this.lbl_s_activity.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            this.lbl_s_activity.MouseEnter += new System.EventHandler(this.label_MouseEnter);
-            this.lbl_s_activity.MouseLeave += new System.EventHandler(this.label_MouseLeave);
-            // 
-            // lbl_s_specialization_name
-            // 
-            this.lbl_s_specialization_name.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.lbl_s_specialization_name.Location = new System.Drawing.Point(69, 322);
-            this.lbl_s_specialization_name.Margin = new System.Windows.Forms.Padding(0);
-            this.lbl_s_specialization_name.Name = "lbl_s_specialization_name";
-            this.lbl_s_specialization_name.Size = new System.Drawing.Size(167, 31);
-            this.lbl_s_specialization_name.TabIndex = 16;
-            this.lbl_s_specialization_name.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.lbl_s_specialization_name.MouseEnter += new System.EventHandler(this.label_MouseEnter);
-            this.lbl_s_specialization_name.MouseLeave += new System.EventHandler(this.label_MouseLeave);
-            // 
-            // pBox_s_specialization_lineart
-            // 
-            this.pBox_s_specialization_lineart.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.pBox_s_specialization_lineart.Location = new System.Drawing.Point(1, 322);
-            this.pBox_s_specialization_lineart.Margin = new System.Windows.Forms.Padding(0);
-            this.pBox_s_specialization_lineart.Name = "pBox_s_specialization_lineart";
-            this.pBox_s_specialization_lineart.Size = new System.Drawing.Size(69, 31);
-            this.pBox_s_specialization_lineart.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
-            this.pBox_s_specialization_lineart.TabIndex = 15;
-            this.pBox_s_specialization_lineart.TabStop = false;
-            this.pBox_s_specialization_lineart.LoadCompleted += new System.ComponentModel.AsyncCompletedEventHandler(this.pBox_image_resizeOn_LoadCompleted);
-            this.pBox_s_specialization_lineart.MouseEnter += new System.EventHandler(this.pBox_MouseEnter);
-            this.pBox_s_specialization_lineart.MouseLeave += new System.EventHandler(this.pBox_MouseLeave);
-            // 
-            // lbl_s_knife_name
-            // 
-            this.lbl_s_knife_name.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.lbl_s_knife_name.Location = new System.Drawing.Point(69, 291);
-            this.lbl_s_knife_name.Margin = new System.Windows.Forms.Padding(0);
-            this.lbl_s_knife_name.Name = "lbl_s_knife_name";
-            this.lbl_s_knife_name.Size = new System.Drawing.Size(167, 31);
-            this.lbl_s_knife_name.TabIndex = 14;
-            this.lbl_s_knife_name.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.lbl_s_knife_name.MouseEnter += new System.EventHandler(this.label_MouseEnter);
-            this.lbl_s_knife_name.MouseLeave += new System.EventHandler(this.label_MouseLeave);
-            // 
-            // pBox_s_knife_lineart
-            // 
-            this.pBox_s_knife_lineart.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.pBox_s_knife_lineart.Location = new System.Drawing.Point(1, 291);
-            this.pBox_s_knife_lineart.Margin = new System.Windows.Forms.Padding(0);
-            this.pBox_s_knife_lineart.Name = "pBox_s_knife_lineart";
-            this.pBox_s_knife_lineart.Size = new System.Drawing.Size(69, 31);
-            this.pBox_s_knife_lineart.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
-            this.pBox_s_knife_lineart.TabIndex = 13;
-            this.pBox_s_knife_lineart.TabStop = false;
-            this.pBox_s_knife_lineart.LoadCompleted += new System.ComponentModel.AsyncCompletedEventHandler(this.pBox_image_resizeOn_LoadCompleted);
-            this.pBox_s_knife_lineart.MouseEnter += new System.EventHandler(this.pBox_MouseEnter);
-            this.pBox_s_knife_lineart.MouseLeave += new System.EventHandler(this.pBox_MouseLeave);
-            // 
-            // lbl_s_grenade_name
-            // 
-            this.lbl_s_grenade_name.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.lbl_s_grenade_name.Location = new System.Drawing.Point(69, 260);
-            this.lbl_s_grenade_name.Margin = new System.Windows.Forms.Padding(0);
-            this.lbl_s_grenade_name.Name = "lbl_s_grenade_name";
-            this.lbl_s_grenade_name.Size = new System.Drawing.Size(167, 31);
-            this.lbl_s_grenade_name.TabIndex = 12;
-            this.lbl_s_grenade_name.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.lbl_s_grenade_name.MouseEnter += new System.EventHandler(this.label_MouseEnter);
-            this.lbl_s_grenade_name.MouseLeave += new System.EventHandler(this.label_MouseLeave);
-            // 
-            // pBox_s_grenade_lineart
-            // 
-            this.pBox_s_grenade_lineart.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.pBox_s_grenade_lineart.Location = new System.Drawing.Point(1, 260);
-            this.pBox_s_grenade_lineart.Margin = new System.Windows.Forms.Padding(0);
-            this.pBox_s_grenade_lineart.Name = "pBox_s_grenade_lineart";
-            this.pBox_s_grenade_lineart.Size = new System.Drawing.Size(69, 31);
-            this.pBox_s_grenade_lineart.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
-            this.pBox_s_grenade_lineart.TabIndex = 11;
-            this.pBox_s_grenade_lineart.TabStop = false;
-            this.pBox_s_grenade_lineart.LoadCompleted += new System.ComponentModel.AsyncCompletedEventHandler(this.pBox_image_resizeOn_LoadCompleted);
-            this.pBox_s_grenade_lineart.MouseEnter += new System.EventHandler(this.pBox_MouseEnter);
-            this.pBox_s_grenade_lineart.MouseLeave += new System.EventHandler(this.pBox_MouseLeave);
-            // 
-            // lbl_s_gadget2_name
-            // 
-            this.lbl_s_gadget2_name.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.lbl_s_gadget2_name.Location = new System.Drawing.Point(69, 229);
-            this.lbl_s_gadget2_name.Margin = new System.Windows.Forms.Padding(0);
-            this.lbl_s_gadget2_name.Name = "lbl_s_gadget2_name";
-            this.lbl_s_gadget2_name.Size = new System.Drawing.Size(167, 31);
-            this.lbl_s_gadget2_name.TabIndex = 10;
-            this.lbl_s_gadget2_name.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.lbl_s_gadget2_name.MouseEnter += new System.EventHandler(this.label_MouseEnter);
-            this.lbl_s_gadget2_name.MouseLeave += new System.EventHandler(this.label_MouseLeave);
-            // 
-            // pBox_s_gadget2_lineart
-            // 
-            this.pBox_s_gadget2_lineart.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.pBox_s_gadget2_lineart.Location = new System.Drawing.Point(1, 229);
-            this.pBox_s_gadget2_lineart.Margin = new System.Windows.Forms.Padding(0);
-            this.pBox_s_gadget2_lineart.Name = "pBox_s_gadget2_lineart";
-            this.pBox_s_gadget2_lineart.Size = new System.Drawing.Size(69, 31);
-            this.pBox_s_gadget2_lineart.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
-            this.pBox_s_gadget2_lineart.TabIndex = 9;
-            this.pBox_s_gadget2_lineart.TabStop = false;
-            this.pBox_s_gadget2_lineart.LoadCompleted += new System.ComponentModel.AsyncCompletedEventHandler(this.pBox_image_resizeOn_LoadCompleted);
-            this.pBox_s_gadget2_lineart.MouseEnter += new System.EventHandler(this.pBox_MouseEnter);
-            this.pBox_s_gadget2_lineart.MouseLeave += new System.EventHandler(this.pBox_MouseLeave);
-            // 
-            // lbl_s_gadget1_name
-            // 
-            this.lbl_s_gadget1_name.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.lbl_s_gadget1_name.Location = new System.Drawing.Point(69, 198);
-            this.lbl_s_gadget1_name.Margin = new System.Windows.Forms.Padding(0);
-            this.lbl_s_gadget1_name.Name = "lbl_s_gadget1_name";
-            this.lbl_s_gadget1_name.Size = new System.Drawing.Size(167, 31);
-            this.lbl_s_gadget1_name.TabIndex = 8;
-            this.lbl_s_gadget1_name.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.lbl_s_gadget1_name.MouseEnter += new System.EventHandler(this.label_MouseEnter);
-            this.lbl_s_gadget1_name.MouseLeave += new System.EventHandler(this.label_MouseLeave);
-            // 
-            // pBox_s_gadget1_lineart
-            // 
-            this.pBox_s_gadget1_lineart.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.pBox_s_gadget1_lineart.Location = new System.Drawing.Point(1, 198);
-            this.pBox_s_gadget1_lineart.Margin = new System.Windows.Forms.Padding(0);
-            this.pBox_s_gadget1_lineart.Name = "pBox_s_gadget1_lineart";
-            this.pBox_s_gadget1_lineart.Size = new System.Drawing.Size(69, 31);
-            this.pBox_s_gadget1_lineart.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
-            this.pBox_s_gadget1_lineart.TabIndex = 7;
-            this.pBox_s_gadget1_lineart.TabStop = false;
-            this.pBox_s_gadget1_lineart.LoadCompleted += new System.ComponentModel.AsyncCompletedEventHandler(this.pBox_image_resizeOn_LoadCompleted);
-            this.pBox_s_gadget1_lineart.MouseEnter += new System.EventHandler(this.pBox_MouseEnter);
-            this.pBox_s_gadget1_lineart.MouseLeave += new System.EventHandler(this.pBox_MouseLeave);
-            // 
-            // lbl_s_swep_name
-            // 
-            this.lbl_s_swep_name.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.lbl_s_swep_name.Location = new System.Drawing.Point(70, 167);
-            this.lbl_s_swep_name.Margin = new System.Windows.Forms.Padding(0);
-            this.lbl_s_swep_name.Name = "lbl_s_swep_name";
-            this.lbl_s_swep_name.Size = new System.Drawing.Size(136, 31);
-            this.lbl_s_swep_name.TabIndex = 6;
-            this.lbl_s_swep_name.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.lbl_s_swep_name.MouseEnter += new System.EventHandler(this.label_MouseEnter);
-            this.lbl_s_swep_name.MouseLeave += new System.EventHandler(this.label_MouseLeave);
-            // 
-            // pBox_s_swep_lineart
-            // 
-            this.pBox_s_swep_lineart.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.pBox_s_swep_lineart.ImageLocation = "";
-            this.pBox_s_swep_lineart.Location = new System.Drawing.Point(1, 167);
-            this.pBox_s_swep_lineart.Margin = new System.Windows.Forms.Padding(0);
-            this.pBox_s_swep_lineart.Name = "pBox_s_swep_lineart";
-            this.pBox_s_swep_lineart.Size = new System.Drawing.Size(69, 31);
-            this.pBox_s_swep_lineart.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
-            this.pBox_s_swep_lineart.TabIndex = 5;
-            this.pBox_s_swep_lineart.TabStop = false;
-            this.pBox_s_swep_lineart.LoadCompleted += new System.ComponentModel.AsyncCompletedEventHandler(this.pBox_image_resizeOn_LoadCompleted);
-            this.pBox_s_swep_lineart.MouseEnter += new System.EventHandler(this.pBox_MouseEnter);
-            this.pBox_s_swep_lineart.MouseLeave += new System.EventHandler(this.pBox_MouseLeave);
-            // 
-            // pBox_s_pwep_a3_lineart
-            // 
-            this.pBox_s_pwep_a3_lineart.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.pBox_s_pwep_a3_lineart.Location = new System.Drawing.Point(159, 136);
-            this.pBox_s_pwep_a3_lineart.Margin = new System.Windows.Forms.Padding(0);
-            this.pBox_s_pwep_a3_lineart.Name = "pBox_s_pwep_a3_lineart";
-            this.pBox_s_pwep_a3_lineart.Size = new System.Drawing.Size(79, 31);
-            this.pBox_s_pwep_a3_lineart.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
-            this.pBox_s_pwep_a3_lineart.TabIndex = 4;
-            this.pBox_s_pwep_a3_lineart.TabStop = false;
-            this.pBox_s_pwep_a3_lineart.MouseEnter += new System.EventHandler(this.pBox_MouseEnter);
-            this.pBox_s_pwep_a3_lineart.MouseLeave += new System.EventHandler(this.pBox_MouseLeave);
-            // 
-            // pBox_s_pwep_a2_lineart
-            // 
-            this.pBox_s_pwep_a2_lineart.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.pBox_s_pwep_a2_lineart.Location = new System.Drawing.Point(80, 136);
-            this.pBox_s_pwep_a2_lineart.Margin = new System.Windows.Forms.Padding(0);
-            this.pBox_s_pwep_a2_lineart.Name = "pBox_s_pwep_a2_lineart";
-            this.pBox_s_pwep_a2_lineart.Size = new System.Drawing.Size(79, 31);
-            this.pBox_s_pwep_a2_lineart.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
-            this.pBox_s_pwep_a2_lineart.TabIndex = 3;
-            this.pBox_s_pwep_a2_lineart.TabStop = false;
-            this.pBox_s_pwep_a2_lineart.MouseEnter += new System.EventHandler(this.pBox_MouseEnter);
-            this.pBox_s_pwep_a2_lineart.MouseLeave += new System.EventHandler(this.pBox_MouseLeave);
-            // 
-            // pBox_s_pwep_a1_lineart
-            // 
-            this.pBox_s_pwep_a1_lineart.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.pBox_s_pwep_a1_lineart.Location = new System.Drawing.Point(1, 136);
-            this.pBox_s_pwep_a1_lineart.Margin = new System.Windows.Forms.Padding(0);
-            this.pBox_s_pwep_a1_lineart.Name = "pBox_s_pwep_a1_lineart";
-            this.pBox_s_pwep_a1_lineart.Size = new System.Drawing.Size(79, 31);
-            this.pBox_s_pwep_a1_lineart.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
-            this.pBox_s_pwep_a1_lineart.TabIndex = 2;
-            this.pBox_s_pwep_a1_lineart.TabStop = false;
-            this.pBox_s_pwep_a1_lineart.MouseEnter += new System.EventHandler(this.pBox_MouseEnter);
-            this.pBox_s_pwep_a1_lineart.MouseLeave += new System.EventHandler(this.pBox_MouseLeave);
-            // 
-            // pBox_s_pwep_lineart
-            // 
-            this.pBox_s_pwep_lineart.BackColor = System.Drawing.Color.Transparent;
-            this.pBox_s_pwep_lineart.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.pBox_s_pwep_lineart.ImageLocation = "";
-            this.pBox_s_pwep_lineart.Location = new System.Drawing.Point(0, 49);
-            this.pBox_s_pwep_lineart.Margin = new System.Windows.Forms.Padding(0);
-            this.pBox_s_pwep_lineart.Name = "pBox_s_pwep_lineart";
-            this.pBox_s_pwep_lineart.Size = new System.Drawing.Size(236, 87);
-            this.pBox_s_pwep_lineart.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
-            this.pBox_s_pwep_lineart.TabIndex = 1;
-            this.pBox_s_pwep_lineart.TabStop = false;
-            this.pBox_s_pwep_lineart.MouseEnter += new System.EventHandler(this.pBox_MouseEnter);
-            this.pBox_s_pwep_lineart.MouseLeave += new System.EventHandler(this.pBox_MouseLeave);
-            // 
-            // lbl_s_pwep_name
-            // 
-            this.lbl_s_pwep_name.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.lbl_s_pwep_name.Location = new System.Drawing.Point(0, 18);
-            this.lbl_s_pwep_name.Margin = new System.Windows.Forms.Padding(0);
-            this.lbl_s_pwep_name.Name = "lbl_s_pwep_name";
-            this.lbl_s_pwep_name.Size = new System.Drawing.Size(205, 31);
-            this.lbl_s_pwep_name.TabIndex = 0;
-            this.lbl_s_pwep_name.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            this.lbl_s_pwep_name.MouseEnter += new System.EventHandler(this.label_MouseEnter);
-            this.lbl_s_pwep_name.MouseLeave += new System.EventHandler(this.label_MouseLeave);
-            // 
-            // pBox_a_pwep_customization
-            // 
-            this.pBox_a_pwep_customization.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.pBox_a_pwep_customization.Image = global::BF4_LoadoutChecker.Properties.Resources.loadout_cog_white;
-            this.pBox_a_pwep_customization.Location = new System.Drawing.Point(204, 18);
-            this.pBox_a_pwep_customization.Margin = new System.Windows.Forms.Padding(0);
-            this.pBox_a_pwep_customization.Name = "pBox_a_pwep_customization";
-            this.pBox_a_pwep_customization.Size = new System.Drawing.Size(31, 31);
-            this.pBox_a_pwep_customization.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
-            this.pBox_a_pwep_customization.TabIndex = 19;
-            this.pBox_a_pwep_customization.TabStop = false;
-            // 
-            // pBox_kit_assault
-            // 
-            this.pBox_kit_assault.Image = global::BF4_LoadoutChecker.Properties.Resources.kit_assault_xsmall;
-            this.pBox_kit_assault.Location = new System.Drawing.Point(0, -1);
-            this.pBox_kit_assault.Name = "pBox_kit_assault";
-            this.pBox_kit_assault.Size = new System.Drawing.Size(20, 20);
-            this.pBox_kit_assault.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
-            this.pBox_kit_assault.TabIndex = 18;
-            this.pBox_kit_assault.TabStop = false;
-            // 
-            // lbl_a_activity
-            // 
-            this.lbl_a_activity.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.lbl_a_activity.Location = new System.Drawing.Point(-1, 353);
-            this.lbl_a_activity.Margin = new System.Windows.Forms.Padding(0);
-            this.lbl_a_activity.Name = "lbl_a_activity";
-            this.lbl_a_activity.Size = new System.Drawing.Size(236, 31);
-            this.lbl_a_activity.TabIndex = 17;
-            this.lbl_a_activity.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            this.lbl_a_activity.MouseEnter += new System.EventHandler(this.label_MouseEnter);
-            this.lbl_a_activity.MouseLeave += new System.EventHandler(this.label_MouseLeave);
-            // 
-            // lbl_a_specialization_name
-            // 
-            this.lbl_a_specialization_name.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.lbl_a_specialization_name.Location = new System.Drawing.Point(68, 322);
-            this.lbl_a_specialization_name.Margin = new System.Windows.Forms.Padding(0);
-            this.lbl_a_specialization_name.Name = "lbl_a_specialization_name";
-            this.lbl_a_specialization_name.Size = new System.Drawing.Size(167, 31);
-            this.lbl_a_specialization_name.TabIndex = 16;
-            this.lbl_a_specialization_name.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.lbl_a_specialization_name.MouseEnter += new System.EventHandler(this.label_MouseEnter);
-            this.lbl_a_specialization_name.MouseLeave += new System.EventHandler(this.label_MouseLeave);
-            // 
-            // pBox_a_specialization_lineart
-            // 
-            this.pBox_a_specialization_lineart.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.pBox_a_specialization_lineart.Location = new System.Drawing.Point(-1, 322);
-            this.pBox_a_specialization_lineart.Margin = new System.Windows.Forms.Padding(0);
-            this.pBox_a_specialization_lineart.Name = "pBox_a_specialization_lineart";
-            this.pBox_a_specialization_lineart.Size = new System.Drawing.Size(69, 31);
-            this.pBox_a_specialization_lineart.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
-            this.pBox_a_specialization_lineart.TabIndex = 15;
-            this.pBox_a_specialization_lineart.TabStop = false;
-            this.pBox_a_specialization_lineart.LoadCompleted += new System.ComponentModel.AsyncCompletedEventHandler(this.pBox_image_resizeOn_LoadCompleted);
-            this.pBox_a_specialization_lineart.MouseEnter += new System.EventHandler(this.pBox_MouseEnter);
-            this.pBox_a_specialization_lineart.MouseLeave += new System.EventHandler(this.pBox_MouseLeave);
-            // 
-            // lbl_a_knife_name
-            // 
-            this.lbl_a_knife_name.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.lbl_a_knife_name.Location = new System.Drawing.Point(68, 291);
-            this.lbl_a_knife_name.Margin = new System.Windows.Forms.Padding(0);
-            this.lbl_a_knife_name.Name = "lbl_a_knife_name";
-            this.lbl_a_knife_name.Size = new System.Drawing.Size(167, 31);
-            this.lbl_a_knife_name.TabIndex = 14;
-            this.lbl_a_knife_name.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.lbl_a_knife_name.MouseEnter += new System.EventHandler(this.label_MouseEnter);
-            this.lbl_a_knife_name.MouseLeave += new System.EventHandler(this.label_MouseLeave);
-            // 
-            // pBox_a_knife_lineart
-            // 
-            this.pBox_a_knife_lineart.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.pBox_a_knife_lineart.Location = new System.Drawing.Point(-1, 291);
-            this.pBox_a_knife_lineart.Margin = new System.Windows.Forms.Padding(0);
-            this.pBox_a_knife_lineart.Name = "pBox_a_knife_lineart";
-            this.pBox_a_knife_lineart.Size = new System.Drawing.Size(69, 31);
-            this.pBox_a_knife_lineart.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
-            this.pBox_a_knife_lineart.TabIndex = 13;
-            this.pBox_a_knife_lineart.TabStop = false;
-            this.pBox_a_knife_lineart.LoadCompleted += new System.ComponentModel.AsyncCompletedEventHandler(this.pBox_image_resizeOn_LoadCompleted);
-            this.pBox_a_knife_lineart.MouseEnter += new System.EventHandler(this.pBox_MouseEnter);
-            this.pBox_a_knife_lineart.MouseLeave += new System.EventHandler(this.pBox_MouseLeave);
-            // 
-            // lbl_a_grenade_name
-            // 
-            this.lbl_a_grenade_name.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.lbl_a_grenade_name.Location = new System.Drawing.Point(68, 260);
-            this.lbl_a_grenade_name.Margin = new System.Windows.Forms.Padding(0);
-            this.lbl_a_grenade_name.Name = "lbl_a_grenade_name";
-            this.lbl_a_grenade_name.Size = new System.Drawing.Size(167, 31);
-            this.lbl_a_grenade_name.TabIndex = 12;
-            this.lbl_a_grenade_name.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.lbl_a_grenade_name.MouseEnter += new System.EventHandler(this.label_MouseEnter);
-            this.lbl_a_grenade_name.MouseLeave += new System.EventHandler(this.label_MouseLeave);
-            // 
-            // pBox_a_grenade_lineart
-            // 
-            this.pBox_a_grenade_lineart.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.pBox_a_grenade_lineart.Location = new System.Drawing.Point(-1, 260);
-            this.pBox_a_grenade_lineart.Margin = new System.Windows.Forms.Padding(0);
-            this.pBox_a_grenade_lineart.Name = "pBox_a_grenade_lineart";
-            this.pBox_a_grenade_lineart.Size = new System.Drawing.Size(69, 31);
-            this.pBox_a_grenade_lineart.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
-            this.pBox_a_grenade_lineart.TabIndex = 11;
-            this.pBox_a_grenade_lineart.TabStop = false;
-            this.pBox_a_grenade_lineart.LoadCompleted += new System.ComponentModel.AsyncCompletedEventHandler(this.pBox_image_resizeOn_LoadCompleted);
-            this.pBox_a_grenade_lineart.MouseEnter += new System.EventHandler(this.pBox_MouseEnter);
-            this.pBox_a_grenade_lineart.MouseLeave += new System.EventHandler(this.pBox_MouseLeave);
-            // 
-            // lbl_a_gadget2_name
-            // 
-            this.lbl_a_gadget2_name.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.lbl_a_gadget2_name.Location = new System.Drawing.Point(68, 229);
-            this.lbl_a_gadget2_name.Margin = new System.Windows.Forms.Padding(0);
-            this.lbl_a_gadget2_name.Name = "lbl_a_gadget2_name";
-            this.lbl_a_gadget2_name.Size = new System.Drawing.Size(167, 31);
-            this.lbl_a_gadget2_name.TabIndex = 10;
-            this.lbl_a_gadget2_name.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.lbl_a_gadget2_name.MouseEnter += new System.EventHandler(this.label_MouseEnter);
-            this.lbl_a_gadget2_name.MouseLeave += new System.EventHandler(this.label_MouseLeave);
-            // 
-            // pBox_a_gadget2_lineart
-            // 
-            this.pBox_a_gadget2_lineart.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.pBox_a_gadget2_lineart.Location = new System.Drawing.Point(-1, 229);
-            this.pBox_a_gadget2_lineart.Margin = new System.Windows.Forms.Padding(0);
-            this.pBox_a_gadget2_lineart.Name = "pBox_a_gadget2_lineart";
-            this.pBox_a_gadget2_lineart.Size = new System.Drawing.Size(69, 31);
-            this.pBox_a_gadget2_lineart.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
-            this.pBox_a_gadget2_lineart.TabIndex = 9;
-            this.pBox_a_gadget2_lineart.TabStop = false;
-            this.pBox_a_gadget2_lineart.LoadCompleted += new System.ComponentModel.AsyncCompletedEventHandler(this.pBox_image_resizeOn_LoadCompleted);
-            this.pBox_a_gadget2_lineart.MouseEnter += new System.EventHandler(this.pBox_MouseEnter);
-            this.pBox_a_gadget2_lineart.MouseLeave += new System.EventHandler(this.pBox_MouseLeave);
-            // 
-            // lbl_a_gadget1_name
-            // 
-            this.lbl_a_gadget1_name.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.lbl_a_gadget1_name.Location = new System.Drawing.Point(68, 198);
-            this.lbl_a_gadget1_name.Margin = new System.Windows.Forms.Padding(0);
-            this.lbl_a_gadget1_name.Name = "lbl_a_gadget1_name";
-            this.lbl_a_gadget1_name.Size = new System.Drawing.Size(167, 31);
-            this.lbl_a_gadget1_name.TabIndex = 8;
-            this.lbl_a_gadget1_name.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.lbl_a_gadget1_name.MouseEnter += new System.EventHandler(this.label_MouseEnter);
-            this.lbl_a_gadget1_name.MouseLeave += new System.EventHandler(this.label_MouseLeave);
-            // 
-            // pBox_a_gadget1_lineart
-            // 
-            this.pBox_a_gadget1_lineart.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.pBox_a_gadget1_lineart.Location = new System.Drawing.Point(-1, 198);
-            this.pBox_a_gadget1_lineart.Margin = new System.Windows.Forms.Padding(0);
-            this.pBox_a_gadget1_lineart.Name = "pBox_a_gadget1_lineart";
-            this.pBox_a_gadget1_lineart.Size = new System.Drawing.Size(69, 31);
-            this.pBox_a_gadget1_lineart.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
-            this.pBox_a_gadget1_lineart.TabIndex = 7;
-            this.pBox_a_gadget1_lineart.TabStop = false;
-            this.pBox_a_gadget1_lineart.LoadCompleted += new System.ComponentModel.AsyncCompletedEventHandler(this.pBox_image_resizeOn_LoadCompleted);
-            this.pBox_a_gadget1_lineart.MouseEnter += new System.EventHandler(this.pBox_MouseEnter);
-            this.pBox_a_gadget1_lineart.MouseLeave += new System.EventHandler(this.pBox_MouseLeave);
-            // 
-            // lbl_a_swep_name
-            // 
-            this.lbl_a_swep_name.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.lbl_a_swep_name.Location = new System.Drawing.Point(68, 167);
-            this.lbl_a_swep_name.Margin = new System.Windows.Forms.Padding(0);
-            this.lbl_a_swep_name.Name = "lbl_a_swep_name";
-            this.lbl_a_swep_name.Size = new System.Drawing.Size(136, 31);
-            this.lbl_a_swep_name.TabIndex = 6;
-            this.lbl_a_swep_name.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.lbl_a_swep_name.MouseEnter += new System.EventHandler(this.label_MouseEnter);
-            this.lbl_a_swep_name.MouseLeave += new System.EventHandler(this.label_MouseLeave);
-            // 
-            // pBox_a_swep_lineart
-            // 
-            this.pBox_a_swep_lineart.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.pBox_a_swep_lineart.ImageLocation = "";
-            this.pBox_a_swep_lineart.Location = new System.Drawing.Point(-1, 167);
-            this.pBox_a_swep_lineart.Margin = new System.Windows.Forms.Padding(0);
-            this.pBox_a_swep_lineart.Name = "pBox_a_swep_lineart";
-            this.pBox_a_swep_lineart.Size = new System.Drawing.Size(69, 31);
-            this.pBox_a_swep_lineart.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
-            this.pBox_a_swep_lineart.TabIndex = 5;
-            this.pBox_a_swep_lineart.TabStop = false;
-            this.pBox_a_swep_lineart.LoadCompleted += new System.ComponentModel.AsyncCompletedEventHandler(this.pBox_image_resizeOn_LoadCompleted);
-            this.pBox_a_swep_lineart.MouseEnter += new System.EventHandler(this.pBox_MouseEnter);
-            this.pBox_a_swep_lineart.MouseLeave += new System.EventHandler(this.pBox_MouseLeave);
-            // 
-            // pBox_a_pwep_a3_lineart
-            // 
-            this.pBox_a_pwep_a3_lineart.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.pBox_a_pwep_a3_lineart.Location = new System.Drawing.Point(157, 136);
-            this.pBox_a_pwep_a3_lineart.Margin = new System.Windows.Forms.Padding(0);
-            this.pBox_a_pwep_a3_lineart.Name = "pBox_a_pwep_a3_lineart";
-            this.pBox_a_pwep_a3_lineart.Size = new System.Drawing.Size(79, 31);
-            this.pBox_a_pwep_a3_lineart.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
-            this.pBox_a_pwep_a3_lineart.TabIndex = 4;
-            this.pBox_a_pwep_a3_lineart.TabStop = false;
-            this.pBox_a_pwep_a3_lineart.MouseEnter += new System.EventHandler(this.pBox_MouseEnter);
-            this.pBox_a_pwep_a3_lineart.MouseLeave += new System.EventHandler(this.pBox_MouseLeave);
-            // 
-            // pBox_a_pwep_a2_lineart
-            // 
-            this.pBox_a_pwep_a2_lineart.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.pBox_a_pwep_a2_lineart.Location = new System.Drawing.Point(78, 136);
-            this.pBox_a_pwep_a2_lineart.Margin = new System.Windows.Forms.Padding(0);
-            this.pBox_a_pwep_a2_lineart.Name = "pBox_a_pwep_a2_lineart";
-            this.pBox_a_pwep_a2_lineart.Size = new System.Drawing.Size(79, 31);
-            this.pBox_a_pwep_a2_lineart.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
-            this.pBox_a_pwep_a2_lineart.TabIndex = 3;
-            this.pBox_a_pwep_a2_lineart.TabStop = false;
-            this.pBox_a_pwep_a2_lineart.MouseEnter += new System.EventHandler(this.pBox_MouseEnter);
-            this.pBox_a_pwep_a2_lineart.MouseLeave += new System.EventHandler(this.pBox_MouseLeave);
-            // 
-            // pBox_a_pwep_a1_lineart
-            // 
-            this.pBox_a_pwep_a1_lineart.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.pBox_a_pwep_a1_lineart.Location = new System.Drawing.Point(-1, 136);
-            this.pBox_a_pwep_a1_lineart.Margin = new System.Windows.Forms.Padding(0);
-            this.pBox_a_pwep_a1_lineart.Name = "pBox_a_pwep_a1_lineart";
-            this.pBox_a_pwep_a1_lineart.Size = new System.Drawing.Size(79, 31);
-            this.pBox_a_pwep_a1_lineart.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
-            this.pBox_a_pwep_a1_lineart.TabIndex = 2;
-            this.pBox_a_pwep_a1_lineart.TabStop = false;
-            this.pBox_a_pwep_a1_lineart.MouseEnter += new System.EventHandler(this.pBox_MouseEnter);
-            this.pBox_a_pwep_a1_lineart.MouseLeave += new System.EventHandler(this.pBox_MouseLeave);
-            // 
-            // pBox_a_pwep_lineart
-            // 
-            this.pBox_a_pwep_lineart.BackColor = System.Drawing.Color.Transparent;
-            this.pBox_a_pwep_lineart.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.pBox_a_pwep_lineart.ImageLocation = "";
-            this.pBox_a_pwep_lineart.Location = new System.Drawing.Point(-1, 49);
-            this.pBox_a_pwep_lineart.Margin = new System.Windows.Forms.Padding(0);
-            this.pBox_a_pwep_lineart.Name = "pBox_a_pwep_lineart";
-            this.pBox_a_pwep_lineart.Size = new System.Drawing.Size(236, 87);
-            this.pBox_a_pwep_lineart.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
-            this.pBox_a_pwep_lineart.TabIndex = 1;
-            this.pBox_a_pwep_lineart.TabStop = false;
-            this.pBox_a_pwep_lineart.MouseEnter += new System.EventHandler(this.pBox_MouseEnter);
-            this.pBox_a_pwep_lineart.MouseLeave += new System.EventHandler(this.pBox_MouseLeave);
-            // 
-            // lbl_a_pwep_name
-            // 
-            this.lbl_a_pwep_name.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.lbl_a_pwep_name.Location = new System.Drawing.Point(-1, 18);
-            this.lbl_a_pwep_name.Margin = new System.Windows.Forms.Padding(0);
-            this.lbl_a_pwep_name.Name = "lbl_a_pwep_name";
-            this.lbl_a_pwep_name.Size = new System.Drawing.Size(205, 31);
-            this.lbl_a_pwep_name.TabIndex = 0;
-            this.lbl_a_pwep_name.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            this.lbl_a_pwep_name.MouseEnter += new System.EventHandler(this.label_MouseEnter);
-            this.lbl_a_pwep_name.MouseLeave += new System.EventHandler(this.label_MouseLeave);
-            // 
-            // pBox_a_swep_customization
-            // 
-            this.pBox_a_swep_customization.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.pBox_a_swep_customization.Image = global::BF4_LoadoutChecker.Properties.Resources.loadout_cog_white;
-            this.pBox_a_swep_customization.Location = new System.Drawing.Point(204, 167);
-            this.pBox_a_swep_customization.Margin = new System.Windows.Forms.Padding(0);
-            this.pBox_a_swep_customization.Name = "pBox_a_swep_customization";
-            this.pBox_a_swep_customization.Size = new System.Drawing.Size(31, 31);
-            this.pBox_a_swep_customization.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
-            this.pBox_a_swep_customization.TabIndex = 20;
-            this.pBox_a_swep_customization.TabStop = false;
-            // 
-            // pBox_s_pwep_customization
-            // 
-            this.pBox_s_pwep_customization.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.pBox_s_pwep_customization.Image = global::BF4_LoadoutChecker.Properties.Resources.loadout_cog_white;
-            this.pBox_s_pwep_customization.Location = new System.Drawing.Point(205, 18);
-            this.pBox_s_pwep_customization.Margin = new System.Windows.Forms.Padding(0);
-            this.pBox_s_pwep_customization.Name = "pBox_s_pwep_customization";
-            this.pBox_s_pwep_customization.Size = new System.Drawing.Size(31, 31);
-            this.pBox_s_pwep_customization.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
-            this.pBox_s_pwep_customization.TabIndex = 21;
-            this.pBox_s_pwep_customization.TabStop = false;
-            // 
-            // pBox_r_pwep_customization
-            // 
-            this.pBox_r_pwep_customization.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.pBox_r_pwep_customization.Image = global::BF4_LoadoutChecker.Properties.Resources.loadout_cog_white;
-            this.pBox_r_pwep_customization.Location = new System.Drawing.Point(205, 18);
-            this.pBox_r_pwep_customization.Margin = new System.Windows.Forms.Padding(0);
-            this.pBox_r_pwep_customization.Name = "pBox_r_pwep_customization";
-            this.pBox_r_pwep_customization.Size = new System.Drawing.Size(31, 31);
-            this.pBox_r_pwep_customization.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
-            this.pBox_r_pwep_customization.TabIndex = 22;
-            this.pBox_r_pwep_customization.TabStop = false;
-            // 
-            // pBox_s_swep_customization
-            // 
-            this.pBox_s_swep_customization.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.pBox_s_swep_customization.Image = global::BF4_LoadoutChecker.Properties.Resources.loadout_cog_white;
-            this.pBox_s_swep_customization.Location = new System.Drawing.Point(206, 167);
-            this.pBox_s_swep_customization.Margin = new System.Windows.Forms.Padding(0);
-            this.pBox_s_swep_customization.Name = "pBox_s_swep_customization";
-            this.pBox_s_swep_customization.Size = new System.Drawing.Size(31, 31);
-            this.pBox_s_swep_customization.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
-            this.pBox_s_swep_customization.TabIndex = 22;
-            this.pBox_s_swep_customization.TabStop = false;
-            // 
-            // pBox_r_swep_customization
-            // 
-            this.pBox_r_swep_customization.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.pBox_r_swep_customization.Image = global::BF4_LoadoutChecker.Properties.Resources.loadout_cog_white;
-            this.pBox_r_swep_customization.Location = new System.Drawing.Point(205, 167);
-            this.pBox_r_swep_customization.Margin = new System.Windows.Forms.Padding(0);
-            this.pBox_r_swep_customization.Name = "pBox_r_swep_customization";
-            this.pBox_r_swep_customization.Size = new System.Drawing.Size(31, 31);
-            this.pBox_r_swep_customization.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
-            this.pBox_r_swep_customization.TabIndex = 23;
-            this.pBox_r_swep_customization.TabStop = false;
-            // 
-            // WARSAW_ID_M_ASSAULT
-            // 
-            this.WARSAW_ID_M_ASSAULT.BackgroundImage = global::BF4_LoadoutChecker.Properties.Resources._30_opacity;
-            this.WARSAW_ID_M_ASSAULT.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.WARSAW_ID_M_ASSAULT.Controls.Add(this.lbl_0_ClassName);
-            this.WARSAW_ID_M_ASSAULT.Controls.Add(this.pBox_a_swep_customization);
-            this.WARSAW_ID_M_ASSAULT.Controls.Add(this.lbl_a_pwep_name);
-            this.WARSAW_ID_M_ASSAULT.Controls.Add(this.pBox_a_pwep_customization);
-            this.WARSAW_ID_M_ASSAULT.Controls.Add(this.pBox_a_pwep_lineart);
-            this.WARSAW_ID_M_ASSAULT.Controls.Add(this.pBox_a_pwep_a1_lineart);
-            this.WARSAW_ID_M_ASSAULT.Controls.Add(this.lbl_a_activity);
-            this.WARSAW_ID_M_ASSAULT.Controls.Add(this.pBox_a_pwep_a2_lineart);
-            this.WARSAW_ID_M_ASSAULT.Controls.Add(this.lbl_a_specialization_name);
-            this.WARSAW_ID_M_ASSAULT.Controls.Add(this.pBox_a_pwep_a3_lineart);
-            this.WARSAW_ID_M_ASSAULT.Controls.Add(this.pBox_a_specialization_lineart);
-            this.WARSAW_ID_M_ASSAULT.Controls.Add(this.pBox_a_swep_lineart);
-            this.WARSAW_ID_M_ASSAULT.Controls.Add(this.lbl_a_knife_name);
-            this.WARSAW_ID_M_ASSAULT.Controls.Add(this.lbl_a_swep_name);
-            this.WARSAW_ID_M_ASSAULT.Controls.Add(this.pBox_a_knife_lineart);
-            this.WARSAW_ID_M_ASSAULT.Controls.Add(this.pBox_a_gadget1_lineart);
-            this.WARSAW_ID_M_ASSAULT.Controls.Add(this.lbl_a_grenade_name);
-            this.WARSAW_ID_M_ASSAULT.Controls.Add(this.lbl_a_gadget1_name);
-            this.WARSAW_ID_M_ASSAULT.Controls.Add(this.pBox_a_grenade_lineart);
-            this.WARSAW_ID_M_ASSAULT.Controls.Add(this.pBox_a_gadget2_lineart);
-            this.WARSAW_ID_M_ASSAULT.Controls.Add(this.lbl_a_gadget2_name);
-            this.WARSAW_ID_M_ASSAULT.Controls.Add(this.pBox_kit_assault);
-            this.WARSAW_ID_M_ASSAULT.Font = new System.Drawing.Font("Arial Rounded MT Bold", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.WARSAW_ID_M_ASSAULT.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.WARSAW_ID_M_ASSAULT.Location = new System.Drawing.Point(6, 5);
-            this.WARSAW_ID_M_ASSAULT.Name = "WARSAW_ID_M_ASSAULT";
-            this.WARSAW_ID_M_ASSAULT.Size = new System.Drawing.Size(236, 386);
-            this.WARSAW_ID_M_ASSAULT.TabIndex = 23;
-            // 
-            // WARSAW_ID_M_SUPPORT
-            // 
-            this.WARSAW_ID_M_SUPPORT.BackgroundImage = global::BF4_LoadoutChecker.Properties.Resources._30_opacity;
-            this.WARSAW_ID_M_SUPPORT.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.WARSAW_ID_M_SUPPORT.Controls.Add(this.lbl_2_ClassName);
-            this.WARSAW_ID_M_SUPPORT.Controls.Add(this.pBox_kit_support);
-            this.WARSAW_ID_M_SUPPORT.Controls.Add(this.pBox_s_swep_customization);
-            this.WARSAW_ID_M_SUPPORT.Controls.Add(this.lbl_s_pwep_name);
-            this.WARSAW_ID_M_SUPPORT.Controls.Add(this.pBox_s_pwep_customization);
-            this.WARSAW_ID_M_SUPPORT.Controls.Add(this.pBox_s_pwep_lineart);
-            this.WARSAW_ID_M_SUPPORT.Controls.Add(this.pBox_s_pwep_a1_lineart);
-            this.WARSAW_ID_M_SUPPORT.Controls.Add(this.lbl_s_activity);
-            this.WARSAW_ID_M_SUPPORT.Controls.Add(this.pBox_s_pwep_a2_lineart);
-            this.WARSAW_ID_M_SUPPORT.Controls.Add(this.lbl_s_specialization_name);
-            this.WARSAW_ID_M_SUPPORT.Controls.Add(this.pBox_s_pwep_a3_lineart);
-            this.WARSAW_ID_M_SUPPORT.Controls.Add(this.pBox_s_specialization_lineart);
-            this.WARSAW_ID_M_SUPPORT.Controls.Add(this.pBox_s_swep_lineart);
-            this.WARSAW_ID_M_SUPPORT.Controls.Add(this.lbl_s_knife_name);
-            this.WARSAW_ID_M_SUPPORT.Controls.Add(this.lbl_s_swep_name);
-            this.WARSAW_ID_M_SUPPORT.Controls.Add(this.pBox_s_knife_lineart);
-            this.WARSAW_ID_M_SUPPORT.Controls.Add(this.pBox_s_gadget1_lineart);
-            this.WARSAW_ID_M_SUPPORT.Controls.Add(this.lbl_s_grenade_name);
-            this.WARSAW_ID_M_SUPPORT.Controls.Add(this.lbl_s_gadget1_name);
-            this.WARSAW_ID_M_SUPPORT.Controls.Add(this.pBox_s_grenade_lineart);
-            this.WARSAW_ID_M_SUPPORT.Controls.Add(this.pBox_s_gadget2_lineart);
-            this.WARSAW_ID_M_SUPPORT.Controls.Add(this.lbl_s_gadget2_name);
-            this.WARSAW_ID_M_SUPPORT.Font = new System.Drawing.Font("Arial Rounded MT Bold", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.WARSAW_ID_M_SUPPORT.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.WARSAW_ID_M_SUPPORT.Location = new System.Drawing.Point(488, 5);
-            this.WARSAW_ID_M_SUPPORT.Name = "WARSAW_ID_M_SUPPORT";
-            this.WARSAW_ID_M_SUPPORT.Size = new System.Drawing.Size(236, 386);
-            this.WARSAW_ID_M_SUPPORT.TabIndex = 25;
-            // 
-            // lbl_0_ClassName
-            // 
-            this.lbl_0_ClassName.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.lbl_0_ClassName.Font = new System.Drawing.Font("Arial Rounded MT Bold", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbl_0_ClassName.Location = new System.Drawing.Point(19, -1);
-            this.lbl_0_ClassName.Margin = new System.Windows.Forms.Padding(0);
-            this.lbl_0_ClassName.Name = "lbl_0_ClassName";
-            this.lbl_0_ClassName.Size = new System.Drawing.Size(216, 20);
-            this.lbl_0_ClassName.TabIndex = 23;
-            this.lbl_0_ClassName.Text = "ASSAULT";
-            this.lbl_0_ClassName.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            // 
-            // WARSAW_ID_M_ENGINEER
-            // 
-            this.WARSAW_ID_M_ENGINEER.BackgroundImage = global::BF4_LoadoutChecker.Properties.Resources._30_opacity;
-            this.WARSAW_ID_M_ENGINEER.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.WARSAW_ID_M_ENGINEER.Controls.Add(this.lbl_1_ClassName);
-            this.WARSAW_ID_M_ENGINEER.Controls.Add(this.pBox_kit_engineer);
-            this.WARSAW_ID_M_ENGINEER.Controls.Add(this.pBox_e_swep_customization);
-            this.WARSAW_ID_M_ENGINEER.Controls.Add(this.lbl_e_pwep_name);
-            this.WARSAW_ID_M_ENGINEER.Controls.Add(this.pBox_e_pwep_customization);
-            this.WARSAW_ID_M_ENGINEER.Controls.Add(this.pBox_e_pwep_lineart);
-            this.WARSAW_ID_M_ENGINEER.Controls.Add(this.pBox_e_pwep_a1_lineart);
-            this.WARSAW_ID_M_ENGINEER.Controls.Add(this.lbl_e_activity);
-            this.WARSAW_ID_M_ENGINEER.Controls.Add(this.pBox_e_pwep_a2_lineart);
-            this.WARSAW_ID_M_ENGINEER.Controls.Add(this.lbl_e_specialization_name);
-            this.WARSAW_ID_M_ENGINEER.Controls.Add(this.pBox_e_pwep_a3_lineart);
-            this.WARSAW_ID_M_ENGINEER.Controls.Add(this.pBox_e_specialization_lineart);
-            this.WARSAW_ID_M_ENGINEER.Controls.Add(this.pBox_e_swep_lineart);
-            this.WARSAW_ID_M_ENGINEER.Controls.Add(this.lbl_e_knife_name);
-            this.WARSAW_ID_M_ENGINEER.Controls.Add(this.lbl_e_swep_name);
-            this.WARSAW_ID_M_ENGINEER.Controls.Add(this.pBox_e_knife_lineart);
-            this.WARSAW_ID_M_ENGINEER.Controls.Add(this.pBox_e_gadget1_lineart);
-            this.WARSAW_ID_M_ENGINEER.Controls.Add(this.lbl_e_grenade_name);
-            this.WARSAW_ID_M_ENGINEER.Controls.Add(this.lbl_e_gadget1_name);
-            this.WARSAW_ID_M_ENGINEER.Controls.Add(this.pBox_e_grenade_lineart);
-            this.WARSAW_ID_M_ENGINEER.Controls.Add(this.pBox_e_gadget2_lineart);
-            this.WARSAW_ID_M_ENGINEER.Controls.Add(this.lbl_e_gadget2_name);
-            this.WARSAW_ID_M_ENGINEER.Font = new System.Drawing.Font("Arial Rounded MT Bold", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.WARSAW_ID_M_ENGINEER.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.WARSAW_ID_M_ENGINEER.Location = new System.Drawing.Point(247, 5);
-            this.WARSAW_ID_M_ENGINEER.Name = "WARSAW_ID_M_ENGINEER";
-            this.WARSAW_ID_M_ENGINEER.Size = new System.Drawing.Size(236, 386);
-            this.WARSAW_ID_M_ENGINEER.TabIndex = 24;
-            // 
-            // lbl_e_gadget2_name
-            // 
-            this.lbl_e_gadget2_name.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.lbl_e_gadget2_name.Location = new System.Drawing.Point(69, 229);
-            this.lbl_e_gadget2_name.Margin = new System.Windows.Forms.Padding(0);
-            this.lbl_e_gadget2_name.Name = "lbl_e_gadget2_name";
-            this.lbl_e_gadget2_name.Size = new System.Drawing.Size(167, 31);
-            this.lbl_e_gadget2_name.TabIndex = 10;
-            this.lbl_e_gadget2_name.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.lbl_e_gadget2_name.MouseEnter += new System.EventHandler(this.label_MouseEnter);
-            this.lbl_e_gadget2_name.MouseLeave += new System.EventHandler(this.label_MouseLeave);
-            // 
-            // pBox_e_gadget2_lineart
-            // 
-            this.pBox_e_gadget2_lineart.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.pBox_e_gadget2_lineart.Location = new System.Drawing.Point(0, 229);
-            this.pBox_e_gadget2_lineart.Margin = new System.Windows.Forms.Padding(0);
-            this.pBox_e_gadget2_lineart.Name = "pBox_e_gadget2_lineart";
-            this.pBox_e_gadget2_lineart.Size = new System.Drawing.Size(69, 31);
-            this.pBox_e_gadget2_lineart.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
-            this.pBox_e_gadget2_lineart.TabIndex = 9;
-            this.pBox_e_gadget2_lineart.TabStop = false;
-            this.pBox_e_gadget2_lineart.LoadCompleted += new System.ComponentModel.AsyncCompletedEventHandler(this.pBox_image_resizeOn_LoadCompleted);
-            this.pBox_e_gadget2_lineart.MouseEnter += new System.EventHandler(this.pBox_MouseEnter);
-            this.pBox_e_gadget2_lineart.MouseLeave += new System.EventHandler(this.pBox_MouseLeave);
-            // 
-            // pBox_e_grenade_lineart
-            // 
-            this.pBox_e_grenade_lineart.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.pBox_e_grenade_lineart.Location = new System.Drawing.Point(0, 260);
-            this.pBox_e_grenade_lineart.Margin = new System.Windows.Forms.Padding(0);
-            this.pBox_e_grenade_lineart.Name = "pBox_e_grenade_lineart";
-            this.pBox_e_grenade_lineart.Size = new System.Drawing.Size(69, 31);
-            this.pBox_e_grenade_lineart.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
-            this.pBox_e_grenade_lineart.TabIndex = 11;
-            this.pBox_e_grenade_lineart.TabStop = false;
-            this.pBox_e_grenade_lineart.LoadCompleted += new System.ComponentModel.AsyncCompletedEventHandler(this.pBox_image_resizeOn_LoadCompleted);
-            this.pBox_e_grenade_lineart.MouseEnter += new System.EventHandler(this.pBox_MouseEnter);
-            this.pBox_e_grenade_lineart.MouseLeave += new System.EventHandler(this.pBox_MouseLeave);
-            // 
-            // lbl_e_gadget1_name
-            // 
-            this.lbl_e_gadget1_name.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.lbl_e_gadget1_name.Location = new System.Drawing.Point(69, 198);
-            this.lbl_e_gadget1_name.Margin = new System.Windows.Forms.Padding(0);
-            this.lbl_e_gadget1_name.Name = "lbl_e_gadget1_name";
-            this.lbl_e_gadget1_name.Size = new System.Drawing.Size(167, 31);
-            this.lbl_e_gadget1_name.TabIndex = 8;
-            this.lbl_e_gadget1_name.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.lbl_e_gadget1_name.MouseEnter += new System.EventHandler(this.label_MouseEnter);
-            this.lbl_e_gadget1_name.MouseLeave += new System.EventHandler(this.label_MouseLeave);
-            // 
-            // lbl_e_grenade_name
-            // 
-            this.lbl_e_grenade_name.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.lbl_e_grenade_name.Location = new System.Drawing.Point(69, 260);
-            this.lbl_e_grenade_name.Margin = new System.Windows.Forms.Padding(0);
-            this.lbl_e_grenade_name.Name = "lbl_e_grenade_name";
-            this.lbl_e_grenade_name.Size = new System.Drawing.Size(167, 31);
-            this.lbl_e_grenade_name.TabIndex = 12;
-            this.lbl_e_grenade_name.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.lbl_e_grenade_name.MouseEnter += new System.EventHandler(this.label_MouseEnter);
-            this.lbl_e_grenade_name.MouseLeave += new System.EventHandler(this.label_MouseLeave);
-            // 
-            // pBox_e_gadget1_lineart
-            // 
-            this.pBox_e_gadget1_lineart.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.pBox_e_gadget1_lineart.Location = new System.Drawing.Point(0, 198);
-            this.pBox_e_gadget1_lineart.Margin = new System.Windows.Forms.Padding(0);
-            this.pBox_e_gadget1_lineart.Name = "pBox_e_gadget1_lineart";
-            this.pBox_e_gadget1_lineart.Size = new System.Drawing.Size(69, 31);
-            this.pBox_e_gadget1_lineart.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
-            this.pBox_e_gadget1_lineart.TabIndex = 7;
-            this.pBox_e_gadget1_lineart.TabStop = false;
-            this.pBox_e_gadget1_lineart.LoadCompleted += new System.ComponentModel.AsyncCompletedEventHandler(this.pBox_image_resizeOn_LoadCompleted);
-            this.pBox_e_gadget1_lineart.MouseEnter += new System.EventHandler(this.pBox_MouseEnter);
-            this.pBox_e_gadget1_lineart.MouseLeave += new System.EventHandler(this.pBox_MouseLeave);
-            // 
-            // pBox_e_knife_lineart
-            // 
-            this.pBox_e_knife_lineart.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.pBox_e_knife_lineart.Location = new System.Drawing.Point(0, 291);
-            this.pBox_e_knife_lineart.Margin = new System.Windows.Forms.Padding(0);
-            this.pBox_e_knife_lineart.Name = "pBox_e_knife_lineart";
-            this.pBox_e_knife_lineart.Size = new System.Drawing.Size(69, 31);
-            this.pBox_e_knife_lineart.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
-            this.pBox_e_knife_lineart.TabIndex = 13;
-            this.pBox_e_knife_lineart.TabStop = false;
-            this.pBox_e_knife_lineart.LoadCompleted += new System.ComponentModel.AsyncCompletedEventHandler(this.pBox_image_resizeOn_LoadCompleted);
-            this.pBox_e_knife_lineart.MouseEnter += new System.EventHandler(this.pBox_MouseEnter);
-            this.pBox_e_knife_lineart.MouseLeave += new System.EventHandler(this.pBox_MouseLeave);
-            // 
-            // lbl_e_swep_name
-            // 
-            this.lbl_e_swep_name.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.lbl_e_swep_name.Location = new System.Drawing.Point(69, 167);
-            this.lbl_e_swep_name.Margin = new System.Windows.Forms.Padding(0);
-            this.lbl_e_swep_name.Name = "lbl_e_swep_name";
-            this.lbl_e_swep_name.Size = new System.Drawing.Size(136, 31);
-            this.lbl_e_swep_name.TabIndex = 6;
-            this.lbl_e_swep_name.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.lbl_e_swep_name.MouseEnter += new System.EventHandler(this.label_MouseEnter);
-            this.lbl_e_swep_name.MouseLeave += new System.EventHandler(this.label_MouseLeave);
-            // 
-            // lbl_e_knife_name
-            // 
-            this.lbl_e_knife_name.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.lbl_e_knife_name.Location = new System.Drawing.Point(69, 291);
-            this.lbl_e_knife_name.Margin = new System.Windows.Forms.Padding(0);
-            this.lbl_e_knife_name.Name = "lbl_e_knife_name";
-            this.lbl_e_knife_name.Size = new System.Drawing.Size(167, 31);
-            this.lbl_e_knife_name.TabIndex = 14;
-            this.lbl_e_knife_name.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.lbl_e_knife_name.MouseEnter += new System.EventHandler(this.label_MouseEnter);
-            this.lbl_e_knife_name.MouseLeave += new System.EventHandler(this.label_MouseLeave);
-            // 
-            // pBox_e_swep_lineart
-            // 
-            this.pBox_e_swep_lineart.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.pBox_e_swep_lineart.ImageLocation = "";
-            this.pBox_e_swep_lineart.Location = new System.Drawing.Point(0, 167);
-            this.pBox_e_swep_lineart.Margin = new System.Windows.Forms.Padding(0);
-            this.pBox_e_swep_lineart.Name = "pBox_e_swep_lineart";
-            this.pBox_e_swep_lineart.Size = new System.Drawing.Size(69, 31);
-            this.pBox_e_swep_lineart.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
-            this.pBox_e_swep_lineart.TabIndex = 5;
-            this.pBox_e_swep_lineart.TabStop = false;
-            this.pBox_e_swep_lineart.LoadCompleted += new System.ComponentModel.AsyncCompletedEventHandler(this.pBox_image_resizeOn_LoadCompleted);
-            this.pBox_e_swep_lineart.MouseEnter += new System.EventHandler(this.pBox_MouseEnter);
-            this.pBox_e_swep_lineart.MouseLeave += new System.EventHandler(this.pBox_MouseLeave);
-            // 
-            // pBox_e_specialization_lineart
-            // 
-            this.pBox_e_specialization_lineart.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.pBox_e_specialization_lineart.Location = new System.Drawing.Point(0, 322);
-            this.pBox_e_specialization_lineart.Margin = new System.Windows.Forms.Padding(0);
-            this.pBox_e_specialization_lineart.Name = "pBox_e_specialization_lineart";
-            this.pBox_e_specialization_lineart.Size = new System.Drawing.Size(69, 31);
-            this.pBox_e_specialization_lineart.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
-            this.pBox_e_specialization_lineart.TabIndex = 15;
-            this.pBox_e_specialization_lineart.TabStop = false;
-            this.pBox_e_specialization_lineart.LoadCompleted += new System.ComponentModel.AsyncCompletedEventHandler(this.pBox_image_resizeOn_LoadCompleted);
-            this.pBox_e_specialization_lineart.MouseEnter += new System.EventHandler(this.pBox_MouseEnter);
-            this.pBox_e_specialization_lineart.MouseLeave += new System.EventHandler(this.pBox_MouseLeave);
-            // 
-            // pBox_e_pwep_a3_lineart
-            // 
-            this.pBox_e_pwep_a3_lineart.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.pBox_e_pwep_a3_lineart.Location = new System.Drawing.Point(158, 136);
-            this.pBox_e_pwep_a3_lineart.Margin = new System.Windows.Forms.Padding(0);
-            this.pBox_e_pwep_a3_lineart.Name = "pBox_e_pwep_a3_lineart";
-            this.pBox_e_pwep_a3_lineart.Size = new System.Drawing.Size(79, 31);
-            this.pBox_e_pwep_a3_lineart.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
-            this.pBox_e_pwep_a3_lineart.TabIndex = 4;
-            this.pBox_e_pwep_a3_lineart.TabStop = false;
-            this.pBox_e_pwep_a3_lineart.MouseEnter += new System.EventHandler(this.pBox_MouseEnter);
-            this.pBox_e_pwep_a3_lineart.MouseLeave += new System.EventHandler(this.pBox_MouseLeave);
-            // 
-            // lbl_e_specialization_name
-            // 
-            this.lbl_e_specialization_name.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.lbl_e_specialization_name.Location = new System.Drawing.Point(69, 322);
-            this.lbl_e_specialization_name.Margin = new System.Windows.Forms.Padding(0);
-            this.lbl_e_specialization_name.Name = "lbl_e_specialization_name";
-            this.lbl_e_specialization_name.Size = new System.Drawing.Size(167, 31);
-            this.lbl_e_specialization_name.TabIndex = 16;
-            this.lbl_e_specialization_name.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.lbl_e_specialization_name.MouseEnter += new System.EventHandler(this.label_MouseEnter);
-            this.lbl_e_specialization_name.MouseLeave += new System.EventHandler(this.label_MouseLeave);
-            // 
-            // pBox_e_pwep_a2_lineart
-            // 
-            this.pBox_e_pwep_a2_lineart.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.pBox_e_pwep_a2_lineart.Location = new System.Drawing.Point(79, 136);
-            this.pBox_e_pwep_a2_lineart.Margin = new System.Windows.Forms.Padding(0);
-            this.pBox_e_pwep_a2_lineart.Name = "pBox_e_pwep_a2_lineart";
-            this.pBox_e_pwep_a2_lineart.Size = new System.Drawing.Size(79, 31);
-            this.pBox_e_pwep_a2_lineart.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
-            this.pBox_e_pwep_a2_lineart.TabIndex = 3;
-            this.pBox_e_pwep_a2_lineart.TabStop = false;
-            this.pBox_e_pwep_a2_lineart.MouseEnter += new System.EventHandler(this.pBox_MouseEnter);
-            this.pBox_e_pwep_a2_lineart.MouseLeave += new System.EventHandler(this.pBox_MouseLeave);
-            // 
-            // lbl_e_activity
-            // 
-            this.lbl_e_activity.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.lbl_e_activity.Location = new System.Drawing.Point(0, 353);
-            this.lbl_e_activity.Margin = new System.Windows.Forms.Padding(0);
-            this.lbl_e_activity.Name = "lbl_e_activity";
-            this.lbl_e_activity.Size = new System.Drawing.Size(236, 31);
-            this.lbl_e_activity.TabIndex = 17;
-            this.lbl_e_activity.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            this.lbl_e_activity.MouseEnter += new System.EventHandler(this.label_MouseEnter);
-            this.lbl_e_activity.MouseLeave += new System.EventHandler(this.label_MouseLeave);
-            // 
-            // pBox_e_pwep_a1_lineart
-            // 
-            this.pBox_e_pwep_a1_lineart.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.pBox_e_pwep_a1_lineart.Location = new System.Drawing.Point(0, 136);
-            this.pBox_e_pwep_a1_lineart.Margin = new System.Windows.Forms.Padding(0);
-            this.pBox_e_pwep_a1_lineart.Name = "pBox_e_pwep_a1_lineart";
-            this.pBox_e_pwep_a1_lineart.Size = new System.Drawing.Size(79, 31);
-            this.pBox_e_pwep_a1_lineart.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
-            this.pBox_e_pwep_a1_lineart.TabIndex = 2;
-            this.pBox_e_pwep_a1_lineart.TabStop = false;
-            this.pBox_e_pwep_a1_lineart.MouseEnter += new System.EventHandler(this.pBox_MouseEnter);
-            this.pBox_e_pwep_a1_lineart.MouseLeave += new System.EventHandler(this.pBox_MouseLeave);
-            // 
-            // pBox_e_pwep_lineart
-            // 
-            this.pBox_e_pwep_lineart.BackColor = System.Drawing.Color.Transparent;
-            this.pBox_e_pwep_lineart.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.pBox_e_pwep_lineart.ImageLocation = "";
-            this.pBox_e_pwep_lineart.Location = new System.Drawing.Point(0, 49);
-            this.pBox_e_pwep_lineart.Margin = new System.Windows.Forms.Padding(0);
-            this.pBox_e_pwep_lineart.Name = "pBox_e_pwep_lineart";
-            this.pBox_e_pwep_lineart.Size = new System.Drawing.Size(236, 87);
-            this.pBox_e_pwep_lineart.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
-            this.pBox_e_pwep_lineart.TabIndex = 1;
-            this.pBox_e_pwep_lineart.TabStop = false;
-            this.pBox_e_pwep_lineart.MouseEnter += new System.EventHandler(this.pBox_MouseEnter);
-            this.pBox_e_pwep_lineart.MouseLeave += new System.EventHandler(this.pBox_MouseLeave);
-            // 
-            // pBox_e_pwep_customization
-            // 
-            this.pBox_e_pwep_customization.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.pBox_e_pwep_customization.Image = global::BF4_LoadoutChecker.Properties.Resources.loadout_cog_white;
-            this.pBox_e_pwep_customization.Location = new System.Drawing.Point(205, 18);
-            this.pBox_e_pwep_customization.Margin = new System.Windows.Forms.Padding(0);
-            this.pBox_e_pwep_customization.Name = "pBox_e_pwep_customization";
-            this.pBox_e_pwep_customization.Size = new System.Drawing.Size(31, 31);
-            this.pBox_e_pwep_customization.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
-            this.pBox_e_pwep_customization.TabIndex = 20;
-            this.pBox_e_pwep_customization.TabStop = false;
-            // 
-            // lbl_e_pwep_name
-            // 
-            this.lbl_e_pwep_name.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.lbl_e_pwep_name.Location = new System.Drawing.Point(0, 18);
-            this.lbl_e_pwep_name.Margin = new System.Windows.Forms.Padding(0);
-            this.lbl_e_pwep_name.Name = "lbl_e_pwep_name";
-            this.lbl_e_pwep_name.Size = new System.Drawing.Size(205, 31);
-            this.lbl_e_pwep_name.TabIndex = 0;
-            this.lbl_e_pwep_name.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            this.lbl_e_pwep_name.MouseEnter += new System.EventHandler(this.label_MouseEnter);
-            this.lbl_e_pwep_name.MouseLeave += new System.EventHandler(this.label_MouseLeave);
-            // 
-            // pBox_e_swep_customization
-            // 
-            this.pBox_e_swep_customization.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.pBox_e_swep_customization.Image = global::BF4_LoadoutChecker.Properties.Resources.loadout_cog_white;
-            this.pBox_e_swep_customization.Location = new System.Drawing.Point(205, 167);
-            this.pBox_e_swep_customization.Margin = new System.Windows.Forms.Padding(0);
-            this.pBox_e_swep_customization.Name = "pBox_e_swep_customization";
-            this.pBox_e_swep_customization.Size = new System.Drawing.Size(31, 31);
-            this.pBox_e_swep_customization.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
-            this.pBox_e_swep_customization.TabIndex = 21;
-            this.pBox_e_swep_customization.TabStop = false;
-            // 
-            // pBox_kit_engineer
-            // 
-            this.pBox_kit_engineer.Image = global::BF4_LoadoutChecker.Properties.Resources.kit_engineer_xsmall;
-            this.pBox_kit_engineer.Location = new System.Drawing.Point(0, -1);
-            this.pBox_kit_engineer.Name = "pBox_kit_engineer";
-            this.pBox_kit_engineer.Size = new System.Drawing.Size(20, 19);
-            this.pBox_kit_engineer.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
-            this.pBox_kit_engineer.TabIndex = 19;
-            this.pBox_kit_engineer.TabStop = false;
-            // 
-            // lbl_1_ClassName
-            // 
-            this.lbl_1_ClassName.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.lbl_1_ClassName.Font = new System.Drawing.Font("Arial Rounded MT Bold", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbl_1_ClassName.Location = new System.Drawing.Point(19, -1);
-            this.lbl_1_ClassName.Margin = new System.Windows.Forms.Padding(0);
-            this.lbl_1_ClassName.Name = "lbl_1_ClassName";
-            this.lbl_1_ClassName.Size = new System.Drawing.Size(216, 20);
-            this.lbl_1_ClassName.TabIndex = 24;
-            this.lbl_1_ClassName.Text = "ENGINEER";
-            this.lbl_1_ClassName.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            // 
-            // WARSAW_ID_M_RECON
-            // 
-            this.WARSAW_ID_M_RECON.BackgroundImage = global::BF4_LoadoutChecker.Properties.Resources._30_opacity;
-            this.WARSAW_ID_M_RECON.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.WARSAW_ID_M_RECON.Controls.Add(this.lbl_3_ClassName);
-            this.WARSAW_ID_M_RECON.Controls.Add(this.pBox_kit_recon);
-            this.WARSAW_ID_M_RECON.Controls.Add(this.pBox_r_swep_customization);
-            this.WARSAW_ID_M_RECON.Controls.Add(this.lbl_r_pwep_name);
-            this.WARSAW_ID_M_RECON.Controls.Add(this.pBox_r_pwep_customization);
-            this.WARSAW_ID_M_RECON.Controls.Add(this.pBox_r_pwep_lineart);
-            this.WARSAW_ID_M_RECON.Controls.Add(this.pBox_r_pwep_a1_lineart);
-            this.WARSAW_ID_M_RECON.Controls.Add(this.lbl_r_activity);
-            this.WARSAW_ID_M_RECON.Controls.Add(this.pBox_r_pwep_a2_lineart);
-            this.WARSAW_ID_M_RECON.Controls.Add(this.lbl_r_specialization_name);
-            this.WARSAW_ID_M_RECON.Controls.Add(this.pBox_r_pwep_a3_lineart);
-            this.WARSAW_ID_M_RECON.Controls.Add(this.pBox_r_specialization_lineart);
-            this.WARSAW_ID_M_RECON.Controls.Add(this.pBox_r_swep_lineart);
-            this.WARSAW_ID_M_RECON.Controls.Add(this.lbl_r_knife_name);
-            this.WARSAW_ID_M_RECON.Controls.Add(this.lbl_r_swep_name);
-            this.WARSAW_ID_M_RECON.Controls.Add(this.pBox_r_knife_lineart);
-            this.WARSAW_ID_M_RECON.Controls.Add(this.pBox_r_gadget1_lineart);
-            this.WARSAW_ID_M_RECON.Controls.Add(this.lbl_r_grenade_name);
-            this.WARSAW_ID_M_RECON.Controls.Add(this.lbl_r_gadget1_name);
-            this.WARSAW_ID_M_RECON.Controls.Add(this.pBox_r_grenade_lineart);
-            this.WARSAW_ID_M_RECON.Controls.Add(this.pBox_r_gadget2_lineart);
-            this.WARSAW_ID_M_RECON.Controls.Add(this.lbl_r_gadget2_name);
-            this.WARSAW_ID_M_RECON.Font = new System.Drawing.Font("Arial Rounded MT Bold", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.WARSAW_ID_M_RECON.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.WARSAW_ID_M_RECON.Location = new System.Drawing.Point(729, 5);
-            this.WARSAW_ID_M_RECON.Name = "WARSAW_ID_M_RECON";
-            this.WARSAW_ID_M_RECON.Size = new System.Drawing.Size(236, 386);
-            this.WARSAW_ID_M_RECON.TabIndex = 26;
-            // 
-            // lbl_2_ClassName
-            // 
-            this.lbl_2_ClassName.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.lbl_2_ClassName.Font = new System.Drawing.Font("Arial Rounded MT Bold", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbl_2_ClassName.Location = new System.Drawing.Point(19, -1);
-            this.lbl_2_ClassName.Margin = new System.Windows.Forms.Padding(0);
-            this.lbl_2_ClassName.Name = "lbl_2_ClassName";
-            this.lbl_2_ClassName.Size = new System.Drawing.Size(216, 20);
-            this.lbl_2_ClassName.TabIndex = 25;
-            this.lbl_2_ClassName.Text = "SUPPORT";
-            this.lbl_2_ClassName.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            // 
-            // lbl_3_ClassName
-            // 
-            this.lbl_3_ClassName.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.lbl_3_ClassName.Font = new System.Drawing.Font("Arial Rounded MT Bold", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbl_3_ClassName.Location = new System.Drawing.Point(19, -1);
-            this.lbl_3_ClassName.Margin = new System.Windows.Forms.Padding(0);
-            this.lbl_3_ClassName.Name = "lbl_3_ClassName";
-            this.lbl_3_ClassName.Size = new System.Drawing.Size(216, 20);
-            this.lbl_3_ClassName.TabIndex = 26;
-            this.lbl_3_ClassName.Text = "RECON";
-            this.lbl_3_ClassName.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
             // bf4_loadoutchecker
             // 
@@ -1551,62 +1553,62 @@
             this.tabControl1.ResumeLayout(false);
             this.Loadout.ResumeLayout(false);
             this.visualize_panel.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.pBox_kit_recon)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pBox_r_specialization_lineart)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pBox_r_knife_lineart)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pBox_r_grenade_lineart)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pBox_r_gadget2_lineart)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pBox_r_gadget1_lineart)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pBox_r_swep_lineart)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pBox_r_pwep_a3_lineart)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pBox_r_pwep_a2_lineart)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pBox_r_pwep_a1_lineart)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pBox_r_pwep_lineart)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pBox_kit_support)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pBox_s_specialization_lineart)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pBox_s_knife_lineart)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pBox_s_grenade_lineart)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pBox_s_gadget2_lineart)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pBox_s_gadget1_lineart)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pBox_s_swep_lineart)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pBox_s_pwep_a3_lineart)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pBox_s_pwep_a2_lineart)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pBox_s_pwep_a1_lineart)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pBox_s_pwep_lineart)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pBox_a_pwep_customization)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pBox_kit_assault)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pBox_a_specialization_lineart)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pBox_a_knife_lineart)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pBox_a_grenade_lineart)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pBox_a_gadget2_lineart)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pBox_a_gadget1_lineart)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pBox_a_swep_lineart)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pBox_a_pwep_a3_lineart)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pBox_a_pwep_a2_lineart)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pBox_a_pwep_a1_lineart)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pBox_a_pwep_lineart)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pBox_a_swep_customization)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pBox_s_pwep_customization)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pBox_r_pwep_customization)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pBox_s_swep_customization)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pBox_r_swep_customization)).EndInit();
-            this.WARSAW_ID_M_ASSAULT.ResumeLayout(false);
-            this.WARSAW_ID_M_SUPPORT.ResumeLayout(false);
-            this.WARSAW_ID_M_ENGINEER.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.pBox_e_gadget2_lineart)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pBox_e_grenade_lineart)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pBox_e_gadget1_lineart)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pBox_e_knife_lineart)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pBox_e_swep_lineart)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pBox_e_specialization_lineart)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pBox_e_pwep_a3_lineart)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pBox_e_pwep_a2_lineart)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pBox_e_pwep_a1_lineart)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pBox_e_pwep_lineart)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pBox_e_pwep_customization)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pBox_e_swep_customization)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pBox_kit_engineer)).EndInit();
             this.WARSAW_ID_M_RECON.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.pBox_kit_recon)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pBox_r_swep_customization)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pBox_r_pwep_customization)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pBox_3_0)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pBox_3_0_0)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pBox_3_0_1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pBox_3_0_2)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pBox_3_6)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pBox_3_1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pBox_3_5)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pBox_3_2)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pBox_3_4)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pBox_3_3)).EndInit();
+            this.WARSAW_ID_M_ENGINEER.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.pBox_kit_engineer)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pBox_e_swep_customization)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pBox_e_pwep_customization)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pBox_1_0)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pBox_1_0_0)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pBox_1_0_1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pBox_1_0_2)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pBox_1_6)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pBox_1_1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pBox_1_5)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pBox_1_2)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pBox_1_4)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pBox_1_3)).EndInit();
+            this.WARSAW_ID_M_SUPPORT.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.pBox_kit_support)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pBox_s_swep_customization)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pBox_s_pwep_customization)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pBox_2_0)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pBox_2_0_0)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pBox_2_0_1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pBox_2_0_2)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pBox_2_6)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pBox_2_1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pBox_2_5)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pBox_2_2)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pBox_2_4)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pBox_2_3)).EndInit();
+            this.WARSAW_ID_M_ASSAULT.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.pBox_a_swep_customization)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pBox_a_pwep_customization)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pBox_0_0)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pBox_0_0_0)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pBox_0_0_1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pBox_0_0_2)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pBox_0_6)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pBox_0_1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pBox_0_5)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pBox_0_2)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pBox_0_4)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pBox_0_3)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pBox_kit_assault)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -1620,63 +1622,63 @@
         private System.Windows.Forms.ToolStripStatusLabel toolStripStatusLabel1;
         private System.Windows.Forms.TabPage Loadout;
         private System.Windows.Forms.Panel visualize_panel;
-        private System.Windows.Forms.Label lbl_a_activity;
-        private System.Windows.Forms.Label lbl_a_specialization_name;
-        private System.Windows.Forms.PictureBox pBox_a_specialization_lineart;
-        private System.Windows.Forms.Label lbl_a_knife_name;
-        private System.Windows.Forms.PictureBox pBox_a_knife_lineart;
-        private System.Windows.Forms.Label lbl_a_grenade_name;
-        private System.Windows.Forms.PictureBox pBox_a_grenade_lineart;
-        private System.Windows.Forms.Label lbl_a_gadget2_name;
-        private System.Windows.Forms.PictureBox pBox_a_gadget2_lineart;
-        private System.Windows.Forms.Label lbl_a_gadget1_name;
-        private System.Windows.Forms.PictureBox pBox_a_gadget1_lineart;
-        private System.Windows.Forms.Label lbl_a_swep_name;
-        private System.Windows.Forms.PictureBox pBox_a_swep_lineart;
-        private System.Windows.Forms.PictureBox pBox_a_pwep_a3_lineart;
-        private System.Windows.Forms.PictureBox pBox_a_pwep_a2_lineart;
-        private System.Windows.Forms.PictureBox pBox_a_pwep_a1_lineart;
-        private System.Windows.Forms.PictureBox pBox_a_pwep_lineart;
-        private System.Windows.Forms.Label lbl_a_pwep_name;
-        private System.Windows.Forms.Label lbl_r_activity;
-        private System.Windows.Forms.Label lbl_r_specialization_name;
-        private System.Windows.Forms.PictureBox pBox_r_specialization_lineart;
-        private System.Windows.Forms.Label lbl_r_knife_name;
-        private System.Windows.Forms.PictureBox pBox_r_knife_lineart;
-        private System.Windows.Forms.Label lbl_r_grenade_name;
-        private System.Windows.Forms.PictureBox pBox_r_grenade_lineart;
-        private System.Windows.Forms.Label lbl_r_gadget2_name;
-        private System.Windows.Forms.PictureBox pBox_r_gadget2_lineart;
-        private System.Windows.Forms.Label lbl_r_gadget1_name;
-        private System.Windows.Forms.PictureBox pBox_r_gadget1_lineart;
-        private System.Windows.Forms.Label lbl_r_swep_name;
-        private System.Windows.Forms.PictureBox pBox_r_swep_lineart;
-        private System.Windows.Forms.PictureBox pBox_r_pwep_a3_lineart;
-        private System.Windows.Forms.PictureBox pBox_r_pwep_a2_lineart;
-        private System.Windows.Forms.PictureBox pBox_r_pwep_a1_lineart;
-        private System.Windows.Forms.PictureBox pBox_r_pwep_lineart;
-        private System.Windows.Forms.Label lbl_r_pwep_name;
-        private System.Windows.Forms.Label lbl_s_activity;
-        private System.Windows.Forms.Label lbl_s_specialization_name;
-        private System.Windows.Forms.PictureBox pBox_s_specialization_lineart;
-        private System.Windows.Forms.Label lbl_s_knife_name;
-        private System.Windows.Forms.Label lbl_s_grenade_name;
-        private System.Windows.Forms.PictureBox pBox_s_grenade_lineart;
-        private System.Windows.Forms.Label lbl_s_gadget2_name;
-        private System.Windows.Forms.PictureBox pBox_s_gadget2_lineart;
-        private System.Windows.Forms.Label lbl_s_gadget1_name;
-        private System.Windows.Forms.PictureBox pBox_s_gadget1_lineart;
-        private System.Windows.Forms.Label lbl_s_swep_name;
-        private System.Windows.Forms.PictureBox pBox_s_swep_lineart;
-        private System.Windows.Forms.PictureBox pBox_s_pwep_a3_lineart;
-        private System.Windows.Forms.PictureBox pBox_s_pwep_a2_lineart;
-        private System.Windows.Forms.PictureBox pBox_s_pwep_a1_lineart;
-        private System.Windows.Forms.PictureBox pBox_s_pwep_lineart;
-        private System.Windows.Forms.Label lbl_s_pwep_name;
+        private System.Windows.Forms.Label lbl_0_active;
+        private System.Windows.Forms.Label lbl_0_6;
+        private System.Windows.Forms.PictureBox pBox_0_6;
+        private System.Windows.Forms.Label lbl_0_5;
+        private System.Windows.Forms.PictureBox pBox_0_5;
+        private System.Windows.Forms.Label lbl_0_4;
+        private System.Windows.Forms.PictureBox pBox_0_4;
+        private System.Windows.Forms.Label lbl_0_3;
+        private System.Windows.Forms.PictureBox pBox_0_3;
+        private System.Windows.Forms.Label lbl_0_2;
+        private System.Windows.Forms.PictureBox pBox_0_2;
+        private System.Windows.Forms.Label lbl_0_1;
+        private System.Windows.Forms.PictureBox pBox_0_1;
+        private System.Windows.Forms.PictureBox pBox_0_0_2;
+        private System.Windows.Forms.PictureBox pBox_0_0_1;
+        private System.Windows.Forms.PictureBox pBox_0_0_0;
+        private System.Windows.Forms.PictureBox pBox_0_0;
+        private System.Windows.Forms.Label lbl_0_0;
+        private System.Windows.Forms.Label lbl_3_active;
+        private System.Windows.Forms.Label lbl_3_6;
+        private System.Windows.Forms.PictureBox pBox_3_6;
+        private System.Windows.Forms.Label lbl_3_5;
+        private System.Windows.Forms.PictureBox pBox_3_5;
+        private System.Windows.Forms.Label lbl_3_4;
+        private System.Windows.Forms.PictureBox pBox_3_4;
+        private System.Windows.Forms.Label lbl_3_3;
+        private System.Windows.Forms.PictureBox pBox_3_3;
+        private System.Windows.Forms.Label lbl_3_2;
+        private System.Windows.Forms.PictureBox pBox_3_2;
+        private System.Windows.Forms.Label lbl_3_1;
+        private System.Windows.Forms.PictureBox pBox_3_1;
+        private System.Windows.Forms.PictureBox pBox_3_0_2;
+        private System.Windows.Forms.PictureBox pBox_3_0_1;
+        private System.Windows.Forms.PictureBox pBox_3_0_0;
+        private System.Windows.Forms.PictureBox pBox_3_0;
+        private System.Windows.Forms.Label lbl_3_0;
+        private System.Windows.Forms.Label lbl_2_active;
+        private System.Windows.Forms.Label lbl_2_6;
+        private System.Windows.Forms.PictureBox pBox_2_6;
+        private System.Windows.Forms.Label lbl_2_5;
+        private System.Windows.Forms.Label lbl_2_4;
+        private System.Windows.Forms.PictureBox pBox_2_4;
+        private System.Windows.Forms.Label lbl_2_3;
+        private System.Windows.Forms.PictureBox pBox_2_3;
+        private System.Windows.Forms.Label lbl_2_2;
+        private System.Windows.Forms.PictureBox pBox_2_2;
+        private System.Windows.Forms.Label lbl_2_1;
+        private System.Windows.Forms.PictureBox pBox_2_1;
+        private System.Windows.Forms.PictureBox pBox_2_0_2;
+        private System.Windows.Forms.PictureBox pBox_2_0_1;
+        private System.Windows.Forms.PictureBox pBox_2_0_0;
+        private System.Windows.Forms.PictureBox pBox_2_0;
+        private System.Windows.Forms.Label lbl_2_0;
         private System.Windows.Forms.PictureBox pBox_kit_assault;
         private System.Windows.Forms.PictureBox pBox_kit_recon;
         private System.Windows.Forms.PictureBox pBox_kit_support;
-        private System.Windows.Forms.PictureBox pBox_s_knife_lineart;
+        private System.Windows.Forms.PictureBox pBox_2_5;
         private System.Windows.Forms.Button btn_fetch_immediate;
         private System.Windows.Forms.TextBox tBox_soldierName;
         private System.Windows.Forms.PictureBox pBox_a_pwep_customization;
@@ -1692,25 +1694,25 @@
         private System.Windows.Forms.Label lbl_1_ClassName;
         private System.Windows.Forms.PictureBox pBox_kit_engineer;
         private System.Windows.Forms.PictureBox pBox_e_swep_customization;
-        private System.Windows.Forms.Label lbl_e_pwep_name;
+        private System.Windows.Forms.Label lbl_1_0;
         private System.Windows.Forms.PictureBox pBox_e_pwep_customization;
-        private System.Windows.Forms.PictureBox pBox_e_pwep_lineart;
-        private System.Windows.Forms.PictureBox pBox_e_pwep_a1_lineart;
-        private System.Windows.Forms.Label lbl_e_activity;
-        private System.Windows.Forms.PictureBox pBox_e_pwep_a2_lineart;
-        private System.Windows.Forms.Label lbl_e_specialization_name;
-        private System.Windows.Forms.PictureBox pBox_e_pwep_a3_lineart;
-        private System.Windows.Forms.PictureBox pBox_e_specialization_lineart;
-        private System.Windows.Forms.PictureBox pBox_e_swep_lineart;
-        private System.Windows.Forms.Label lbl_e_knife_name;
-        private System.Windows.Forms.Label lbl_e_swep_name;
-        private System.Windows.Forms.PictureBox pBox_e_knife_lineart;
-        private System.Windows.Forms.PictureBox pBox_e_gadget1_lineart;
-        private System.Windows.Forms.Label lbl_e_grenade_name;
-        private System.Windows.Forms.Label lbl_e_gadget1_name;
-        private System.Windows.Forms.PictureBox pBox_e_grenade_lineart;
-        private System.Windows.Forms.PictureBox pBox_e_gadget2_lineart;
-        private System.Windows.Forms.Label lbl_e_gadget2_name;
+        private System.Windows.Forms.PictureBox pBox_1_0;
+        private System.Windows.Forms.PictureBox pBox_1_0_0;
+        private System.Windows.Forms.Label lbl_1_active;
+        private System.Windows.Forms.PictureBox pBox_1_0_1;
+        private System.Windows.Forms.Label lbl_1_6;
+        private System.Windows.Forms.PictureBox pBox_1_0_2;
+        private System.Windows.Forms.PictureBox pBox_1_6;
+        private System.Windows.Forms.PictureBox pBox_1_1;
+        private System.Windows.Forms.Label lbl_1_5;
+        private System.Windows.Forms.Label lbl_1_1;
+        private System.Windows.Forms.PictureBox pBox_1_5;
+        private System.Windows.Forms.PictureBox pBox_1_2;
+        private System.Windows.Forms.Label lbl_1_4;
+        private System.Windows.Forms.Label lbl_1_2;
+        private System.Windows.Forms.PictureBox pBox_1_4;
+        private System.Windows.Forms.PictureBox pBox_1_3;
+        private System.Windows.Forms.Label lbl_1_3;
         private System.Windows.Forms.Panel WARSAW_ID_M_SUPPORT;
         private System.Windows.Forms.Label lbl_2_ClassName;
         private System.Windows.Forms.Label lbl_0_ClassName;
