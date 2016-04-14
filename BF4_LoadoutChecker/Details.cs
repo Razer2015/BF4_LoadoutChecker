@@ -3,6 +3,7 @@ using System.Collections;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
+using System.Diagnostics;
 using System.Drawing;
 using System.Linq;
 using System.Text;
@@ -14,6 +15,7 @@ namespace BF4_LoadoutChecker
     {
         public childLocation myLocation;
         public Boolean Docked;
+        private int box_count;
 
         public Details()
         {
@@ -29,6 +31,7 @@ namespace BF4_LoadoutChecker
             FlowLayoutPanel FLP = new FlowLayoutPanel();
             FLP.Width = 236;
             FLP.Height = 133;
+            FLP.Margin = new Padding(0, 0, 0, 0);
 
             // Label which holds the category
             Label lbl_category = new Label();
@@ -75,11 +78,16 @@ namespace BF4_LoadoutChecker
             FLP.Controls.Add(lbl_name);
             FLP.Controls.Add(lbl_desc);
             fLP_base.Controls.Add(FLP);
+
+            // Resize the form Height
+            box_count++;
+            this.Size = new System.Drawing.Size(Width, (FLP.Height * box_count) + 63);
         }
 
         public void ClearfLPBase()
         {
             fLP_base.Controls.Clear();
+            box_count = 0;
         }
 
         private void getimageConfig(Hashtable imageConfig, PictureBox pBox, imageConfig image_type = imageConfig.xsmall, bool async = false)
@@ -135,6 +143,19 @@ namespace BF4_LoadoutChecker
         {
             keepDockingToolStripMenuItem.Checked = !keepDockingToolStripMenuItem.Checked;
             Docked = keepDockingToolStripMenuItem.Checked;
+        }
+
+        /// <summary>
+        /// Report resizing information if debug build
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
+        private void Details_Resize(object sender, EventArgs e)
+        {
+#if DEBUG
+            Debug.WriteLine(String.Format("Width: {0}", this.Size.Width));
+            Debug.WriteLine(String.Format("Height: {0}", this.Size.Height));
+#endif
         }
     }
 }

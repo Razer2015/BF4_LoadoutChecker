@@ -47,9 +47,9 @@
             this.fLP_base.Dock = System.Windows.Forms.DockStyle.Fill;
             this.fLP_base.FlowDirection = System.Windows.Forms.FlowDirection.TopDown;
             this.fLP_base.Location = new System.Drawing.Point(0, 24);
-            this.fLP_base.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
+            this.fLP_base.Margin = new System.Windows.Forms.Padding(0);
             this.fLP_base.Name = "fLP_base";
-            this.fLP_base.Size = new System.Drawing.Size(254, 444);
+            this.fLP_base.Size = new System.Drawing.Size(239, 444);
             this.fLP_base.TabIndex = 0;
             this.fLP_base.WrapContents = false;
             // 
@@ -59,7 +59,7 @@
             this.settingsToolStripMenuItem});
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
-            this.menuStrip1.Size = new System.Drawing.Size(254, 24);
+            this.menuStrip1.Size = new System.Drawing.Size(239, 24);
             this.menuStrip1.TabIndex = 1;
             this.menuStrip1.Text = "menuStrip1";
             // 
@@ -129,7 +129,7 @@
             this.AutoValidate = System.Windows.Forms.AutoValidate.EnablePreventFocusChange;
             this.BackgroundImage = global::BF4_LoadoutChecker.Properties.Resources.bg_video_overlay_battlefield4;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.ClientSize = new System.Drawing.Size(254, 468);
+            this.ClientSize = new System.Drawing.Size(239, 468);
             this.Controls.Add(this.fLP_base);
             this.Controls.Add(this.menuStrip1);
             this.DoubleBuffered = true;
@@ -144,6 +144,7 @@
             this.ShowIcon = false;
             this.ShowInTaskbar = false;
             this.Text = "Details";
+            this.Resize += new System.EventHandler(this.Details_Resize);
             this.menuStrip1.ResumeLayout(false);
             this.menuStrip1.PerformLayout();
             this.ResumeLayout(false);
