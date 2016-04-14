@@ -103,6 +103,36 @@ namespace BF4_LoadoutChecker.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap firemode_auto {
+            get {
+                object obj = ResourceManager.GetObject("firemode_auto", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap firemode_burst {
+            get {
+                object obj = ResourceManager.GetObject("firemode_burst", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap firemode_single {
+            get {
+                object obj = ResourceManager.GetObject("firemode_single", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap kit_assault_xsmall {
             get {
                 object obj = ResourceManager.GetObject("kit_assault_xsmall", resourceCulture);

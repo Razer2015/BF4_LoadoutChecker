@@ -98,7 +98,7 @@ namespace BF4_LoadoutChecker
         /// This initializes loadout and fetches all the data
         /// </summary>
         /// <param name="playerName"></param>
-        public static void initialize(String playerName)
+        public static object[] initialize(String playerName)
         {
             if (model == null)
                 model = new model();
@@ -113,7 +113,10 @@ namespace BF4_LoadoutChecker
             BattlelogClient bclient = new BattlelogClient();
             Loadout = bclient.getStats(playerName);
             if (Loadout == null)
-                return;
+            {
+                Debug.WriteLine("No such username!");
+                return (new object[] { new KeyValuePair<String, String>("type", "failed"), new KeyValuePair<String, String>("message", "No such username") });
+            }
 
             //String loadoutUrl = "/bf4/loadout/get/[personaName]/[personaId]/[platformInt]/";
 
@@ -244,6 +247,7 @@ namespace BF4_LoadoutChecker
                 // Set our model
                 model.structure = structure;
             }
+            return (new object[] { new KeyValuePair<String, String>("type", "success"), new KeyValuePair<String, String>("message", "OK") });
         }
 
         /// <summary>
@@ -401,7 +405,7 @@ namespace BF4_LoadoutChecker
         /// </summary>
         /// <param name="guid"></param>
         /// <returns>{*}</returns>
-        public static ArrayList getAccessories(String guid)
+        public static ArrayList getAccessories(String guid, Boolean asInt = false)
         {
             Hashtable loadout = (Hashtable)Loadout["currentLoadout"];
             var items = allItemsCollection;
@@ -442,9 +446,15 @@ namespace BF4_LoadoutChecker
                 }
 
                 if (item != null) {
-                    if (!item.ContainsKey("slotSid"))
-                        item.Add("slotSid", ((Hashtable)slots[i])["sid"].ToString());
-                    fixedAccessories.Add(item);
+                    if (asInt)
+                    {
+                        fixedAccessories.Add(item["guid"].ToString());
+                    } else {
+                        if (!item.ContainsKey("slotSid"))
+                            item.Add("slotSid", ((Hashtable)slots[i])["sid"].ToString());
+                        fixedAccessories.Add(item);
+                    }
+                    
                 }
                 i++;
             }
@@ -513,7 +523,12 @@ namespace BF4_LoadoutChecker
                 throw new Exception("Loadout is null!");
             if(Loadout["currentLoadout"] == null)
                 throw new Exception("Loadout doesn't contain currentLoadout");
-            return ((Hashtable)Loadout["currentLoadout"]);
+            if (Loadout.ContainsKey("error"))
+                Debug.WriteLine(String.Format("Error: {0}", Loadout["error"].ToString()));
+            if (!Loadout.ContainsKey("currentLoadout"))
+                return (null);
+            else
+                return ((Hashtable)Loadout["currentLoadout"]);
         }
         private static Array get_slotAccessories()
         {
@@ -529,6 +544,10 @@ namespace BF4_LoadoutChecker
         private static int get_activeKit()
         {
             return ((int)activeKit);
+        }
+        private static String[] get_statKeys()
+        {
+            return (new String[] { "Damage", "Accuracy", "Mobility", "Range", "Handling" });
         }
 
         /// <summary>
@@ -574,6 +593,120 @@ namespace BF4_LoadoutChecker
                     break;
             }
             return kit;
+        }
+
+        /// <summary>
+        /// Creates and Dictionary with the weaponData
+        /// </summary>
+        /// <param name="weaponData"></param>
+        /// <returns></returns>
+        private static Dictionary<String, double> get_weaponDataRelative(Hashtable weaponData)
+        {
+            var weaponDataRelative = new Dictionary<String, double>();
+            var statKeys = get_statKeys();
+            var sLen = statKeys.Length;
+
+            var s = 0;
+            while (s < sLen)
+            {
+                weaponDataRelative.Add("stat" + statKeys[s], Convert.ToDouble(weaponData["stat" + statKeys[s]]));
+                s++;
+            }
+            return (weaponDataRelative);
+        }
+
+        /// <summary>
+        /// Calculates the weapon stats taking into account the equipped acessories for it, can also pass in a modifier object to get the new base values returned
+        /// @param [modifierOverride] {*} {0:{statDamage: 1.33,statAccuracy: 1,...},...} Array of weaponData stats by slot index, you can provide some or all slots
+        /// </summary>
+        /// <param name="item"></param>
+        /// <param name="modifierOverride"></param>
+        /// <returns></returns>
+        public static object calculateModifiers(Hashtable item, Hashtable modifierOverride)
+        {
+            if (item["itemType"].Equals("weapon"))
+            {
+                var weaponData = (Hashtable)item["weaponData"];
+                if (weaponData != null)
+                {
+                    var items = get_items();
+                    var loadout = get_loadout();
+                    var weaponDataRelative = get_weaponDataRelative(weaponData);
+                    var statKeys = get_statKeys();
+                    var sLen = statKeys.Length;
+                    var accessoryGuids = getAccessories(item["guid"].ToString(), true);
+                    var slotModifiers = new Dictionary<String, List<double>>();
+
+                    var s = 0;
+                    while (s < sLen)
+                    {
+                        slotModifiers.Add(statKeys[s], new List<double>());
+                        s++;
+                    }
+
+                    var a = 0;
+                    var aLen = accessoryGuids.Count;
+                    while (a < aLen)
+                    {
+                        var accessoryGuid = Convert.ToInt64(accessoryGuids[a]);
+                        if (accessoryGuid != 0)
+                        {
+                            var accessoryData = new Hashtable();
+                            if (modifierOverride != null && modifierOverride[a] != null) {
+                                accessoryData = (Hashtable)modifierOverride[a];
+                            } else {
+                                accessoryData = (Hashtable)items_get(allItemsCollection, accessoryGuid.ToString())["weaponData"];
+                            }
+                            if (accessoryData != null)
+                            {
+                                s = 0;
+                                while (s < sLen)
+                                {
+                                    var statKey = "stat" + statKeys[s];
+                                    if (Convert.ToSingle(accessoryData[statKey]) != 1)
+                                    {
+                                        var statValue = Convert.ToDouble(accessoryData[statKey]);
+                                        var baseStat = Convert.ToDouble(weaponData[statKey]);
+
+                                        var difference = (double)0;
+                                        if (statValue > 1)
+                                        {
+                                            difference = baseStat * (statValue - 1.0F);
+                                        }
+                                        else if (statValue < 0)
+                                        {
+                                            difference = baseStat * statValue;
+                                        }
+                                        else if (statValue < 1 && statValue != 0)
+                                        {
+                                            difference = baseStat * statValue - baseStat;
+                                        }
+
+                                        if (!weaponDataRelative.ContainsKey(statKey))
+                                            throw new Exception(String.Format("weaponDataRelative doesn't contain key {0}", statKey));
+
+                                        weaponDataRelative[statKey] += difference;
+                                    }
+                                    slotModifiers[statKeys[s]].Add(Convert.ToSingle(accessoryData[statKey]));
+                                    s++;
+                                }
+                            }
+                        }
+                        a++;
+                    }
+                    if (modifierOverride != null)
+                    {
+                        return weaponDataRelative;
+                    }
+                    else
+                    {
+                        return (new object[] {
+                            new KeyValuePair<String, Dictionary<String, double>>("weaponDataRelative", weaponDataRelative),
+                            new KeyValuePair<String, Dictionary<String, List<double>>>("newslotModifiers", slotModifiers) });
+                    }
+                }
+            }
+            return (null);
         }
 
         /// <summary>

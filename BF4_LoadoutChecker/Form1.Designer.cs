@@ -128,44 +128,7 @@
             this.lbl_0_3 = new System.Windows.Forms.Label();
             this.pBox_kit_assault = new System.Windows.Forms.PictureBox();
             this.primary_indepth_info = new System.Windows.Forms.Panel();
-            this.WARSAW_ID_P_CAT_OPTIC = new System.Windows.Forms.FlowLayoutPanel();
-            this.WARSAW_ID_P_CAT_OPTIC_0 = new System.Windows.Forms.FlowLayoutPanel();
-            this.lbl_OPTIC = new System.Windows.Forms.Label();
-            this.OPTIC_panel = new System.Windows.Forms.Panel();
-            this.name_WARSAW_ID_P_CAT_OPTIC = new System.Windows.Forms.Label();
-            this.pBox_WARSAW_ID_P_CAT_OPTIC = new System.Windows.Forms.PictureBox();
-            this.desc_WARSAW_ID_P_CAT_OPTIC = new System.Windows.Forms.Label();
-            this.btn_fetch_immediate = new System.Windows.Forms.Button();
-            this.tBox_soldierName = new System.Windows.Forms.TextBox();
-            this.WARSAW_ID_P_CAT_ACCESSORY = new System.Windows.Forms.FlowLayoutPanel();
-            this.flowLayoutPanel2 = new System.Windows.Forms.FlowLayoutPanel();
-            this.lbl_ACCESSORY = new System.Windows.Forms.Label();
-            this.panel1 = new System.Windows.Forms.Panel();
-            this.name_WARSAW_ID_P_CAT_ACCESSORY = new System.Windows.Forms.Label();
-            this.pBox_WARSAW_ID_P_CAT_ACCESSORY = new System.Windows.Forms.PictureBox();
-            this.desc_WARSAW_ID_P_CAT_ACCESSORY = new System.Windows.Forms.Label();
-            this.WARSAW_ID_P_CAT_BARREL = new System.Windows.Forms.FlowLayoutPanel();
-            this.flowLayoutPanel4 = new System.Windows.Forms.FlowLayoutPanel();
-            this.lbl_BARREL = new System.Windows.Forms.Label();
-            this.panel2 = new System.Windows.Forms.Panel();
-            this.name_WARSAW_ID_P_CAT_BARREL = new System.Windows.Forms.Label();
-            this.pBox_WARSAW_ID_P_CAT_BARREL = new System.Windows.Forms.PictureBox();
-            this.desc_WARSAW_ID_P_CAT_BARREL = new System.Windows.Forms.Label();
-            this.WARSAW_ID_P_CAT_UNDERBARREL = new System.Windows.Forms.FlowLayoutPanel();
-            this.flowLayoutPanel6 = new System.Windows.Forms.FlowLayoutPanel();
-            this.lbl_UNDERBARREL = new System.Windows.Forms.Label();
-            this.panel3 = new System.Windows.Forms.Panel();
-            this.name_WARSAW_ID_P_CAT_UNDERBARREL = new System.Windows.Forms.Label();
-            this.pBox_WARSAW_ID_P_CAT_UNDERBARREL = new System.Windows.Forms.PictureBox();
-            this.desc_WARSAW_ID_P_CAT_UNDERBARREL = new System.Windows.Forms.Label();
             this.btn_back = new System.Windows.Forms.Button();
-            this.WARSAW_ID_P_CAT_AMMO = new System.Windows.Forms.FlowLayoutPanel();
-            this.flowLayoutPanel3 = new System.Windows.Forms.FlowLayoutPanel();
-            this.lbl_AMMO = new System.Windows.Forms.Label();
-            this.panel4 = new System.Windows.Forms.Panel();
-            this.name_WARSAW_ID_P_CAT_AMMO = new System.Windows.Forms.Label();
-            this.pBox_WARSAW_ID_P_CAT_AMMO = new System.Windows.Forms.PictureBox();
-            this.desc_WARSAW_ID_P_CAT_AMMO = new System.Windows.Forms.Label();
             this.WARSAW_ID_P_CAT_AUXILIARY = new System.Windows.Forms.FlowLayoutPanel();
             this.flowLayoutPanel5 = new System.Windows.Forms.FlowLayoutPanel();
             this.lbl_AUXILIARY = new System.Windows.Forms.Label();
@@ -173,6 +136,43 @@
             this.name_WARSAW_ID_P_CAT_AUXILIARY = new System.Windows.Forms.Label();
             this.pBox_WARSAW_ID_P_CAT_AUXILIARY = new System.Windows.Forms.PictureBox();
             this.desc_WARSAW_ID_P_CAT_AUXILIARY = new System.Windows.Forms.Label();
+            this.WARSAW_ID_P_CAT_AMMO = new System.Windows.Forms.FlowLayoutPanel();
+            this.flowLayoutPanel3 = new System.Windows.Forms.FlowLayoutPanel();
+            this.lbl_AMMO = new System.Windows.Forms.Label();
+            this.panel4 = new System.Windows.Forms.Panel();
+            this.name_WARSAW_ID_P_CAT_AMMO = new System.Windows.Forms.Label();
+            this.pBox_WARSAW_ID_P_CAT_AMMO = new System.Windows.Forms.PictureBox();
+            this.desc_WARSAW_ID_P_CAT_AMMO = new System.Windows.Forms.Label();
+            this.WARSAW_ID_P_CAT_OPTIC = new System.Windows.Forms.FlowLayoutPanel();
+            this.WARSAW_ID_P_CAT_OPTIC_0 = new System.Windows.Forms.FlowLayoutPanel();
+            this.lbl_OPTIC = new System.Windows.Forms.Label();
+            this.OPTIC_panel = new System.Windows.Forms.Panel();
+            this.name_WARSAW_ID_P_CAT_OPTIC = new System.Windows.Forms.Label();
+            this.pBox_WARSAW_ID_P_CAT_OPTIC = new System.Windows.Forms.PictureBox();
+            this.desc_WARSAW_ID_P_CAT_OPTIC = new System.Windows.Forms.Label();
+            this.WARSAW_ID_P_CAT_UNDERBARREL = new System.Windows.Forms.FlowLayoutPanel();
+            this.flowLayoutPanel6 = new System.Windows.Forms.FlowLayoutPanel();
+            this.lbl_UNDERBARREL = new System.Windows.Forms.Label();
+            this.panel3 = new System.Windows.Forms.Panel();
+            this.name_WARSAW_ID_P_CAT_UNDERBARREL = new System.Windows.Forms.Label();
+            this.pBox_WARSAW_ID_P_CAT_UNDERBARREL = new System.Windows.Forms.PictureBox();
+            this.desc_WARSAW_ID_P_CAT_UNDERBARREL = new System.Windows.Forms.Label();
+            this.WARSAW_ID_P_CAT_BARREL = new System.Windows.Forms.FlowLayoutPanel();
+            this.flowLayoutPanel4 = new System.Windows.Forms.FlowLayoutPanel();
+            this.lbl_BARREL = new System.Windows.Forms.Label();
+            this.panel2 = new System.Windows.Forms.Panel();
+            this.name_WARSAW_ID_P_CAT_BARREL = new System.Windows.Forms.Label();
+            this.pBox_WARSAW_ID_P_CAT_BARREL = new System.Windows.Forms.PictureBox();
+            this.desc_WARSAW_ID_P_CAT_BARREL = new System.Windows.Forms.Label();
+            this.WARSAW_ID_P_CAT_ACCESSORY = new System.Windows.Forms.FlowLayoutPanel();
+            this.flowLayoutPanel2 = new System.Windows.Forms.FlowLayoutPanel();
+            this.lbl_ACCESSORY = new System.Windows.Forms.Label();
+            this.panel1 = new System.Windows.Forms.Panel();
+            this.name_WARSAW_ID_P_CAT_ACCESSORY = new System.Windows.Forms.Label();
+            this.pBox_WARSAW_ID_P_CAT_ACCESSORY = new System.Windows.Forms.PictureBox();
+            this.desc_WARSAW_ID_P_CAT_ACCESSORY = new System.Windows.Forms.Label();
+            this.btn_fetch_immediate = new System.Windows.Forms.Button();
+            this.tBox_soldierName = new System.Windows.Forms.TextBox();
             this.statusStrip1.SuspendLayout();
             this.tabControl1.SuspendLayout();
             this.Loadout.SuspendLayout();
@@ -234,30 +234,30 @@
             ((System.ComponentModel.ISupportInitialize)(this.pBox_0_3)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pBox_kit_assault)).BeginInit();
             this.primary_indepth_info.SuspendLayout();
-            this.WARSAW_ID_P_CAT_OPTIC.SuspendLayout();
-            this.WARSAW_ID_P_CAT_OPTIC_0.SuspendLayout();
-            this.OPTIC_panel.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pBox_WARSAW_ID_P_CAT_OPTIC)).BeginInit();
-            this.WARSAW_ID_P_CAT_ACCESSORY.SuspendLayout();
-            this.flowLayoutPanel2.SuspendLayout();
-            this.panel1.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pBox_WARSAW_ID_P_CAT_ACCESSORY)).BeginInit();
-            this.WARSAW_ID_P_CAT_BARREL.SuspendLayout();
-            this.flowLayoutPanel4.SuspendLayout();
-            this.panel2.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pBox_WARSAW_ID_P_CAT_BARREL)).BeginInit();
-            this.WARSAW_ID_P_CAT_UNDERBARREL.SuspendLayout();
-            this.flowLayoutPanel6.SuspendLayout();
-            this.panel3.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pBox_WARSAW_ID_P_CAT_UNDERBARREL)).BeginInit();
-            this.WARSAW_ID_P_CAT_AMMO.SuspendLayout();
-            this.flowLayoutPanel3.SuspendLayout();
-            this.panel4.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pBox_WARSAW_ID_P_CAT_AMMO)).BeginInit();
             this.WARSAW_ID_P_CAT_AUXILIARY.SuspendLayout();
             this.flowLayoutPanel5.SuspendLayout();
             this.panel5.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pBox_WARSAW_ID_P_CAT_AUXILIARY)).BeginInit();
+            this.WARSAW_ID_P_CAT_AMMO.SuspendLayout();
+            this.flowLayoutPanel3.SuspendLayout();
+            this.panel4.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pBox_WARSAW_ID_P_CAT_AMMO)).BeginInit();
+            this.WARSAW_ID_P_CAT_OPTIC.SuspendLayout();
+            this.WARSAW_ID_P_CAT_OPTIC_0.SuspendLayout();
+            this.OPTIC_panel.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pBox_WARSAW_ID_P_CAT_OPTIC)).BeginInit();
+            this.WARSAW_ID_P_CAT_UNDERBARREL.SuspendLayout();
+            this.flowLayoutPanel6.SuspendLayout();
+            this.panel3.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pBox_WARSAW_ID_P_CAT_UNDERBARREL)).BeginInit();
+            this.WARSAW_ID_P_CAT_BARREL.SuspendLayout();
+            this.flowLayoutPanel4.SuspendLayout();
+            this.panel2.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pBox_WARSAW_ID_P_CAT_BARREL)).BeginInit();
+            this.WARSAW_ID_P_CAT_ACCESSORY.SuspendLayout();
+            this.flowLayoutPanel2.SuspendLayout();
+            this.panel1.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pBox_WARSAW_ID_P_CAT_ACCESSORY)).BeginInit();
             this.SuspendLayout();
             // 
             // menuStrip1
@@ -1055,7 +1055,7 @@
             // 
             this.pBox_2_1_customize.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.pBox_2_1_customize.Image = ((System.Drawing.Image)(resources.GetObject("pBox_2_1_customize.Image")));
-            this.pBox_2_1_customize.Location = new System.Drawing.Point(206, 167);
+            this.pBox_2_1_customize.Location = new System.Drawing.Point(205, 167);
             this.pBox_2_1_customize.Margin = new System.Windows.Forms.Padding(0);
             this.pBox_2_1_customize.Name = "pBox_2_1_customize";
             this.pBox_2_1_customize.Size = new System.Drawing.Size(31, 31);
@@ -1113,7 +1113,7 @@
             // pBox_2_0_0
             // 
             this.pBox_2_0_0.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.pBox_2_0_0.Location = new System.Drawing.Point(1, 136);
+            this.pBox_2_0_0.Location = new System.Drawing.Point(0, 136);
             this.pBox_2_0_0.Margin = new System.Windows.Forms.Padding(0);
             this.pBox_2_0_0.Name = "pBox_2_0_0";
             this.pBox_2_0_0.Size = new System.Drawing.Size(79, 31);
@@ -1127,7 +1127,7 @@
             // lbl_2_active
             // 
             this.lbl_2_active.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.lbl_2_active.Location = new System.Drawing.Point(1, 353);
+            this.lbl_2_active.Location = new System.Drawing.Point(0, 353);
             this.lbl_2_active.Margin = new System.Windows.Forms.Padding(0);
             this.lbl_2_active.Name = "lbl_2_active";
             this.lbl_2_active.Size = new System.Drawing.Size(236, 31);
@@ -1139,7 +1139,7 @@
             // pBox_2_0_1
             // 
             this.pBox_2_0_1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.pBox_2_0_1.Location = new System.Drawing.Point(80, 136);
+            this.pBox_2_0_1.Location = new System.Drawing.Point(79, 136);
             this.pBox_2_0_1.Margin = new System.Windows.Forms.Padding(0);
             this.pBox_2_0_1.Name = "pBox_2_0_1";
             this.pBox_2_0_1.Size = new System.Drawing.Size(79, 31);
@@ -1153,7 +1153,7 @@
             // lbl_2_6
             // 
             this.lbl_2_6.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.lbl_2_6.Location = new System.Drawing.Point(69, 322);
+            this.lbl_2_6.Location = new System.Drawing.Point(68, 322);
             this.lbl_2_6.Margin = new System.Windows.Forms.Padding(0);
             this.lbl_2_6.Name = "lbl_2_6";
             this.lbl_2_6.Size = new System.Drawing.Size(167, 31);
@@ -1166,7 +1166,7 @@
             // pBox_2_0_2
             // 
             this.pBox_2_0_2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.pBox_2_0_2.Location = new System.Drawing.Point(159, 136);
+            this.pBox_2_0_2.Location = new System.Drawing.Point(158, 136);
             this.pBox_2_0_2.Margin = new System.Windows.Forms.Padding(0);
             this.pBox_2_0_2.Name = "pBox_2_0_2";
             this.pBox_2_0_2.Size = new System.Drawing.Size(79, 31);
@@ -1180,7 +1180,7 @@
             // pBox_2_6
             // 
             this.pBox_2_6.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.pBox_2_6.Location = new System.Drawing.Point(1, 322);
+            this.pBox_2_6.Location = new System.Drawing.Point(0, 322);
             this.pBox_2_6.Margin = new System.Windows.Forms.Padding(0);
             this.pBox_2_6.Name = "pBox_2_6";
             this.pBox_2_6.Size = new System.Drawing.Size(69, 31);
@@ -1196,7 +1196,7 @@
             // 
             this.pBox_2_1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.pBox_2_1.ImageLocation = "";
-            this.pBox_2_1.Location = new System.Drawing.Point(1, 167);
+            this.pBox_2_1.Location = new System.Drawing.Point(0, 167);
             this.pBox_2_1.Margin = new System.Windows.Forms.Padding(0);
             this.pBox_2_1.Name = "pBox_2_1";
             this.pBox_2_1.Size = new System.Drawing.Size(69, 31);
@@ -1211,7 +1211,7 @@
             // lbl_2_5
             // 
             this.lbl_2_5.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.lbl_2_5.Location = new System.Drawing.Point(69, 291);
+            this.lbl_2_5.Location = new System.Drawing.Point(68, 291);
             this.lbl_2_5.Margin = new System.Windows.Forms.Padding(0);
             this.lbl_2_5.Name = "lbl_2_5";
             this.lbl_2_5.Size = new System.Drawing.Size(167, 31);
@@ -1224,7 +1224,7 @@
             // lbl_2_1
             // 
             this.lbl_2_1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.lbl_2_1.Location = new System.Drawing.Point(70, 167);
+            this.lbl_2_1.Location = new System.Drawing.Point(69, 167);
             this.lbl_2_1.Margin = new System.Windows.Forms.Padding(0);
             this.lbl_2_1.Name = "lbl_2_1";
             this.lbl_2_1.Size = new System.Drawing.Size(136, 31);
@@ -1237,7 +1237,7 @@
             // pBox_2_5
             // 
             this.pBox_2_5.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.pBox_2_5.Location = new System.Drawing.Point(1, 291);
+            this.pBox_2_5.Location = new System.Drawing.Point(0, 291);
             this.pBox_2_5.Margin = new System.Windows.Forms.Padding(0);
             this.pBox_2_5.Name = "pBox_2_5";
             this.pBox_2_5.Size = new System.Drawing.Size(69, 31);
@@ -1252,7 +1252,7 @@
             // pBox_2_2
             // 
             this.pBox_2_2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.pBox_2_2.Location = new System.Drawing.Point(1, 198);
+            this.pBox_2_2.Location = new System.Drawing.Point(0, 198);
             this.pBox_2_2.Margin = new System.Windows.Forms.Padding(0);
             this.pBox_2_2.Name = "pBox_2_2";
             this.pBox_2_2.Size = new System.Drawing.Size(69, 31);
@@ -1267,7 +1267,7 @@
             // lbl_2_4
             // 
             this.lbl_2_4.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.lbl_2_4.Location = new System.Drawing.Point(69, 260);
+            this.lbl_2_4.Location = new System.Drawing.Point(68, 260);
             this.lbl_2_4.Margin = new System.Windows.Forms.Padding(0);
             this.lbl_2_4.Name = "lbl_2_4";
             this.lbl_2_4.Size = new System.Drawing.Size(167, 31);
@@ -1280,7 +1280,7 @@
             // lbl_2_2
             // 
             this.lbl_2_2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.lbl_2_2.Location = new System.Drawing.Point(69, 198);
+            this.lbl_2_2.Location = new System.Drawing.Point(68, 198);
             this.lbl_2_2.Margin = new System.Windows.Forms.Padding(0);
             this.lbl_2_2.Name = "lbl_2_2";
             this.lbl_2_2.Size = new System.Drawing.Size(167, 31);
@@ -1293,7 +1293,7 @@
             // pBox_2_4
             // 
             this.pBox_2_4.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.pBox_2_4.Location = new System.Drawing.Point(1, 260);
+            this.pBox_2_4.Location = new System.Drawing.Point(0, 260);
             this.pBox_2_4.Margin = new System.Windows.Forms.Padding(0);
             this.pBox_2_4.Name = "pBox_2_4";
             this.pBox_2_4.Size = new System.Drawing.Size(69, 31);
@@ -1308,7 +1308,7 @@
             // pBox_2_3
             // 
             this.pBox_2_3.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.pBox_2_3.Location = new System.Drawing.Point(1, 229);
+            this.pBox_2_3.Location = new System.Drawing.Point(0, 229);
             this.pBox_2_3.Margin = new System.Windows.Forms.Padding(0);
             this.pBox_2_3.Name = "pBox_2_3";
             this.pBox_2_3.Size = new System.Drawing.Size(69, 31);
@@ -1323,7 +1323,7 @@
             // lbl_2_3
             // 
             this.lbl_2_3.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.lbl_2_3.Location = new System.Drawing.Point(69, 229);
+            this.lbl_2_3.Location = new System.Drawing.Point(68, 229);
             this.lbl_2_3.Margin = new System.Windows.Forms.Padding(0);
             this.lbl_2_3.Name = "lbl_2_3";
             this.lbl_2_3.Size = new System.Drawing.Size(167, 31);
@@ -1692,298 +1692,6 @@
             this.primary_indepth_info.TabIndex = 24;
             this.primary_indepth_info.Visible = false;
             // 
-            // WARSAW_ID_P_CAT_OPTIC
-            // 
-            this.WARSAW_ID_P_CAT_OPTIC.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.WARSAW_ID_P_CAT_OPTIC.Controls.Add(this.WARSAW_ID_P_CAT_OPTIC_0);
-            this.WARSAW_ID_P_CAT_OPTIC.Location = new System.Drawing.Point(217, 40);
-            this.WARSAW_ID_P_CAT_OPTIC.Name = "WARSAW_ID_P_CAT_OPTIC";
-            this.WARSAW_ID_P_CAT_OPTIC.Size = new System.Drawing.Size(236, 133);
-            this.WARSAW_ID_P_CAT_OPTIC.TabIndex = 1;
-            // 
-            // WARSAW_ID_P_CAT_OPTIC_0
-            // 
-            this.WARSAW_ID_P_CAT_OPTIC_0.Controls.Add(this.lbl_OPTIC);
-            this.WARSAW_ID_P_CAT_OPTIC_0.Controls.Add(this.OPTIC_panel);
-            this.WARSAW_ID_P_CAT_OPTIC_0.Controls.Add(this.desc_WARSAW_ID_P_CAT_OPTIC);
-            this.WARSAW_ID_P_CAT_OPTIC_0.Location = new System.Drawing.Point(0, 0);
-            this.WARSAW_ID_P_CAT_OPTIC_0.Margin = new System.Windows.Forms.Padding(0);
-            this.WARSAW_ID_P_CAT_OPTIC_0.Name = "WARSAW_ID_P_CAT_OPTIC_0";
-            this.WARSAW_ID_P_CAT_OPTIC_0.Size = new System.Drawing.Size(235, 131);
-            this.WARSAW_ID_P_CAT_OPTIC_0.TabIndex = 0;
-            // 
-            // lbl_OPTIC
-            // 
-            this.lbl_OPTIC.Location = new System.Drawing.Point(0, 0);
-            this.lbl_OPTIC.Margin = new System.Windows.Forms.Padding(0, 0, 0, 1);
-            this.lbl_OPTIC.Name = "lbl_OPTIC";
-            this.lbl_OPTIC.Size = new System.Drawing.Size(235, 23);
-            this.lbl_OPTIC.TabIndex = 1;
-            this.lbl_OPTIC.Text = " OPTIC";
-            this.lbl_OPTIC.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            // 
-            // OPTIC_panel
-            // 
-            this.OPTIC_panel.Controls.Add(this.name_WARSAW_ID_P_CAT_OPTIC);
-            this.OPTIC_panel.Controls.Add(this.pBox_WARSAW_ID_P_CAT_OPTIC);
-            this.OPTIC_panel.Location = new System.Drawing.Point(0, 24);
-            this.OPTIC_panel.Margin = new System.Windows.Forms.Padding(0);
-            this.OPTIC_panel.Name = "OPTIC_panel";
-            this.OPTIC_panel.Size = new System.Drawing.Size(235, 30);
-            this.OPTIC_panel.TabIndex = 2;
-            // 
-            // name_WARSAW_ID_P_CAT_OPTIC
-            // 
-            this.name_WARSAW_ID_P_CAT_OPTIC.Location = new System.Drawing.Point(64, 1);
-            this.name_WARSAW_ID_P_CAT_OPTIC.Margin = new System.Windows.Forms.Padding(0);
-            this.name_WARSAW_ID_P_CAT_OPTIC.Name = "name_WARSAW_ID_P_CAT_OPTIC";
-            this.name_WARSAW_ID_P_CAT_OPTIC.Size = new System.Drawing.Size(171, 28);
-            this.name_WARSAW_ID_P_CAT_OPTIC.TabIndex = 2;
-            this.name_WARSAW_ID_P_CAT_OPTIC.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            // 
-            // pBox_WARSAW_ID_P_CAT_OPTIC
-            // 
-            this.pBox_WARSAW_ID_P_CAT_OPTIC.Location = new System.Drawing.Point(0, 1);
-            this.pBox_WARSAW_ID_P_CAT_OPTIC.Margin = new System.Windows.Forms.Padding(0);
-            this.pBox_WARSAW_ID_P_CAT_OPTIC.Name = "pBox_WARSAW_ID_P_CAT_OPTIC";
-            this.pBox_WARSAW_ID_P_CAT_OPTIC.Size = new System.Drawing.Size(64, 28);
-            this.pBox_WARSAW_ID_P_CAT_OPTIC.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
-            this.pBox_WARSAW_ID_P_CAT_OPTIC.TabIndex = 0;
-            this.pBox_WARSAW_ID_P_CAT_OPTIC.TabStop = false;
-            // 
-            // desc_WARSAW_ID_P_CAT_OPTIC
-            // 
-            this.desc_WARSAW_ID_P_CAT_OPTIC.Location = new System.Drawing.Point(0, 54);
-            this.desc_WARSAW_ID_P_CAT_OPTIC.Margin = new System.Windows.Forms.Padding(0, 0, 0, 1);
-            this.desc_WARSAW_ID_P_CAT_OPTIC.Name = "desc_WARSAW_ID_P_CAT_OPTIC";
-            this.desc_WARSAW_ID_P_CAT_OPTIC.Size = new System.Drawing.Size(235, 76);
-            this.desc_WARSAW_ID_P_CAT_OPTIC.TabIndex = 4;
-            this.desc_WARSAW_ID_P_CAT_OPTIC.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // btn_fetch_immediate
-            // 
-            this.btn_fetch_immediate.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.btn_fetch_immediate.Location = new System.Drawing.Point(4, 1);
-            this.btn_fetch_immediate.Name = "btn_fetch_immediate";
-            this.btn_fetch_immediate.Size = new System.Drawing.Size(121, 23);
-            this.btn_fetch_immediate.TabIndex = 35;
-            this.btn_fetch_immediate.Text = "Immediate Fetch";
-            this.btn_fetch_immediate.UseVisualStyleBackColor = true;
-            this.btn_fetch_immediate.Click += new System.EventHandler(this.btn_fetch_immediate_Click);
-            // 
-            // tBox_soldierName
-            // 
-            this.tBox_soldierName.Location = new System.Drawing.Point(131, 4);
-            this.tBox_soldierName.Name = "tBox_soldierName";
-            this.tBox_soldierName.Size = new System.Drawing.Size(185, 20);
-            this.tBox_soldierName.TabIndex = 36;
-            this.tBox_soldierName.Text = "xfileFIN";
-            this.tBox_soldierName.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            // 
-            // WARSAW_ID_P_CAT_ACCESSORY
-            // 
-            this.WARSAW_ID_P_CAT_ACCESSORY.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.WARSAW_ID_P_CAT_ACCESSORY.Controls.Add(this.flowLayoutPanel2);
-            this.WARSAW_ID_P_CAT_ACCESSORY.Location = new System.Drawing.Point(217, 179);
-            this.WARSAW_ID_P_CAT_ACCESSORY.Name = "WARSAW_ID_P_CAT_ACCESSORY";
-            this.WARSAW_ID_P_CAT_ACCESSORY.Size = new System.Drawing.Size(236, 133);
-            this.WARSAW_ID_P_CAT_ACCESSORY.TabIndex = 2;
-            // 
-            // flowLayoutPanel2
-            // 
-            this.flowLayoutPanel2.Controls.Add(this.lbl_ACCESSORY);
-            this.flowLayoutPanel2.Controls.Add(this.panel1);
-            this.flowLayoutPanel2.Controls.Add(this.desc_WARSAW_ID_P_CAT_ACCESSORY);
-            this.flowLayoutPanel2.Location = new System.Drawing.Point(0, 0);
-            this.flowLayoutPanel2.Margin = new System.Windows.Forms.Padding(0);
-            this.flowLayoutPanel2.Name = "flowLayoutPanel2";
-            this.flowLayoutPanel2.Size = new System.Drawing.Size(235, 131);
-            this.flowLayoutPanel2.TabIndex = 0;
-            // 
-            // lbl_ACCESSORY
-            // 
-            this.lbl_ACCESSORY.Location = new System.Drawing.Point(0, 0);
-            this.lbl_ACCESSORY.Margin = new System.Windows.Forms.Padding(0, 0, 0, 1);
-            this.lbl_ACCESSORY.Name = "lbl_ACCESSORY";
-            this.lbl_ACCESSORY.Size = new System.Drawing.Size(235, 23);
-            this.lbl_ACCESSORY.TabIndex = 1;
-            this.lbl_ACCESSORY.Text = " ACCESSORY";
-            this.lbl_ACCESSORY.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            // 
-            // panel1
-            // 
-            this.panel1.Controls.Add(this.name_WARSAW_ID_P_CAT_ACCESSORY);
-            this.panel1.Controls.Add(this.pBox_WARSAW_ID_P_CAT_ACCESSORY);
-            this.panel1.Location = new System.Drawing.Point(0, 24);
-            this.panel1.Margin = new System.Windows.Forms.Padding(0);
-            this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(235, 30);
-            this.panel1.TabIndex = 2;
-            // 
-            // name_WARSAW_ID_P_CAT_ACCESSORY
-            // 
-            this.name_WARSAW_ID_P_CAT_ACCESSORY.Location = new System.Drawing.Point(64, 1);
-            this.name_WARSAW_ID_P_CAT_ACCESSORY.Margin = new System.Windows.Forms.Padding(0);
-            this.name_WARSAW_ID_P_CAT_ACCESSORY.Name = "name_WARSAW_ID_P_CAT_ACCESSORY";
-            this.name_WARSAW_ID_P_CAT_ACCESSORY.Size = new System.Drawing.Size(171, 28);
-            this.name_WARSAW_ID_P_CAT_ACCESSORY.TabIndex = 2;
-            this.name_WARSAW_ID_P_CAT_ACCESSORY.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            // 
-            // pBox_WARSAW_ID_P_CAT_ACCESSORY
-            // 
-            this.pBox_WARSAW_ID_P_CAT_ACCESSORY.Location = new System.Drawing.Point(0, 1);
-            this.pBox_WARSAW_ID_P_CAT_ACCESSORY.Margin = new System.Windows.Forms.Padding(0);
-            this.pBox_WARSAW_ID_P_CAT_ACCESSORY.Name = "pBox_WARSAW_ID_P_CAT_ACCESSORY";
-            this.pBox_WARSAW_ID_P_CAT_ACCESSORY.Size = new System.Drawing.Size(64, 28);
-            this.pBox_WARSAW_ID_P_CAT_ACCESSORY.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
-            this.pBox_WARSAW_ID_P_CAT_ACCESSORY.TabIndex = 0;
-            this.pBox_WARSAW_ID_P_CAT_ACCESSORY.TabStop = false;
-            // 
-            // desc_WARSAW_ID_P_CAT_ACCESSORY
-            // 
-            this.desc_WARSAW_ID_P_CAT_ACCESSORY.Location = new System.Drawing.Point(0, 54);
-            this.desc_WARSAW_ID_P_CAT_ACCESSORY.Margin = new System.Windows.Forms.Padding(0, 0, 0, 1);
-            this.desc_WARSAW_ID_P_CAT_ACCESSORY.Name = "desc_WARSAW_ID_P_CAT_ACCESSORY";
-            this.desc_WARSAW_ID_P_CAT_ACCESSORY.Size = new System.Drawing.Size(235, 76);
-            this.desc_WARSAW_ID_P_CAT_ACCESSORY.TabIndex = 4;
-            this.desc_WARSAW_ID_P_CAT_ACCESSORY.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // WARSAW_ID_P_CAT_BARREL
-            // 
-            this.WARSAW_ID_P_CAT_BARREL.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.WARSAW_ID_P_CAT_BARREL.Controls.Add(this.flowLayoutPanel4);
-            this.WARSAW_ID_P_CAT_BARREL.Location = new System.Drawing.Point(459, 41);
-            this.WARSAW_ID_P_CAT_BARREL.Name = "WARSAW_ID_P_CAT_BARREL";
-            this.WARSAW_ID_P_CAT_BARREL.Size = new System.Drawing.Size(236, 133);
-            this.WARSAW_ID_P_CAT_BARREL.TabIndex = 3;
-            // 
-            // flowLayoutPanel4
-            // 
-            this.flowLayoutPanel4.Controls.Add(this.lbl_BARREL);
-            this.flowLayoutPanel4.Controls.Add(this.panel2);
-            this.flowLayoutPanel4.Controls.Add(this.desc_WARSAW_ID_P_CAT_BARREL);
-            this.flowLayoutPanel4.Location = new System.Drawing.Point(0, 0);
-            this.flowLayoutPanel4.Margin = new System.Windows.Forms.Padding(0);
-            this.flowLayoutPanel4.Name = "flowLayoutPanel4";
-            this.flowLayoutPanel4.Size = new System.Drawing.Size(235, 131);
-            this.flowLayoutPanel4.TabIndex = 0;
-            // 
-            // lbl_BARREL
-            // 
-            this.lbl_BARREL.Location = new System.Drawing.Point(0, 0);
-            this.lbl_BARREL.Margin = new System.Windows.Forms.Padding(0, 0, 0, 1);
-            this.lbl_BARREL.Name = "lbl_BARREL";
-            this.lbl_BARREL.Size = new System.Drawing.Size(235, 23);
-            this.lbl_BARREL.TabIndex = 1;
-            this.lbl_BARREL.Text = " BARREL";
-            this.lbl_BARREL.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            // 
-            // panel2
-            // 
-            this.panel2.Controls.Add(this.name_WARSAW_ID_P_CAT_BARREL);
-            this.panel2.Controls.Add(this.pBox_WARSAW_ID_P_CAT_BARREL);
-            this.panel2.Location = new System.Drawing.Point(0, 24);
-            this.panel2.Margin = new System.Windows.Forms.Padding(0);
-            this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(235, 30);
-            this.panel2.TabIndex = 2;
-            // 
-            // name_WARSAW_ID_P_CAT_BARREL
-            // 
-            this.name_WARSAW_ID_P_CAT_BARREL.Location = new System.Drawing.Point(64, 1);
-            this.name_WARSAW_ID_P_CAT_BARREL.Margin = new System.Windows.Forms.Padding(0);
-            this.name_WARSAW_ID_P_CAT_BARREL.Name = "name_WARSAW_ID_P_CAT_BARREL";
-            this.name_WARSAW_ID_P_CAT_BARREL.Size = new System.Drawing.Size(171, 28);
-            this.name_WARSAW_ID_P_CAT_BARREL.TabIndex = 2;
-            this.name_WARSAW_ID_P_CAT_BARREL.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            // 
-            // pBox_WARSAW_ID_P_CAT_BARREL
-            // 
-            this.pBox_WARSAW_ID_P_CAT_BARREL.Location = new System.Drawing.Point(0, 1);
-            this.pBox_WARSAW_ID_P_CAT_BARREL.Margin = new System.Windows.Forms.Padding(0);
-            this.pBox_WARSAW_ID_P_CAT_BARREL.Name = "pBox_WARSAW_ID_P_CAT_BARREL";
-            this.pBox_WARSAW_ID_P_CAT_BARREL.Size = new System.Drawing.Size(64, 28);
-            this.pBox_WARSAW_ID_P_CAT_BARREL.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
-            this.pBox_WARSAW_ID_P_CAT_BARREL.TabIndex = 0;
-            this.pBox_WARSAW_ID_P_CAT_BARREL.TabStop = false;
-            // 
-            // desc_WARSAW_ID_P_CAT_BARREL
-            // 
-            this.desc_WARSAW_ID_P_CAT_BARREL.Location = new System.Drawing.Point(0, 54);
-            this.desc_WARSAW_ID_P_CAT_BARREL.Margin = new System.Windows.Forms.Padding(0, 0, 0, 1);
-            this.desc_WARSAW_ID_P_CAT_BARREL.Name = "desc_WARSAW_ID_P_CAT_BARREL";
-            this.desc_WARSAW_ID_P_CAT_BARREL.Size = new System.Drawing.Size(235, 76);
-            this.desc_WARSAW_ID_P_CAT_BARREL.TabIndex = 4;
-            this.desc_WARSAW_ID_P_CAT_BARREL.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // WARSAW_ID_P_CAT_UNDERBARREL
-            // 
-            this.WARSAW_ID_P_CAT_UNDERBARREL.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.WARSAW_ID_P_CAT_UNDERBARREL.Controls.Add(this.flowLayoutPanel6);
-            this.WARSAW_ID_P_CAT_UNDERBARREL.Location = new System.Drawing.Point(459, 179);
-            this.WARSAW_ID_P_CAT_UNDERBARREL.Name = "WARSAW_ID_P_CAT_UNDERBARREL";
-            this.WARSAW_ID_P_CAT_UNDERBARREL.Size = new System.Drawing.Size(236, 133);
-            this.WARSAW_ID_P_CAT_UNDERBARREL.TabIndex = 3;
-            // 
-            // flowLayoutPanel6
-            // 
-            this.flowLayoutPanel6.Controls.Add(this.lbl_UNDERBARREL);
-            this.flowLayoutPanel6.Controls.Add(this.panel3);
-            this.flowLayoutPanel6.Controls.Add(this.desc_WARSAW_ID_P_CAT_UNDERBARREL);
-            this.flowLayoutPanel6.Location = new System.Drawing.Point(0, 0);
-            this.flowLayoutPanel6.Margin = new System.Windows.Forms.Padding(0);
-            this.flowLayoutPanel6.Name = "flowLayoutPanel6";
-            this.flowLayoutPanel6.Size = new System.Drawing.Size(235, 131);
-            this.flowLayoutPanel6.TabIndex = 0;
-            // 
-            // lbl_UNDERBARREL
-            // 
-            this.lbl_UNDERBARREL.Location = new System.Drawing.Point(0, 0);
-            this.lbl_UNDERBARREL.Margin = new System.Windows.Forms.Padding(0, 0, 0, 1);
-            this.lbl_UNDERBARREL.Name = "lbl_UNDERBARREL";
-            this.lbl_UNDERBARREL.Size = new System.Drawing.Size(235, 23);
-            this.lbl_UNDERBARREL.TabIndex = 1;
-            this.lbl_UNDERBARREL.Text = " UNDERBARREL";
-            this.lbl_UNDERBARREL.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            // 
-            // panel3
-            // 
-            this.panel3.Controls.Add(this.name_WARSAW_ID_P_CAT_UNDERBARREL);
-            this.panel3.Controls.Add(this.pBox_WARSAW_ID_P_CAT_UNDERBARREL);
-            this.panel3.Location = new System.Drawing.Point(0, 24);
-            this.panel3.Margin = new System.Windows.Forms.Padding(0);
-            this.panel3.Name = "panel3";
-            this.panel3.Size = new System.Drawing.Size(235, 30);
-            this.panel3.TabIndex = 2;
-            // 
-            // name_WARSAW_ID_P_CAT_UNDERBARREL
-            // 
-            this.name_WARSAW_ID_P_CAT_UNDERBARREL.Location = new System.Drawing.Point(64, 1);
-            this.name_WARSAW_ID_P_CAT_UNDERBARREL.Margin = new System.Windows.Forms.Padding(0);
-            this.name_WARSAW_ID_P_CAT_UNDERBARREL.Name = "name_WARSAW_ID_P_CAT_UNDERBARREL";
-            this.name_WARSAW_ID_P_CAT_UNDERBARREL.Size = new System.Drawing.Size(171, 28);
-            this.name_WARSAW_ID_P_CAT_UNDERBARREL.TabIndex = 2;
-            this.name_WARSAW_ID_P_CAT_UNDERBARREL.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            // 
-            // pBox_WARSAW_ID_P_CAT_UNDERBARREL
-            // 
-            this.pBox_WARSAW_ID_P_CAT_UNDERBARREL.Location = new System.Drawing.Point(0, 1);
-            this.pBox_WARSAW_ID_P_CAT_UNDERBARREL.Margin = new System.Windows.Forms.Padding(0);
-            this.pBox_WARSAW_ID_P_CAT_UNDERBARREL.Name = "pBox_WARSAW_ID_P_CAT_UNDERBARREL";
-            this.pBox_WARSAW_ID_P_CAT_UNDERBARREL.Size = new System.Drawing.Size(64, 28);
-            this.pBox_WARSAW_ID_P_CAT_UNDERBARREL.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
-            this.pBox_WARSAW_ID_P_CAT_UNDERBARREL.TabIndex = 0;
-            this.pBox_WARSAW_ID_P_CAT_UNDERBARREL.TabStop = false;
-            // 
-            // desc_WARSAW_ID_P_CAT_UNDERBARREL
-            // 
-            this.desc_WARSAW_ID_P_CAT_UNDERBARREL.Location = new System.Drawing.Point(0, 54);
-            this.desc_WARSAW_ID_P_CAT_UNDERBARREL.Margin = new System.Windows.Forms.Padding(0, 0, 0, 1);
-            this.desc_WARSAW_ID_P_CAT_UNDERBARREL.Name = "desc_WARSAW_ID_P_CAT_UNDERBARREL";
-            this.desc_WARSAW_ID_P_CAT_UNDERBARREL.Size = new System.Drawing.Size(235, 76);
-            this.desc_WARSAW_ID_P_CAT_UNDERBARREL.TabIndex = 4;
-            this.desc_WARSAW_ID_P_CAT_UNDERBARREL.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
             // btn_back
             // 
             this.btn_back.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
@@ -1995,74 +1703,6 @@
             this.btn_back.Text = "< ";
             this.btn_back.UseVisualStyleBackColor = true;
             this.btn_back.Click += new System.EventHandler(this.btn_back_Click);
-            // 
-            // WARSAW_ID_P_CAT_AMMO
-            // 
-            this.WARSAW_ID_P_CAT_AMMO.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.WARSAW_ID_P_CAT_AMMO.Controls.Add(this.flowLayoutPanel3);
-            this.WARSAW_ID_P_CAT_AMMO.Location = new System.Drawing.Point(459, 179);
-            this.WARSAW_ID_P_CAT_AMMO.Name = "WARSAW_ID_P_CAT_AMMO";
-            this.WARSAW_ID_P_CAT_AMMO.Size = new System.Drawing.Size(236, 133);
-            this.WARSAW_ID_P_CAT_AMMO.TabIndex = 4;
-            // 
-            // flowLayoutPanel3
-            // 
-            this.flowLayoutPanel3.Controls.Add(this.lbl_AMMO);
-            this.flowLayoutPanel3.Controls.Add(this.panel4);
-            this.flowLayoutPanel3.Controls.Add(this.desc_WARSAW_ID_P_CAT_AMMO);
-            this.flowLayoutPanel3.Location = new System.Drawing.Point(0, 0);
-            this.flowLayoutPanel3.Margin = new System.Windows.Forms.Padding(0);
-            this.flowLayoutPanel3.Name = "flowLayoutPanel3";
-            this.flowLayoutPanel3.Size = new System.Drawing.Size(235, 131);
-            this.flowLayoutPanel3.TabIndex = 0;
-            // 
-            // lbl_AMMO
-            // 
-            this.lbl_AMMO.Location = new System.Drawing.Point(0, 0);
-            this.lbl_AMMO.Margin = new System.Windows.Forms.Padding(0, 0, 0, 1);
-            this.lbl_AMMO.Name = "lbl_AMMO";
-            this.lbl_AMMO.Size = new System.Drawing.Size(235, 23);
-            this.lbl_AMMO.TabIndex = 1;
-            this.lbl_AMMO.Text = " AMMO";
-            this.lbl_AMMO.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            // 
-            // panel4
-            // 
-            this.panel4.Controls.Add(this.name_WARSAW_ID_P_CAT_AMMO);
-            this.panel4.Controls.Add(this.pBox_WARSAW_ID_P_CAT_AMMO);
-            this.panel4.Location = new System.Drawing.Point(0, 24);
-            this.panel4.Margin = new System.Windows.Forms.Padding(0);
-            this.panel4.Name = "panel4";
-            this.panel4.Size = new System.Drawing.Size(235, 30);
-            this.panel4.TabIndex = 2;
-            // 
-            // name_WARSAW_ID_P_CAT_AMMO
-            // 
-            this.name_WARSAW_ID_P_CAT_AMMO.Location = new System.Drawing.Point(64, 1);
-            this.name_WARSAW_ID_P_CAT_AMMO.Margin = new System.Windows.Forms.Padding(0);
-            this.name_WARSAW_ID_P_CAT_AMMO.Name = "name_WARSAW_ID_P_CAT_AMMO";
-            this.name_WARSAW_ID_P_CAT_AMMO.Size = new System.Drawing.Size(171, 28);
-            this.name_WARSAW_ID_P_CAT_AMMO.TabIndex = 2;
-            this.name_WARSAW_ID_P_CAT_AMMO.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            // 
-            // pBox_WARSAW_ID_P_CAT_AMMO
-            // 
-            this.pBox_WARSAW_ID_P_CAT_AMMO.Location = new System.Drawing.Point(0, 1);
-            this.pBox_WARSAW_ID_P_CAT_AMMO.Margin = new System.Windows.Forms.Padding(0);
-            this.pBox_WARSAW_ID_P_CAT_AMMO.Name = "pBox_WARSAW_ID_P_CAT_AMMO";
-            this.pBox_WARSAW_ID_P_CAT_AMMO.Size = new System.Drawing.Size(64, 28);
-            this.pBox_WARSAW_ID_P_CAT_AMMO.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
-            this.pBox_WARSAW_ID_P_CAT_AMMO.TabIndex = 0;
-            this.pBox_WARSAW_ID_P_CAT_AMMO.TabStop = false;
-            // 
-            // desc_WARSAW_ID_P_CAT_AMMO
-            // 
-            this.desc_WARSAW_ID_P_CAT_AMMO.Location = new System.Drawing.Point(0, 54);
-            this.desc_WARSAW_ID_P_CAT_AMMO.Margin = new System.Windows.Forms.Padding(0, 0, 0, 1);
-            this.desc_WARSAW_ID_P_CAT_AMMO.Name = "desc_WARSAW_ID_P_CAT_AMMO";
-            this.desc_WARSAW_ID_P_CAT_AMMO.Size = new System.Drawing.Size(235, 76);
-            this.desc_WARSAW_ID_P_CAT_AMMO.TabIndex = 4;
-            this.desc_WARSAW_ID_P_CAT_AMMO.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // WARSAW_ID_P_CAT_AUXILIARY
             // 
@@ -2132,6 +1772,366 @@
             this.desc_WARSAW_ID_P_CAT_AUXILIARY.TabIndex = 4;
             this.desc_WARSAW_ID_P_CAT_AUXILIARY.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
+            // WARSAW_ID_P_CAT_AMMO
+            // 
+            this.WARSAW_ID_P_CAT_AMMO.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.WARSAW_ID_P_CAT_AMMO.Controls.Add(this.flowLayoutPanel3);
+            this.WARSAW_ID_P_CAT_AMMO.Location = new System.Drawing.Point(459, 179);
+            this.WARSAW_ID_P_CAT_AMMO.Name = "WARSAW_ID_P_CAT_AMMO";
+            this.WARSAW_ID_P_CAT_AMMO.Size = new System.Drawing.Size(236, 133);
+            this.WARSAW_ID_P_CAT_AMMO.TabIndex = 4;
+            // 
+            // flowLayoutPanel3
+            // 
+            this.flowLayoutPanel3.Controls.Add(this.lbl_AMMO);
+            this.flowLayoutPanel3.Controls.Add(this.panel4);
+            this.flowLayoutPanel3.Controls.Add(this.desc_WARSAW_ID_P_CAT_AMMO);
+            this.flowLayoutPanel3.Location = new System.Drawing.Point(0, 0);
+            this.flowLayoutPanel3.Margin = new System.Windows.Forms.Padding(0);
+            this.flowLayoutPanel3.Name = "flowLayoutPanel3";
+            this.flowLayoutPanel3.Size = new System.Drawing.Size(235, 131);
+            this.flowLayoutPanel3.TabIndex = 0;
+            // 
+            // lbl_AMMO
+            // 
+            this.lbl_AMMO.Location = new System.Drawing.Point(0, 0);
+            this.lbl_AMMO.Margin = new System.Windows.Forms.Padding(0, 0, 0, 1);
+            this.lbl_AMMO.Name = "lbl_AMMO";
+            this.lbl_AMMO.Size = new System.Drawing.Size(235, 23);
+            this.lbl_AMMO.TabIndex = 1;
+            this.lbl_AMMO.Text = " AMMO";
+            this.lbl_AMMO.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            // 
+            // panel4
+            // 
+            this.panel4.Controls.Add(this.name_WARSAW_ID_P_CAT_AMMO);
+            this.panel4.Controls.Add(this.pBox_WARSAW_ID_P_CAT_AMMO);
+            this.panel4.Location = new System.Drawing.Point(0, 24);
+            this.panel4.Margin = new System.Windows.Forms.Padding(0);
+            this.panel4.Name = "panel4";
+            this.panel4.Size = new System.Drawing.Size(235, 30);
+            this.panel4.TabIndex = 2;
+            // 
+            // name_WARSAW_ID_P_CAT_AMMO
+            // 
+            this.name_WARSAW_ID_P_CAT_AMMO.Location = new System.Drawing.Point(64, 1);
+            this.name_WARSAW_ID_P_CAT_AMMO.Margin = new System.Windows.Forms.Padding(0);
+            this.name_WARSAW_ID_P_CAT_AMMO.Name = "name_WARSAW_ID_P_CAT_AMMO";
+            this.name_WARSAW_ID_P_CAT_AMMO.Size = new System.Drawing.Size(171, 28);
+            this.name_WARSAW_ID_P_CAT_AMMO.TabIndex = 2;
+            this.name_WARSAW_ID_P_CAT_AMMO.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            // 
+            // pBox_WARSAW_ID_P_CAT_AMMO
+            // 
+            this.pBox_WARSAW_ID_P_CAT_AMMO.Location = new System.Drawing.Point(0, 1);
+            this.pBox_WARSAW_ID_P_CAT_AMMO.Margin = new System.Windows.Forms.Padding(0);
+            this.pBox_WARSAW_ID_P_CAT_AMMO.Name = "pBox_WARSAW_ID_P_CAT_AMMO";
+            this.pBox_WARSAW_ID_P_CAT_AMMO.Size = new System.Drawing.Size(64, 28);
+            this.pBox_WARSAW_ID_P_CAT_AMMO.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
+            this.pBox_WARSAW_ID_P_CAT_AMMO.TabIndex = 0;
+            this.pBox_WARSAW_ID_P_CAT_AMMO.TabStop = false;
+            // 
+            // desc_WARSAW_ID_P_CAT_AMMO
+            // 
+            this.desc_WARSAW_ID_P_CAT_AMMO.Location = new System.Drawing.Point(0, 54);
+            this.desc_WARSAW_ID_P_CAT_AMMO.Margin = new System.Windows.Forms.Padding(0, 0, 0, 1);
+            this.desc_WARSAW_ID_P_CAT_AMMO.Name = "desc_WARSAW_ID_P_CAT_AMMO";
+            this.desc_WARSAW_ID_P_CAT_AMMO.Size = new System.Drawing.Size(235, 76);
+            this.desc_WARSAW_ID_P_CAT_AMMO.TabIndex = 4;
+            this.desc_WARSAW_ID_P_CAT_AMMO.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // WARSAW_ID_P_CAT_OPTIC
+            // 
+            this.WARSAW_ID_P_CAT_OPTIC.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.WARSAW_ID_P_CAT_OPTIC.Controls.Add(this.WARSAW_ID_P_CAT_OPTIC_0);
+            this.WARSAW_ID_P_CAT_OPTIC.Location = new System.Drawing.Point(217, 40);
+            this.WARSAW_ID_P_CAT_OPTIC.Name = "WARSAW_ID_P_CAT_OPTIC";
+            this.WARSAW_ID_P_CAT_OPTIC.Size = new System.Drawing.Size(236, 133);
+            this.WARSAW_ID_P_CAT_OPTIC.TabIndex = 1;
+            // 
+            // WARSAW_ID_P_CAT_OPTIC_0
+            // 
+            this.WARSAW_ID_P_CAT_OPTIC_0.Controls.Add(this.lbl_OPTIC);
+            this.WARSAW_ID_P_CAT_OPTIC_0.Controls.Add(this.OPTIC_panel);
+            this.WARSAW_ID_P_CAT_OPTIC_0.Controls.Add(this.desc_WARSAW_ID_P_CAT_OPTIC);
+            this.WARSAW_ID_P_CAT_OPTIC_0.Location = new System.Drawing.Point(0, 0);
+            this.WARSAW_ID_P_CAT_OPTIC_0.Margin = new System.Windows.Forms.Padding(0);
+            this.WARSAW_ID_P_CAT_OPTIC_0.Name = "WARSAW_ID_P_CAT_OPTIC_0";
+            this.WARSAW_ID_P_CAT_OPTIC_0.Size = new System.Drawing.Size(235, 131);
+            this.WARSAW_ID_P_CAT_OPTIC_0.TabIndex = 0;
+            // 
+            // lbl_OPTIC
+            // 
+            this.lbl_OPTIC.Location = new System.Drawing.Point(0, 0);
+            this.lbl_OPTIC.Margin = new System.Windows.Forms.Padding(0, 0, 0, 1);
+            this.lbl_OPTIC.Name = "lbl_OPTIC";
+            this.lbl_OPTIC.Size = new System.Drawing.Size(235, 23);
+            this.lbl_OPTIC.TabIndex = 1;
+            this.lbl_OPTIC.Text = " OPTIC";
+            this.lbl_OPTIC.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            // 
+            // OPTIC_panel
+            // 
+            this.OPTIC_panel.Controls.Add(this.name_WARSAW_ID_P_CAT_OPTIC);
+            this.OPTIC_panel.Controls.Add(this.pBox_WARSAW_ID_P_CAT_OPTIC);
+            this.OPTIC_panel.Location = new System.Drawing.Point(0, 24);
+            this.OPTIC_panel.Margin = new System.Windows.Forms.Padding(0);
+            this.OPTIC_panel.Name = "OPTIC_panel";
+            this.OPTIC_panel.Size = new System.Drawing.Size(235, 30);
+            this.OPTIC_panel.TabIndex = 2;
+            // 
+            // name_WARSAW_ID_P_CAT_OPTIC
+            // 
+            this.name_WARSAW_ID_P_CAT_OPTIC.Location = new System.Drawing.Point(64, 1);
+            this.name_WARSAW_ID_P_CAT_OPTIC.Margin = new System.Windows.Forms.Padding(0);
+            this.name_WARSAW_ID_P_CAT_OPTIC.Name = "name_WARSAW_ID_P_CAT_OPTIC";
+            this.name_WARSAW_ID_P_CAT_OPTIC.Size = new System.Drawing.Size(171, 28);
+            this.name_WARSAW_ID_P_CAT_OPTIC.TabIndex = 2;
+            this.name_WARSAW_ID_P_CAT_OPTIC.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            // 
+            // pBox_WARSAW_ID_P_CAT_OPTIC
+            // 
+            this.pBox_WARSAW_ID_P_CAT_OPTIC.Location = new System.Drawing.Point(0, 1);
+            this.pBox_WARSAW_ID_P_CAT_OPTIC.Margin = new System.Windows.Forms.Padding(0);
+            this.pBox_WARSAW_ID_P_CAT_OPTIC.Name = "pBox_WARSAW_ID_P_CAT_OPTIC";
+            this.pBox_WARSAW_ID_P_CAT_OPTIC.Size = new System.Drawing.Size(64, 28);
+            this.pBox_WARSAW_ID_P_CAT_OPTIC.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
+            this.pBox_WARSAW_ID_P_CAT_OPTIC.TabIndex = 0;
+            this.pBox_WARSAW_ID_P_CAT_OPTIC.TabStop = false;
+            // 
+            // desc_WARSAW_ID_P_CAT_OPTIC
+            // 
+            this.desc_WARSAW_ID_P_CAT_OPTIC.Location = new System.Drawing.Point(0, 54);
+            this.desc_WARSAW_ID_P_CAT_OPTIC.Margin = new System.Windows.Forms.Padding(0, 0, 0, 1);
+            this.desc_WARSAW_ID_P_CAT_OPTIC.Name = "desc_WARSAW_ID_P_CAT_OPTIC";
+            this.desc_WARSAW_ID_P_CAT_OPTIC.Size = new System.Drawing.Size(235, 76);
+            this.desc_WARSAW_ID_P_CAT_OPTIC.TabIndex = 4;
+            this.desc_WARSAW_ID_P_CAT_OPTIC.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // WARSAW_ID_P_CAT_UNDERBARREL
+            // 
+            this.WARSAW_ID_P_CAT_UNDERBARREL.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.WARSAW_ID_P_CAT_UNDERBARREL.Controls.Add(this.flowLayoutPanel6);
+            this.WARSAW_ID_P_CAT_UNDERBARREL.Location = new System.Drawing.Point(459, 179);
+            this.WARSAW_ID_P_CAT_UNDERBARREL.Name = "WARSAW_ID_P_CAT_UNDERBARREL";
+            this.WARSAW_ID_P_CAT_UNDERBARREL.Size = new System.Drawing.Size(236, 133);
+            this.WARSAW_ID_P_CAT_UNDERBARREL.TabIndex = 3;
+            // 
+            // flowLayoutPanel6
+            // 
+            this.flowLayoutPanel6.Controls.Add(this.lbl_UNDERBARREL);
+            this.flowLayoutPanel6.Controls.Add(this.panel3);
+            this.flowLayoutPanel6.Controls.Add(this.desc_WARSAW_ID_P_CAT_UNDERBARREL);
+            this.flowLayoutPanel6.Location = new System.Drawing.Point(0, 0);
+            this.flowLayoutPanel6.Margin = new System.Windows.Forms.Padding(0);
+            this.flowLayoutPanel6.Name = "flowLayoutPanel6";
+            this.flowLayoutPanel6.Size = new System.Drawing.Size(235, 131);
+            this.flowLayoutPanel6.TabIndex = 0;
+            // 
+            // lbl_UNDERBARREL
+            // 
+            this.lbl_UNDERBARREL.Location = new System.Drawing.Point(0, 0);
+            this.lbl_UNDERBARREL.Margin = new System.Windows.Forms.Padding(0, 0, 0, 1);
+            this.lbl_UNDERBARREL.Name = "lbl_UNDERBARREL";
+            this.lbl_UNDERBARREL.Size = new System.Drawing.Size(235, 23);
+            this.lbl_UNDERBARREL.TabIndex = 1;
+            this.lbl_UNDERBARREL.Text = " UNDERBARREL";
+            this.lbl_UNDERBARREL.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            // 
+            // panel3
+            // 
+            this.panel3.Controls.Add(this.name_WARSAW_ID_P_CAT_UNDERBARREL);
+            this.panel3.Controls.Add(this.pBox_WARSAW_ID_P_CAT_UNDERBARREL);
+            this.panel3.Location = new System.Drawing.Point(0, 24);
+            this.panel3.Margin = new System.Windows.Forms.Padding(0);
+            this.panel3.Name = "panel3";
+            this.panel3.Size = new System.Drawing.Size(235, 30);
+            this.panel3.TabIndex = 2;
+            // 
+            // name_WARSAW_ID_P_CAT_UNDERBARREL
+            // 
+            this.name_WARSAW_ID_P_CAT_UNDERBARREL.Location = new System.Drawing.Point(64, 1);
+            this.name_WARSAW_ID_P_CAT_UNDERBARREL.Margin = new System.Windows.Forms.Padding(0);
+            this.name_WARSAW_ID_P_CAT_UNDERBARREL.Name = "name_WARSAW_ID_P_CAT_UNDERBARREL";
+            this.name_WARSAW_ID_P_CAT_UNDERBARREL.Size = new System.Drawing.Size(171, 28);
+            this.name_WARSAW_ID_P_CAT_UNDERBARREL.TabIndex = 2;
+            this.name_WARSAW_ID_P_CAT_UNDERBARREL.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            // 
+            // pBox_WARSAW_ID_P_CAT_UNDERBARREL
+            // 
+            this.pBox_WARSAW_ID_P_CAT_UNDERBARREL.Location = new System.Drawing.Point(0, 1);
+            this.pBox_WARSAW_ID_P_CAT_UNDERBARREL.Margin = new System.Windows.Forms.Padding(0);
+            this.pBox_WARSAW_ID_P_CAT_UNDERBARREL.Name = "pBox_WARSAW_ID_P_CAT_UNDERBARREL";
+            this.pBox_WARSAW_ID_P_CAT_UNDERBARREL.Size = new System.Drawing.Size(64, 28);
+            this.pBox_WARSAW_ID_P_CAT_UNDERBARREL.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
+            this.pBox_WARSAW_ID_P_CAT_UNDERBARREL.TabIndex = 0;
+            this.pBox_WARSAW_ID_P_CAT_UNDERBARREL.TabStop = false;
+            // 
+            // desc_WARSAW_ID_P_CAT_UNDERBARREL
+            // 
+            this.desc_WARSAW_ID_P_CAT_UNDERBARREL.Location = new System.Drawing.Point(0, 54);
+            this.desc_WARSAW_ID_P_CAT_UNDERBARREL.Margin = new System.Windows.Forms.Padding(0, 0, 0, 1);
+            this.desc_WARSAW_ID_P_CAT_UNDERBARREL.Name = "desc_WARSAW_ID_P_CAT_UNDERBARREL";
+            this.desc_WARSAW_ID_P_CAT_UNDERBARREL.Size = new System.Drawing.Size(235, 76);
+            this.desc_WARSAW_ID_P_CAT_UNDERBARREL.TabIndex = 4;
+            this.desc_WARSAW_ID_P_CAT_UNDERBARREL.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // WARSAW_ID_P_CAT_BARREL
+            // 
+            this.WARSAW_ID_P_CAT_BARREL.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.WARSAW_ID_P_CAT_BARREL.Controls.Add(this.flowLayoutPanel4);
+            this.WARSAW_ID_P_CAT_BARREL.Location = new System.Drawing.Point(459, 41);
+            this.WARSAW_ID_P_CAT_BARREL.Name = "WARSAW_ID_P_CAT_BARREL";
+            this.WARSAW_ID_P_CAT_BARREL.Size = new System.Drawing.Size(236, 133);
+            this.WARSAW_ID_P_CAT_BARREL.TabIndex = 3;
+            // 
+            // flowLayoutPanel4
+            // 
+            this.flowLayoutPanel4.Controls.Add(this.lbl_BARREL);
+            this.flowLayoutPanel4.Controls.Add(this.panel2);
+            this.flowLayoutPanel4.Controls.Add(this.desc_WARSAW_ID_P_CAT_BARREL);
+            this.flowLayoutPanel4.Location = new System.Drawing.Point(0, 0);
+            this.flowLayoutPanel4.Margin = new System.Windows.Forms.Padding(0);
+            this.flowLayoutPanel4.Name = "flowLayoutPanel4";
+            this.flowLayoutPanel4.Size = new System.Drawing.Size(235, 131);
+            this.flowLayoutPanel4.TabIndex = 0;
+            // 
+            // lbl_BARREL
+            // 
+            this.lbl_BARREL.Location = new System.Drawing.Point(0, 0);
+            this.lbl_BARREL.Margin = new System.Windows.Forms.Padding(0, 0, 0, 1);
+            this.lbl_BARREL.Name = "lbl_BARREL";
+            this.lbl_BARREL.Size = new System.Drawing.Size(235, 23);
+            this.lbl_BARREL.TabIndex = 1;
+            this.lbl_BARREL.Text = " BARREL";
+            this.lbl_BARREL.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            // 
+            // panel2
+            // 
+            this.panel2.Controls.Add(this.name_WARSAW_ID_P_CAT_BARREL);
+            this.panel2.Controls.Add(this.pBox_WARSAW_ID_P_CAT_BARREL);
+            this.panel2.Location = new System.Drawing.Point(0, 24);
+            this.panel2.Margin = new System.Windows.Forms.Padding(0);
+            this.panel2.Name = "panel2";
+            this.panel2.Size = new System.Drawing.Size(235, 30);
+            this.panel2.TabIndex = 2;
+            // 
+            // name_WARSAW_ID_P_CAT_BARREL
+            // 
+            this.name_WARSAW_ID_P_CAT_BARREL.Location = new System.Drawing.Point(64, 1);
+            this.name_WARSAW_ID_P_CAT_BARREL.Margin = new System.Windows.Forms.Padding(0);
+            this.name_WARSAW_ID_P_CAT_BARREL.Name = "name_WARSAW_ID_P_CAT_BARREL";
+            this.name_WARSAW_ID_P_CAT_BARREL.Size = new System.Drawing.Size(171, 28);
+            this.name_WARSAW_ID_P_CAT_BARREL.TabIndex = 2;
+            this.name_WARSAW_ID_P_CAT_BARREL.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            // 
+            // pBox_WARSAW_ID_P_CAT_BARREL
+            // 
+            this.pBox_WARSAW_ID_P_CAT_BARREL.Location = new System.Drawing.Point(0, 1);
+            this.pBox_WARSAW_ID_P_CAT_BARREL.Margin = new System.Windows.Forms.Padding(0);
+            this.pBox_WARSAW_ID_P_CAT_BARREL.Name = "pBox_WARSAW_ID_P_CAT_BARREL";
+            this.pBox_WARSAW_ID_P_CAT_BARREL.Size = new System.Drawing.Size(64, 28);
+            this.pBox_WARSAW_ID_P_CAT_BARREL.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
+            this.pBox_WARSAW_ID_P_CAT_BARREL.TabIndex = 0;
+            this.pBox_WARSAW_ID_P_CAT_BARREL.TabStop = false;
+            // 
+            // desc_WARSAW_ID_P_CAT_BARREL
+            // 
+            this.desc_WARSAW_ID_P_CAT_BARREL.Location = new System.Drawing.Point(0, 54);
+            this.desc_WARSAW_ID_P_CAT_BARREL.Margin = new System.Windows.Forms.Padding(0, 0, 0, 1);
+            this.desc_WARSAW_ID_P_CAT_BARREL.Name = "desc_WARSAW_ID_P_CAT_BARREL";
+            this.desc_WARSAW_ID_P_CAT_BARREL.Size = new System.Drawing.Size(235, 76);
+            this.desc_WARSAW_ID_P_CAT_BARREL.TabIndex = 4;
+            this.desc_WARSAW_ID_P_CAT_BARREL.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // WARSAW_ID_P_CAT_ACCESSORY
+            // 
+            this.WARSAW_ID_P_CAT_ACCESSORY.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.WARSAW_ID_P_CAT_ACCESSORY.Controls.Add(this.flowLayoutPanel2);
+            this.WARSAW_ID_P_CAT_ACCESSORY.Location = new System.Drawing.Point(217, 179);
+            this.WARSAW_ID_P_CAT_ACCESSORY.Name = "WARSAW_ID_P_CAT_ACCESSORY";
+            this.WARSAW_ID_P_CAT_ACCESSORY.Size = new System.Drawing.Size(236, 133);
+            this.WARSAW_ID_P_CAT_ACCESSORY.TabIndex = 2;
+            // 
+            // flowLayoutPanel2
+            // 
+            this.flowLayoutPanel2.Controls.Add(this.lbl_ACCESSORY);
+            this.flowLayoutPanel2.Controls.Add(this.panel1);
+            this.flowLayoutPanel2.Controls.Add(this.desc_WARSAW_ID_P_CAT_ACCESSORY);
+            this.flowLayoutPanel2.Location = new System.Drawing.Point(0, 0);
+            this.flowLayoutPanel2.Margin = new System.Windows.Forms.Padding(0);
+            this.flowLayoutPanel2.Name = "flowLayoutPanel2";
+            this.flowLayoutPanel2.Size = new System.Drawing.Size(235, 131);
+            this.flowLayoutPanel2.TabIndex = 0;
+            // 
+            // lbl_ACCESSORY
+            // 
+            this.lbl_ACCESSORY.Location = new System.Drawing.Point(0, 0);
+            this.lbl_ACCESSORY.Margin = new System.Windows.Forms.Padding(0, 0, 0, 1);
+            this.lbl_ACCESSORY.Name = "lbl_ACCESSORY";
+            this.lbl_ACCESSORY.Size = new System.Drawing.Size(235, 23);
+            this.lbl_ACCESSORY.TabIndex = 1;
+            this.lbl_ACCESSORY.Text = " ACCESSORY";
+            this.lbl_ACCESSORY.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            // 
+            // panel1
+            // 
+            this.panel1.Controls.Add(this.name_WARSAW_ID_P_CAT_ACCESSORY);
+            this.panel1.Controls.Add(this.pBox_WARSAW_ID_P_CAT_ACCESSORY);
+            this.panel1.Location = new System.Drawing.Point(0, 24);
+            this.panel1.Margin = new System.Windows.Forms.Padding(0);
+            this.panel1.Name = "panel1";
+            this.panel1.Size = new System.Drawing.Size(235, 30);
+            this.panel1.TabIndex = 2;
+            // 
+            // name_WARSAW_ID_P_CAT_ACCESSORY
+            // 
+            this.name_WARSAW_ID_P_CAT_ACCESSORY.Location = new System.Drawing.Point(64, 1);
+            this.name_WARSAW_ID_P_CAT_ACCESSORY.Margin = new System.Windows.Forms.Padding(0);
+            this.name_WARSAW_ID_P_CAT_ACCESSORY.Name = "name_WARSAW_ID_P_CAT_ACCESSORY";
+            this.name_WARSAW_ID_P_CAT_ACCESSORY.Size = new System.Drawing.Size(171, 28);
+            this.name_WARSAW_ID_P_CAT_ACCESSORY.TabIndex = 2;
+            this.name_WARSAW_ID_P_CAT_ACCESSORY.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            // 
+            // pBox_WARSAW_ID_P_CAT_ACCESSORY
+            // 
+            this.pBox_WARSAW_ID_P_CAT_ACCESSORY.Location = new System.Drawing.Point(0, 1);
+            this.pBox_WARSAW_ID_P_CAT_ACCESSORY.Margin = new System.Windows.Forms.Padding(0);
+            this.pBox_WARSAW_ID_P_CAT_ACCESSORY.Name = "pBox_WARSAW_ID_P_CAT_ACCESSORY";
+            this.pBox_WARSAW_ID_P_CAT_ACCESSORY.Size = new System.Drawing.Size(64, 28);
+            this.pBox_WARSAW_ID_P_CAT_ACCESSORY.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
+            this.pBox_WARSAW_ID_P_CAT_ACCESSORY.TabIndex = 0;
+            this.pBox_WARSAW_ID_P_CAT_ACCESSORY.TabStop = false;
+            // 
+            // desc_WARSAW_ID_P_CAT_ACCESSORY
+            // 
+            this.desc_WARSAW_ID_P_CAT_ACCESSORY.Location = new System.Drawing.Point(0, 54);
+            this.desc_WARSAW_ID_P_CAT_ACCESSORY.Margin = new System.Windows.Forms.Padding(0, 0, 0, 1);
+            this.desc_WARSAW_ID_P_CAT_ACCESSORY.Name = "desc_WARSAW_ID_P_CAT_ACCESSORY";
+            this.desc_WARSAW_ID_P_CAT_ACCESSORY.Size = new System.Drawing.Size(235, 76);
+            this.desc_WARSAW_ID_P_CAT_ACCESSORY.TabIndex = 4;
+            this.desc_WARSAW_ID_P_CAT_ACCESSORY.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // btn_fetch_immediate
+            // 
+            this.btn_fetch_immediate.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.btn_fetch_immediate.Location = new System.Drawing.Point(4, 1);
+            this.btn_fetch_immediate.Name = "btn_fetch_immediate";
+            this.btn_fetch_immediate.Size = new System.Drawing.Size(121, 23);
+            this.btn_fetch_immediate.TabIndex = 35;
+            this.btn_fetch_immediate.Text = "Immediate Fetch";
+            this.btn_fetch_immediate.UseVisualStyleBackColor = true;
+            this.btn_fetch_immediate.Click += new System.EventHandler(this.btn_fetch_immediate_Click);
+            // 
+            // tBox_soldierName
+            // 
+            this.tBox_soldierName.Location = new System.Drawing.Point(131, 4);
+            this.tBox_soldierName.Name = "tBox_soldierName";
+            this.tBox_soldierName.Size = new System.Drawing.Size(185, 20);
+            this.tBox_soldierName.TabIndex = 36;
+            this.tBox_soldierName.Text = "xfileFIN";
+            this.tBox_soldierName.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            // 
             // bf4_loadoutchecker
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -2142,7 +2142,8 @@
             this.Controls.Add(this.tabControl1);
             this.Controls.Add(this.statusStrip1);
             this.Controls.Add(this.menuStrip1);
-            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
+            this.DoubleBuffered = true;
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedToolWindow;
             this.MainMenuStrip = this.menuStrip1;
             this.MaximizeBox = false;
             this.MinimizeBox = false;
@@ -2151,6 +2152,8 @@
             this.Text = "Battlefield 4 (Loadout Checker)";
             this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.bf4_loadoutchecker_FormClosing);
             this.FormClosed += new System.Windows.Forms.FormClosedEventHandler(this.bf4_loadoutchecker_FormClosed);
+            this.Load += new System.EventHandler(this.bf4_loadoutchecker_Load);
+            this.LocationChanged += new System.EventHandler(this.bf4_loadoutchecker_LocationChanged);
             this.statusStrip1.ResumeLayout(false);
             this.statusStrip1.PerformLayout();
             this.tabControl1.ResumeLayout(false);
@@ -2213,30 +2216,30 @@
             ((System.ComponentModel.ISupportInitialize)(this.pBox_0_3)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pBox_kit_assault)).EndInit();
             this.primary_indepth_info.ResumeLayout(false);
-            this.WARSAW_ID_P_CAT_OPTIC.ResumeLayout(false);
-            this.WARSAW_ID_P_CAT_OPTIC_0.ResumeLayout(false);
-            this.OPTIC_panel.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.pBox_WARSAW_ID_P_CAT_OPTIC)).EndInit();
-            this.WARSAW_ID_P_CAT_ACCESSORY.ResumeLayout(false);
-            this.flowLayoutPanel2.ResumeLayout(false);
-            this.panel1.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.pBox_WARSAW_ID_P_CAT_ACCESSORY)).EndInit();
-            this.WARSAW_ID_P_CAT_BARREL.ResumeLayout(false);
-            this.flowLayoutPanel4.ResumeLayout(false);
-            this.panel2.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.pBox_WARSAW_ID_P_CAT_BARREL)).EndInit();
-            this.WARSAW_ID_P_CAT_UNDERBARREL.ResumeLayout(false);
-            this.flowLayoutPanel6.ResumeLayout(false);
-            this.panel3.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.pBox_WARSAW_ID_P_CAT_UNDERBARREL)).EndInit();
-            this.WARSAW_ID_P_CAT_AMMO.ResumeLayout(false);
-            this.flowLayoutPanel3.ResumeLayout(false);
-            this.panel4.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.pBox_WARSAW_ID_P_CAT_AMMO)).EndInit();
             this.WARSAW_ID_P_CAT_AUXILIARY.ResumeLayout(false);
             this.flowLayoutPanel5.ResumeLayout(false);
             this.panel5.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.pBox_WARSAW_ID_P_CAT_AUXILIARY)).EndInit();
+            this.WARSAW_ID_P_CAT_AMMO.ResumeLayout(false);
+            this.flowLayoutPanel3.ResumeLayout(false);
+            this.panel4.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.pBox_WARSAW_ID_P_CAT_AMMO)).EndInit();
+            this.WARSAW_ID_P_CAT_OPTIC.ResumeLayout(false);
+            this.WARSAW_ID_P_CAT_OPTIC_0.ResumeLayout(false);
+            this.OPTIC_panel.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.pBox_WARSAW_ID_P_CAT_OPTIC)).EndInit();
+            this.WARSAW_ID_P_CAT_UNDERBARREL.ResumeLayout(false);
+            this.flowLayoutPanel6.ResumeLayout(false);
+            this.panel3.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.pBox_WARSAW_ID_P_CAT_UNDERBARREL)).EndInit();
+            this.WARSAW_ID_P_CAT_BARREL.ResumeLayout(false);
+            this.flowLayoutPanel4.ResumeLayout(false);
+            this.panel2.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.pBox_WARSAW_ID_P_CAT_BARREL)).EndInit();
+            this.WARSAW_ID_P_CAT_ACCESSORY.ResumeLayout(false);
+            this.flowLayoutPanel2.ResumeLayout(false);
+            this.panel1.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.pBox_WARSAW_ID_P_CAT_ACCESSORY)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 

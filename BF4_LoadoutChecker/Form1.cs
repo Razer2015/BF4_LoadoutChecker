@@ -37,9 +37,20 @@ namespace BF4_LoadoutChecker
         smallns
     }
 
+    public enum childLocation
+    {
+        LEFT,
+        RIGHT,
+        BOTTOM,
+        TOP
+    }
+
     public partial class bf4_loadoutchecker : Form
     {
         private Hashtable currentOverview = null;
+        private Details dForm;
+        private Information iForm;
+        private Form closer;
 
         public bf4_loadoutchecker()
         {
@@ -58,12 +69,143 @@ namespace BF4_LoadoutChecker
             Loadout_Backbone_Helper.Initialize_Translations();
         }
 
+        private void bf4_loadoutchecker_Load(object sender, EventArgs e)
+        {
+            CoS_dForm();
+            CoS_iForm();
+        }
+
+        /// <summary>
+        /// Sets the location for Details and Information forms
+        /// </summary>
+        private void SetChildLocations()
+        {
+            Boolean dForm_active = false;
+            Boolean iForm_active = false;
+            if (dForm != null) dForm_active = !dForm_active;
+            if (iForm != null) iForm_active = !iForm_active;
+
+            if (dForm_active && iForm_active && dForm.myLocation == iForm.myLocation && dForm.Docked && iForm.Docked)
+            {
+                if (dForm == closer)
+                {
+                    if (dForm.myLocation == childLocation.RIGHT && iForm.myLocation == childLocation.RIGHT)
+                    {
+                        if (dForm.Docked)
+                            dForm.Location = new Point((this.Location.X + this.Size.Width) - 10, this.Location.Y);
+                        if (iForm.Docked)
+                            iForm.Location = new Point((dForm.Location.X + dForm.Size.Width) - 15, dForm.Location.Y);
+                    }
+                    if (dForm.myLocation == childLocation.LEFT && iForm.myLocation == childLocation.LEFT)
+                    {
+                        if (dForm.Docked)
+                            dForm.Location = new Point((this.Location.X - dForm.Size.Width) + 10, this.Location.Y);
+                        if (iForm.Docked)
+                            iForm.Location = new Point((dForm.Location.X - iForm.Size.Width) + 15, dForm.Location.Y);
+                    }
+                    if (dForm.myLocation == childLocation.BOTTOM && iForm.myLocation == childLocation.BOTTOM)
+                    {
+                        if (dForm.Docked)
+                            dForm.Location = new Point((this.Location.X + ((this.Size.Width / 2) - dForm.Size.Width)) + 7, (this.Location.Y + this.Size.Height) - 3);
+                        if (iForm.Docked)
+                            iForm.Location = new Point((this.Location.X + (this.Size.Width / 2)) - 7, (this.Location.Y + this.Size.Height) - 3);
+                    }
+                    if (dForm.myLocation == childLocation.TOP && iForm.myLocation == childLocation.TOP)
+                    {
+                        if (dForm.Docked)
+                            dForm.Location = new Point((this.Location.X + ((this.Size.Width / 2) - dForm.Size.Width)) + 7, (this.Location.Y - dForm.Size.Height) + 8);
+                        if (iForm.Docked)
+                            iForm.Location = new Point((this.Location.X + (this.Size.Width / 2)) - 7, (this.Location.Y - iForm.Size.Height) + 8);
+                    }
+                }
+                else
+                {
+                    if (iForm.myLocation == childLocation.RIGHT && dForm.myLocation == childLocation.RIGHT)
+                    {
+                        if (iForm.Docked)
+                            iForm.Location = new Point((this.Location.X + this.Size.Width) - 10, this.Location.Y);
+                        if (dForm.Docked)
+                            dForm.Location = new Point((iForm.Location.X + iForm.Size.Width) - 15, iForm.Location.Y);
+                    }
+                    if (iForm.myLocation == childLocation.LEFT && dForm.myLocation == childLocation.LEFT)
+                    {
+                        if (iForm.Docked)
+                            iForm.Location = new Point((this.Location.X - iForm.Size.Width) + 10, this.Location.Y);
+                        if (dForm.Docked)
+                            dForm.Location = new Point((iForm.Location.X - dForm.Size.Width) + 15, iForm.Location.Y);
+                    }
+                    if (iForm.myLocation == childLocation.BOTTOM && dForm.myLocation == childLocation.BOTTOM)
+                    {
+                        if (iForm.Docked)
+                            iForm.Location = new Point((this.Location.X + ((this.Size.Width / 2) - iForm.Size.Width)) + 7, (this.Location.Y + this.Size.Height) - 3);
+                        if (dForm.Docked)
+                            dForm.Location = new Point((this.Location.X + (this.Size.Width / 2)) - 7, (this.Location.Y + this.Size.Height) - 3);
+                    }
+                    if (iForm.myLocation == childLocation.TOP && dForm.myLocation == childLocation.TOP)
+                    {
+                        if (iForm.Docked)
+                            iForm.Location = new Point((this.Location.X + ((this.Size.Width / 2) - iForm.Size.Width)) + 7, (this.Location.Y - iForm.Size.Height) + 8);
+                        if (dForm.Docked)
+                            dForm.Location = new Point((this.Location.X + (this.Size.Width / 2)) - 7, (this.Location.Y - dForm.Size.Height) + 8);
+                    }
+                }
+                return;
+            }
+
+            // If not, set location for either one
+            if (dForm_active)
+                if (dForm.Docked)
+                {
+                    if (dForm.myLocation == childLocation.RIGHT)
+                        dForm.Location = new Point((this.Location.X + this.Size.Width) - 10, this.Location.Y);
+                    if (dForm.myLocation == childLocation.LEFT)
+                        dForm.Location = new Point((this.Location.X - dForm.Size.Width) + 10, this.Location.Y);
+                    if (dForm.myLocation == childLocation.BOTTOM)
+                        dForm.Location = new Point((this.Location.X + ((this.Size.Width / 2) - (dForm.Size.Width / 2))), (this.Location.Y + this.Size.Height) - 3);
+                    if (dForm.myLocation == childLocation.TOP)
+                        dForm.Location = new Point((this.Location.X + ((this.Size.Width / 2) - (dForm.Size.Width / 2))), (this.Location.Y - dForm.Size.Height) + 8);
+                }
+                    
+            if (iForm_active)
+                if (iForm.Docked)
+                {
+                    if (iForm.myLocation == childLocation.RIGHT)
+                        iForm.Location = new Point((this.Location.X + this.Size.Width) - 10, this.Location.Y);
+                    if (iForm.myLocation == childLocation.LEFT)
+                        iForm.Location = new Point((this.Location.X - iForm.Size.Width) + 10, this.Location.Y);
+                    if (iForm.myLocation == childLocation.BOTTOM)
+                        iForm.Location = new Point((this.Location.X + ((this.Size.Width / 2) - (iForm.Size.Width / 2))), (this.Location.Y + this.Size.Height) - 3);
+                    if (iForm.myLocation == childLocation.TOP)
+                        iForm.Location = new Point((this.Location.X + ((this.Size.Width / 2) - (iForm.Size.Width / 2))), (this.Location.Y - iForm.Size.Height) + 8);
+                }
+        }
+
+        private void bf4_loadoutchecker_LocationChanged(object sender, EventArgs e)
+        {
+            SetChildLocations();
+        }
+
         private void btn_fetch_immediate_Click(object sender, EventArgs e)
         {
             Stopwatch sw = new Stopwatch();
             sw.Start();
-            Loadout_Backbone_Helper.initialize(tBox_soldierName.Text.Trim());
-            currentOverview = Loadout_Backbone_Helper.getCurrentOverview(true);
+            object[] result = Loadout_Backbone_Helper.initialize(tBox_soldierName.Text.Trim());
+            if (((KeyValuePair<String, String>)result[0]).Key == "type" && ((KeyValuePair<String, String>)result[0]).Value == "success")
+                currentOverview = Loadout_Backbone_Helper.getCurrentOverview(true);
+            else
+            {
+                toolStripStatusLabel1.Text = String.Format("{0} : {1}",
+                    ((KeyValuePair<String, String>)result[1]).Key.ToString(),
+                    ((KeyValuePair<String, String>)result[1]).Value.ToString());
+
+                Debug.WriteLine(String.Format("{0} : {1}", 
+                    ((KeyValuePair<String, String>)result[0]).Key.ToString(), 
+                    ((KeyValuePair<String, String>)result[0]).Value.ToString()));
+                Debug.WriteLine(String.Format("{0} : {1}",
+                    ((KeyValuePair<String, String>)result[1]).Key.ToString(),
+                    ((KeyValuePair<String, String>)result[1]).Value.ToString()));
+                return;
+            }
 #if DEBUG
             File.WriteAllText("currentOverview.json", JsonConvert.SerializeObject(currentOverview));
 #endif
@@ -284,8 +426,15 @@ namespace BF4_LoadoutChecker
         {
             var kit = Convert.ToInt32(((PictureBox)sender).Name.Substring(5, 1));
             var slot = Convert.ToInt32(((PictureBox)sender).Name.Substring(7, 1));
-            primary_indepth_info.Visible = true;
-            visualize_panel.Visible = false;
+
+            // Show the Details form
+            CoS_dForm();
+
+            // Clear contents
+            dForm.ClearfLPBase();
+
+            if (currentOverview == null)
+                return;
 
             // Populate data
             var kits = ((ArrayList)currentOverview["kits"]);
@@ -294,50 +443,75 @@ namespace BF4_LoadoutChecker
             // Basic Information
             var sid = ((Hashtable)kits[kit])["sid"].ToString();
             var item = (Hashtable)((Hashtable)slots[slot])["item"];
-            btn_back.Text = String.Format("< {0}", Loadout_Backbone_Helper.getSID(sid).ToUpper());
 
             // Accessories
             var _slots = (ArrayList)item["slots"];
-            Boolean AMMO = false;
-            Boolean AUXILIARY = false;
             for (int k = 0; k < (_slots.Count - 1); k++) // No PAINT yet
             {
                 var _slot = ((Hashtable)_slots[k]);
-                var slotSid = _slot["slotSid"].ToString();
-                if (slotSid.Equals("WARSAW_ID_P_CAT_AMMO"))
-                    AMMO = true;
-                if (slotSid.Equals("WARSAW_ID_P_CAT_AUXILIARY"))
-                    AUXILIARY = true;
-
-                PictureBox pBox = getPictureBox2(slotSid);
-                Label lbl_1 = getLabel2("name", slotSid);
-                Label lbl_2 = getLabel2("desc", slotSid);
-                getimageConfig((Hashtable)_slot["imageConfig"], pBox, imageConfig.smallns);
-                lbl_1.Text = Loadout_Backbone_Helper.getSID(_slot["name"].ToString());
-                lbl_2.Text = Loadout_Backbone_Helper.getSID(_slot["desc"].ToString());
-
-                pBox.BackgroundImage = BF4_LoadoutChecker.Properties.Resources._50_opacity;
-                lbl_1.BackgroundImage = BF4_LoadoutChecker.Properties.Resources._50_opacity;
-                lbl_2.BackgroundImage = BF4_LoadoutChecker.Properties.Resources._50_opacity;
+                dForm.AddDescription(_slot);
             }
 
-            // Hide unnecessary
-            FlowLayoutPanel flp = ((FlowLayoutPanel)this.Controls.Find("WARSAW_ID_P_CAT_AMMO", true)[0]);
-            FlowLayoutPanel flp2 = ((FlowLayoutPanel)this.Controls.Find("WARSAW_ID_P_CAT_UNDERBARREL", true)[0]);
-            FlowLayoutPanel flp3 = ((FlowLayoutPanel)this.Controls.Find("WARSAW_ID_P_CAT_AUXILIARY", true)[0]);
-            flp.Visible = AMMO && !AUXILIARY;
-            flp2.Visible = !AMMO && !AUXILIARY;
-            flp3.Visible = AUXILIARY && !AMMO;
-            if (_slots.Count < 5)
-                flp2.Visible = false;
+            dForm.BringToFront();
 
-            // Visual effects
-            lbl_OPTIC.BackgroundImage = BF4_LoadoutChecker.Properties.Resources._99_opacity;
-            lbl_ACCESSORY.BackgroundImage = BF4_LoadoutChecker.Properties.Resources._99_opacity;
-            lbl_BARREL.BackgroundImage = BF4_LoadoutChecker.Properties.Resources._99_opacity;
-            lbl_UNDERBARREL.BackgroundImage = BF4_LoadoutChecker.Properties.Resources._99_opacity;
-            lbl_AUXILIARY.BackgroundImage = BF4_LoadoutChecker.Properties.Resources._99_opacity;
-            lbl_AMMO.BackgroundImage = BF4_LoadoutChecker.Properties.Resources._99_opacity;
+            #region OLD CODE
+            //var kit = Convert.ToInt32(((PictureBox)sender).Name.Substring(5, 1));
+            //var slot = Convert.ToInt32(((PictureBox)sender).Name.Substring(7, 1));
+            //primary_indepth_info.Visible = true;
+            //visualize_panel.Visible = false;
+
+            //// Populate data
+            //var kits = ((ArrayList)currentOverview["kits"]);
+            //var slots = ((ArrayList)((Hashtable)kits[kit])["slots"]);
+
+            //// Basic Information
+            //var sid = ((Hashtable)kits[kit])["sid"].ToString();
+            //var item = (Hashtable)((Hashtable)slots[slot])["item"];
+            //btn_back.Text = String.Format("< {0}", Loadout_Backbone_Helper.getSID(sid).ToUpper());
+
+            //// Accessories
+            //var _slots = (ArrayList)item["slots"];
+            //Boolean AMMO = false;
+            //Boolean AUXILIARY = false;
+            //for (int k = 0; k < (_slots.Count - 1); k++) // No PAINT yet
+            //{
+            //    var _slot = ((Hashtable)_slots[k]);
+            //    var slotSid = _slot["slotSid"].ToString();
+            //    if (slotSid.Equals("WARSAW_ID_P_CAT_AMMO"))
+            //        AMMO = true;
+            //    if (slotSid.Equals("WARSAW_ID_P_CAT_AUXILIARY"))
+            //        AUXILIARY = true;
+
+            //    PictureBox pBox = getPictureBox2(slotSid);
+            //    Label lbl_1 = getLabel2("name", slotSid);
+            //    Label lbl_2 = getLabel2("desc", slotSid);
+            //    getimageConfig((Hashtable)_slot["imageConfig"], pBox, imageConfig.smallns);
+            //    lbl_1.Text = Loadout_Backbone_Helper.getSID(_slot["name"].ToString());
+            //    lbl_2.Text = Loadout_Backbone_Helper.getSID(_slot["desc"].ToString());
+
+            //    pBox.BackgroundImage = BF4_LoadoutChecker.Properties.Resources._50_opacity;
+            //    lbl_1.BackgroundImage = BF4_LoadoutChecker.Properties.Resources._50_opacity;
+            //    lbl_2.BackgroundImage = BF4_LoadoutChecker.Properties.Resources._50_opacity;
+            //}
+
+            //// Hide unnecessary
+            //FlowLayoutPanel flp = ((FlowLayoutPanel)this.Controls.Find("WARSAW_ID_P_CAT_AMMO", true)[0]);
+            //FlowLayoutPanel flp2 = ((FlowLayoutPanel)this.Controls.Find("WARSAW_ID_P_CAT_UNDERBARREL", true)[0]);
+            //FlowLayoutPanel flp3 = ((FlowLayoutPanel)this.Controls.Find("WARSAW_ID_P_CAT_AUXILIARY", true)[0]);
+            //flp.Visible = AMMO && !AUXILIARY;
+            //flp2.Visible = !AMMO && !AUXILIARY;
+            //flp3.Visible = AUXILIARY && !AMMO;
+            //if (_slots.Count < 5)
+            //    flp2.Visible = false;
+
+            //// Visual effects
+            //lbl_OPTIC.BackgroundImage = BF4_LoadoutChecker.Properties.Resources._99_opacity;
+            //lbl_ACCESSORY.BackgroundImage = BF4_LoadoutChecker.Properties.Resources._99_opacity;
+            //lbl_BARREL.BackgroundImage = BF4_LoadoutChecker.Properties.Resources._99_opacity;
+            //lbl_UNDERBARREL.BackgroundImage = BF4_LoadoutChecker.Properties.Resources._99_opacity;
+            //lbl_AUXILIARY.BackgroundImage = BF4_LoadoutChecker.Properties.Resources._99_opacity;
+            //lbl_AMMO.BackgroundImage = BF4_LoadoutChecker.Properties.Resources._99_opacity; 
+            #endregion
         }
 
         private void information_Click(object sender, EventArgs e)
@@ -360,6 +534,13 @@ namespace BF4_LoadoutChecker
 
             // Basic Information
             var item = (Hashtable)((Hashtable)slots[values[1]])["item"];
+            if (values.Count == 2)
+            {
+                CoS_iForm();
+                iForm.ClearfLPBase();
+                iForm.AddInfo((Hashtable)slots[values[1]]);
+            }
+                
             if (values.Count > 2) // Falls here if it's a attachment
                 item = ((Hashtable)((ArrayList)item["slots"])[values[2]]);
 
@@ -369,7 +550,6 @@ namespace BF4_LoadoutChecker
                 item["guid"].ToString()
                 );
         }
-
 
         /// <summary>
         /// Get the corresponding PictureBox in the Form
@@ -413,6 +593,92 @@ namespace BF4_LoadoutChecker
         {
             primary_indepth_info.Visible = false;
             visualize_panel.Visible = true;
+        }
+
+        /// <summary>
+        /// Create a new Details form
+        /// </summary>
+        private void CoS_dForm()
+        {
+            // if the form is not closed, show it
+            if (dForm == null || dForm.IsDisposed)
+            {
+                dForm = new Details();
+
+                // Set closer status
+                if (iForm == null)
+                    closer = dForm;
+
+                // attach the handler
+                dForm.FormClosed += CFC_dForm;
+            }
+
+            // show it
+            dForm.Show();
+            SetChildLocations();
+            dForm.Owner = this;
+        }
+
+        /// <summary>
+        /// when the Details form closes, detach the handler and clear the field
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="args"></param>
+        void CFC_dForm(object sender, FormClosedEventArgs args)
+        {
+            // detach the handler
+            dForm.FormClosed -= CFC_dForm;
+
+            // let GC collect it (and this way we can tell if it's closed)
+            dForm = null;
+
+            if (iForm != null)
+                closer = iForm;
+
+            SetChildLocations();
+        }
+
+        /// <summary>
+        /// Create a new Information form
+        /// </summary>
+        private void CoS_iForm()
+        {
+            // if the form is not closed, show it
+            if (iForm == null || iForm.IsDisposed)
+            {
+                iForm = new Information();
+
+                // Set closer status
+                if (dForm == null)
+                    closer = iForm;
+
+                // attach the handler
+                iForm.FormClosed += CFC_iForm;
+            }
+
+            // show it
+            iForm.Show();
+            SetChildLocations();
+            iForm.Owner = this;
+        }
+
+        /// <summary>
+        /// when the Information form closes, detach the handler and clear the field
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="args"></param>
+        void CFC_iForm(object sender, FormClosedEventArgs args)
+        {
+            // detach the handler
+            iForm.FormClosed -= CFC_iForm;
+
+            // let GC collect it (and this way we can tell if it's closed)
+            iForm = null;
+
+            if (dForm != null)
+                closer = dForm;
+
+            SetChildLocations();
         }
     }
 }
