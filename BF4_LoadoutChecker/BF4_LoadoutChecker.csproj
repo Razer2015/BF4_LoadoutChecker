@@ -54,6 +54,12 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="BattlelogClient.cs" />
+    <Compile Include="Battlepack.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Battlepack.Designer.cs">
+      <DependentUpon>Battlepack.cs</DependentUpon>
+    </Compile>
     <Compile Include="BLogWGC.cs" />
     <Compile Include="ColorProgressBar.cs">
       <SubType>Component</SubType>
@@ -84,6 +90,9 @@
     <Compile Include="Loadout_Backbone_Helper.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Battlepack.resx">
+      <DependentUpon>Battlepack.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="ColorProgressBar.resx">
       <DependentUpon>ColorProgressBar.cs</DependentUpon>
     </EmbeddedResource>

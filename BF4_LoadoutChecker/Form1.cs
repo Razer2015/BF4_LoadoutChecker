@@ -206,7 +206,17 @@ namespace BF4_LoadoutChecker
                     ((KeyValuePair<String, String>)result[1]).Value.ToString()));
                 return;
             }
+
+            if(currentOverview == null)
+            {
+                Debug.WriteLine(String.Format("currentOverview is null"));
+                toolStripStatusLabel1.Text = String.Format("currentOverview is null");
+                return;
+            }
 #if DEBUG
+            //Loadout_Backbone_Helper.generateSlot("kits", "0", 0);
+            //Loadout_Backbone_Helper.getKitUnlocks(-1, true);
+            //String[] results = Loadout_Backbone_Helper.getUnlockedItems(0, 0);
             File.WriteAllText("currentOverview.json", JsonConvert.SerializeObject(currentOverview));
 #endif
             visualize();
@@ -214,6 +224,8 @@ namespace BF4_LoadoutChecker
             TimeSpan timeSpan = sw.Elapsed;
             Debug.WriteLine(String.Format("Updated in: {0}m {1}s {2}ms", timeSpan.Minutes, timeSpan.Seconds, timeSpan.Milliseconds));
             toolStripStatusLabel1.Text = String.Format("Updated in: {0}m {1}s {2}ms", timeSpan.Minutes, timeSpan.Seconds, timeSpan.Milliseconds);
+
+            Hashtable tmp = Loadout_Backbone_Helper.items_get(Loadout_Backbone_Helper.allItemsCollection, "2670747868");
         }
 
         private void getunlockImageConfig(String weapon_key, PictureBox pBox, unlockImageConfig image_type = unlockImageConfig.mediumns)

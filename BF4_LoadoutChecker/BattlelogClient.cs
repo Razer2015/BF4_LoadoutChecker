@@ -4,6 +4,7 @@ using System.Collections;
 using System.Net;
 using System.Web;
 using PRoCon.Core;
+using System.IO;
 
 public class BattlelogClient
 {
